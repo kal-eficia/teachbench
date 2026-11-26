@@ -6,7 +6,7 @@ Most AI benchmarks test whether a model can answer exam questions. TeachBench te
 
 There are 72 real requests a teacher might send, from Reception phonics to A level psychology. Every entrant answers all 72. Two graders score each answer blind against criteria that were written before any answers existed, and code checks whatever code can check.
 
-**Leaderboard:** [kal-eficia.github.io/teachbench](https://kal-eficia.github.io/teachbench/)
+**Leaderboard:** [kal-eficia.github.io/teachbench](https://kal-eficia.github.io/teachbench/) · **Run 1 report:** [kal-eficia.github.io/teachbench/report.html](https://kal-eficia.github.io/teachbench/report.html)
 
 ## Run 1 · November 2026
 

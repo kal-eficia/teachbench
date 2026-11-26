@@ -44,6 +44,7 @@ section{padding-block:var(--section);border-top:1px solid var(--rule)}
 header.site{border-bottom:1px solid var(--rule)}header.site .wrap{display:flex;align-items:center;justify-content:space-between;padding-block:20px;gap:24px}
 header.site img{height:50px;margin-inline-start:-8px;display:block}
 nav{display:flex;gap:28px;font-weight:500;font-size:16px}nav a{text-decoration:none}
+@media (max-width:860px){nav{gap:14px;font-size:14px}nav .hide-sm{display:none}header.site img{height:36px;width:auto}}
 .hero{border-top:none;padding-block:80px var(--section)}
 table{border-collapse:collapse;width:100%}
 th{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);font-weight:600;text-align:start;padding:0 12px 12px 0;border-bottom:1.5px solid var(--ink)}
@@ -71,6 +72,14 @@ details{border-top:1px solid var(--rule);padding:14px 0}summary{cursor:pointer;f
 footer.site{background:var(--ink);color:var(--on-dark-2);padding-block:56px;font-size:15px}
 footer.site .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:32px}footer.site img{height:58px;margin-inline-start:-10px}
 footer.site a{color:var(--paper);text-decoration-color:var(--brass-light)}footer.site p{margin:0;max-width:56ch}
+.narrow{max-width:860px}
+.prose p,.prose li{color:var(--ink-2)}.prose li{margin:10px 0}.prose b{color:var(--ink)}.prose h3{margin:40px 0 8px}.prose table{margin:24px 0;font-size:16px}
+.prose td,.prose th{padding:12px 14px 12px 0;vertical-align:top}.prose .wide td:last-child{min-width:280px}
+.on-ink.prose p,.on-ink .prose li,.on-ink .prose p{color:var(--on-dark-2)}.on-ink .prose b{color:var(--paper)}
+td.pass{color:var(--ink)}td.fail{color:#8A2F1D;font-weight:600}
+figure.chart{margin:32px 0;padding:24px 0 8px;border-top:1.5px solid var(--ink)}
+.chart-title{font-weight:600;color:var(--ink)!important;margin:0}.chart-key{font-size:15px;margin:6px 0 8px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.dot{display:inline-block;width:12px;height:12px;border-radius:50%!important}.dot.grey{background:#B9AE98}.dot.brass{background:var(--brass);margin-inline-start:14px}
 .mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:15px;background:#2a261e;color:var(--paper);padding:2px 7px}
 """
 
@@ -140,7 +149,7 @@ def build():
 <link rel="icon" href="brand/favicon.svg" type="image/svg+xml">
 <style>{CSS}</style></head><body>
 <header class="site"><div class="wrap"><a href="./" aria-label="TeachBench home"><img src="brand/kalid-nur-logo-no-tagline.svg" alt="Kalid Nur logo: نور (light) in square Kufic" width="155" height="50"></a>
-<nav aria-label="Main"><a href="#leaderboard">Leaderboard</a><a href="#method" class="hide-sm">Method</a><a href="#submit">Submit</a><a href="{REPO}">GitHub</a></nav></div></header>
+<nav aria-label="Main"><a href="#leaderboard">Leaderboard</a><a href="report.html">Report</a><a href="#method" class="hide-sm">Method</a><a href="#submit">Submit</a><a href="{REPO}" class="hide-sm">GitHub</a></nav></div></header>
 <main>
 <section class="hero"><div class="wrap">
 <p class="kicker">TeachBench · {e(res["run"].get("label") or run_name)}</p>
@@ -155,6 +164,7 @@ def build():
 <section id="leaderboard"><div class="wrap">
 <p class="kicker">Leaderboard</p><h2>Scores out of 100</h2>
 <p class="lead" style="margin-bottom:32px">Score is the share of criteria met across all tasks, with code checks counted in. The bar shows the 95% confidence interval from resampling the tasks: where two bars overlap a lot, the gap could be luck.</p>
+<p style="margin:-12px 0 28px;font-weight:600"><a href="report.html">Read the full Run 1 report</a></p>
 <div class="scroll"><table class="board"><tr><th></th><th>Entrant</th><th>Score</th><th class="hide-sm">95% interval</th><th>Code checks</th></tr>{''.join(rows)}</table></div>
 <h3 style="margin-top:48px">Head to head</h3><ul>{h2h}</ul>
 </div></section>
@@ -197,8 +207,26 @@ def build():
 """
     assert "—" not in page
     (OUT / "index.html").write_text(page, encoding="utf-8")
+    build_report(page)
     (OUT / ".nojekyll").write_text("")
     print("built", OUT)
+
+
+def build_report(index_page):
+    """Wrap report/run1.html in the site's head, header and footer as _site/report.html."""
+    src = ROOT / "report" / "run1.html"
+    if not src.exists():
+        return
+    body = src.read_text(encoding="utf-8").replace("{{CATEGORY_CHART}}", (ROOT / "report" / "category-chart.svg").read_text(encoding="utf-8"))
+    head, rest = index_page.split("<main>", 1)
+    foot = rest.split("</main>", 1)[1]
+    head = head.replace("<title>TeachBench: an open benchmark for AI on real teaching tasks</title>",
+                        "<title>TeachBench Run 1 report: how well does AI do the work of teaching?</title>")
+    head = head.replace('href="#leaderboard"', 'href="./#leaderboard"').replace('href="#method"', 'href="./#method"').replace('href="#submit"', 'href="./#submit"')
+    head = head.replace('<meta property="og:title" content="TeachBench">', '<meta property="og:title" content="TeachBench Run 1 report">')
+    page = head + "<main>" + body + "</main>" + foot
+    assert "\u2014" not in page
+    (OUT / "report.html").write_text(page, encoding="utf-8")
 
 
 if __name__ == "__main__":

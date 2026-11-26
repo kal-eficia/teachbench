@@ -1,0 +1,168 @@
+<section class="hero"><div class="wrap narrow">
+<p class="kicker">TeachBench · Run 1 report · November 2026</p>
+<h1>How well does AI do the work of teaching?</h1>
+<p class="lead">Giving Claude a library of teaching skills raised its score on real teaching work from 82.7 to 95.8 out of 100. That is the main finding of TeachBench Run 1, an open benchmark of 72 tasks that teachers actually do, graded blind.</p>
+<div class="stats">
+<div class="stat"><b>95.8</b><span>Claude Sonnet with the skills, out of 100</span></div>
+<div class="stat"><b>82.7</b><span>plain Claude Sonnet on the same 72 tasks</span></div>
+<div class="stat"><b>52 · 4</b><span>tasks where the skills scored higher · lower (16 level)</span></div>
+</div>
+</div></section>
+
+<section><div class="wrap narrow prose">
+<p class="kicker">Summary</p>
+<h2>The short version</h2>
+<p>Three entrants answered all 72 tasks: plain Claude Sonnet, Claude Sonnet with the 56-skill <a href="https://github.com/kal-eficia/ai-teaching-skills">ai-teaching-skills</a> library, and Claude Haiku with the same library. Two graders scored every one of the 216 answers without knowing who wrote it, and code checked what code could check.</p>
+<ul>
+<li><b>Sonnet with the skills scored 95.8</b>, against 82.7 for plain Sonnet. It scored higher on 52 tasks, lower on 4 and level on 16, and it led in all eight categories.</li>
+<li><b>The biggest gains were in retrieval practice (+26 points) and pastoral work with parents (+20).</b> These are the tasks where good practice is specific and easy to miss.</li>
+<li><b>Haiku, the smallest Claude model, drew level with plain Sonnet once it had the skills</b> (85.0 against 82.7, with overlapping intervals). For a school watching costs, a smaller model with good instructions can match a bigger one without them.</li>
+<li><b>Code checks were where plain Claude fell furthest behind.</b> It passed 2 of 8, against 7 of 8 with the skills. Its misses were guessable answer-key patterns in both quizzes, parent messages well over the word limit, and report labels teachers are told to avoid.</li>
+</ul>
+<p>The graders were AI models, not teachers, and the tasks were written by the author of the winning library. The limits section sets out what that does and doesn't undermine.</p>
+</div></section>
+
+<section><div class="wrap narrow prose">
+<p class="kicker">Background</p>
+<h2>Why TeachBench exists</h2>
+<p>AI benchmarks mostly ask whether a model can answer exam questions. Teachers don't need that. They need help with the work around the questions: planning a sequence, writing a fair quiz, explaining a hard idea to an eleven-year-old, adapting a task for a student with dyslexia, and writing to a worried parent.</p>
+<p>That work has its own markers of quality, and most of them are invisible to a general test. A quiz can be accurate and still have its correct answers run A, B, C, D in order. A parent message can be kind and still be three times too long to read on a phone. A report can be warm and still lean on labels like "chatty" that schools are told to avoid.</p>
+<p>TeachBench tests for those markers. It asks one question: when a teacher hands this job to an AI, how much of what a good teacher would check does the answer get right?</p>
+</div></section>
+
+<section><div class="wrap narrow prose">
+<p class="kicker">Method</p>
+<h2>How it was run</h2>
+<p>Every entrant answered the same 72 tasks under the same rules, and every answer was graded blind against criteria fixed before any answers existed.</p>
+<ol>
+<li><b>Tasks.</b> 72 requests written as a teacher would send them, nine in each of eight categories: planning, retrieval practice, assessment, explaining, inclusion, pastoral and parents, tutoring, and leadership and AI. Most are secondary (54), with primary (9), whole-school (5), sixth form (3) and early years (1). Each task has six criteria a good answer must meet. For example, the Year 7 rivers quiz is checked for accuracy, plausible wrong options, questions beyond recall, a mix of older topics, an explained answer key and advice on using the results.</li>
+<li><b>Answers.</b> Each entrant answered in separate sessions, six tasks per session, told to treat each task as a new conversation. They could not ask questions or search the web. Entrants with the skill library were given an index and chose their own skill for each task, as they would in real use. Answers were saved under random ids.</li>
+<li><b>Blind grading.</b> Each answer was graded twice, by two separate Claude Opus graders. A grader saw all three answers to a task side by side, shuffled and unnamed, and the two graders read them in opposite orders. They scored each criterion 0 (not met), 1 (partly met) or 2 (fully met).</li>
+<li><b>Code checks.</b> Eight tasks also have a check that code can run: answer keys checked for guessable patterns, parent messages checked against a word limit, reports checked for banned labels and repeated wording, and texts checked for reading age. A passed check counts as a seventh criterion worth 2 points.</li>
+<li><b>Scoring.</b> An answer's score is the share of available points it earned, with the two graders averaged. An entrant's score is its average over the 72 tasks. The 95% interval comes from resampling the tasks 4,000 times.</li>
+</ol>
+<div class="scroll"><table>
+<thead><tr><th>Entrant</th><th>Model</th><th>What it was given</th></tr></thead>
+<tbody>
+<tr><td>Claude Sonnet</td><td>Claude Sonnet 5.5</td><td>Nothing. The baseline.</td></tr>
+<tr><td>Claude Sonnet + ai-teaching-skills</td><td>Claude Sonnet 5.5</td><td>The 56-skill library, choosing its own skill per task</td></tr>
+<tr><td>Claude Haiku + ai-teaching-skills</td><td>Claude Haiku 5.5</td><td>The same library, on the smallest Claude model</td></tr>
+</tbody></table></div>
+</div></section>
+
+<section><div class="wrap narrow prose">
+<p class="kicker">Results</p>
+<h2>A clear first place</h2>
+<p>Sonnet with the skills came first by a wide margin. Its interval doesn't overlap with either other entrant's, so the gap isn't down to which tasks happened to be chosen.</p>
+<div class="scroll"><table>
+<thead><tr><th>Rank</th><th>Entrant</th><th>Score</th><th>95% interval</th><th>Code checks</th><th>Median length</th></tr></thead>
+<tbody>
+<tr><td>1</td><td><b>Claude Sonnet + ai-teaching-skills</b></td><td><b>95.8</b></td><td>94.1 to 97.3</td><td>7 of 8</td><td>1,220 words</td></tr>
+<tr><td>2</td><td>Claude Haiku + ai-teaching-skills</td><td>85.0</td><td>82.0 to 87.7</td><td>6 of 8</td><td>677 words</td></tr>
+<tr><td>3</td><td>Claude Sonnet</td><td>82.7</td><td>79.3 to 85.9</td><td>2 of 8</td><td>975 words</td></tr>
+</tbody></table></div>
+<h3>Head to head, task by task</h3>
+<p>A gap of one point or less on a task counts as level.</p>
+<div class="scroll"><table>
+<thead><tr><th>Comparison</th><th>Higher</th><th>Lower</th><th>Level</th></tr></thead>
+<tbody>
+<tr><td>Sonnet + skills against plain Sonnet</td><td>52</td><td>4</td><td>16</td></tr>
+<tr><td>Sonnet + skills against Haiku + skills</td><td>57</td><td>8</td><td>7</td></tr>
+<tr><td>Haiku + skills against plain Sonnet</td><td>30</td><td>33</td><td>9</td></tr>
+</tbody></table></div>
+<p>Haiku with the skills and plain Sonnet are effectively level. Their intervals overlap and their task-by-task record is close to even. What stands out is how they got there: Haiku's answers were about 30% shorter and passed more code checks (6 of 8, against 2), while plain Sonnet wrote more but missed more of the specific things the criteria asked for.</p>
+<p><b>The graders agreed closely.</b> On 161 of the 216 answers the two graders gave exactly the same total, and on 213 they were within one point (out of 12). Their average gap was 0.27 points. Only three answers drew a gap of two points or more, which gives some confidence that the criteria were clear enough to apply the same way twice.</p>
+</div></section>
+
+<section><div class="wrap narrow prose">
+<p class="kicker">By category</p>
+<h2>Where the skills helped most</h2>
+<p>The skills helped in all eight categories. The gain was largest where good practice is most specific: retrieval practice (+25.7) and pastoral work with parents (+20.1).</p>
+<figure class="chart">
+<p class="chart-title">Score out of 100 by category, 9 tasks each</p>
+<p class="chart-key"><span class="dot grey"></span>Plain Claude Sonnet <span class="dot brass"></span>Claude Sonnet with the skills</p>
+{{CATEGORY_CHART}}
+</figure>
+<p>Plain Claude was weakest at retrieval practice. It tended to test only the latest topic, gave bare answer keys and left out how to use the results, all things a retrieval skill spells out. It was strongest at inclusion, where it already knew the main adaptations, so the skills added least there (+5.3).</p>
+<p>Haiku with the skills followed a similar pattern at a lower level. It beat plain Sonnet clearly in retrieval (84.0 against 68.7) and pastoral work (80.7 against 73.0), but scored lower in inclusion, explaining and assessment.</p>
+</div></section>
+
+<section><div class="wrap narrow prose">
+<p class="kicker">Grader notes</p>
+<h2>What the graders noticed</h2>
+<p>Plain Claude usually did the main job well and then stopped. The skills made it finish the job the way a good teacher would: the explained answer key, the plan for the hard moment, the follow-up.</p>
+<div class="scroll"><table class="wide">
+<thead><tr><th>Task</th><th>Plain</th><th>Skills</th><th>What made the difference</th></tr></thead>
+<tbody>
+<tr><td>Year 7 rivers quiz</td><td>32</td><td>86</td><td>Plain gave a bare key with a staircase pattern, some jokey wrong options and no advice on using the results. With the skills: explained key, confidence ratings, clean key.</td></tr>
+<tr><td>Six Year 8 reports</td><td>46</td><td>93</td><td>Plain used character labels ("chatty", "bored") and opened two reports on negatives. With the skills, each opened on an earned strength and ended with one doable step.</td></tr>
+<tr><td>Spanish vocabulary retrieval</td><td>58</td><td>100</td><td>Plain ran single-topic days and got a grammar point wrong (<i>me gusta</i> with a plural subject). With the skills: interleaved sets, correct Spanish and a rotation system.</td></tr>
+<tr><td>Feedback after a lesson observation</td><td>58</td><td>100</td><td>Plain covered all three issues at equal length. With the skills, it linked them into one priority, scripted a rehearsal and set a dated follow-up with success criteria.</td></tr>
+<tr><td>Preparing a difficult parent meeting</td><td>67</td><td>100</td><td>Plain never separated facts from interpretations or planned for tears. With the skills: a shared-aim opening, responses ready for anger and upset, and a follow-up email.</td></tr>
+</tbody></table></div>
+<h3>Where the skills lost</h3>
+<p>Sonnet with the skills scored lower than plain Sonnet on four tasks:</p>
+<ul>
+<li><b>Medical school personal statement (−12.5).</b> The skill gave a sharp diagnosis and a redraft task but too few prompting questions. Plain Sonnet did better here, and Haiku with the same skill scored highest of all.</li>
+<li><b>Year 5 times-tables tutoring (−4.2).</b> The skill's plan was calm and correct but plain whiteboard questioning. Plain Sonnet's was more playful.</li>
+<li><b>A level psychology lesson (−4.1).</b> The skill taught evaluation brilliantly but never set the exam-style question the task asked for.</li>
+<li><b>History retrieval grid (−4.1).</b> The skill version included a factual slip about 1066. Accuracy errors appeared on both sides: neither setup is safe to use without a teacher's check.</li>
+</ul>
+<p><b>Length doesn't explain it all.</b> Sonnet with the skills wrote the longest answers, which could flatter it. But Haiku with the skills wrote the shortest answers of the three and still edged plain Sonnet. The graders were scoring whether each criterion was met, not how much was written.</p>
+</div></section>
+
+<section><div class="wrap narrow prose">
+<p class="kicker">Code checks</p>
+<h2>The mistakes students notice</h2>
+<p>Code checks catch the mistakes teachers notice only once a class has seen them. Plain Sonnet passed 2 of 8, Sonnet with the skills 7 of 8 and Haiku with the skills 6 of 8.</p>
+<div class="scroll"><table class="wide">
+<thead><tr><th>Task</th><th>Check</th><th>Plain Sonnet</th><th>Sonnet + skills</th><th>Haiku + skills</th></tr></thead>
+<tbody>
+<tr><td>Year 7 rivers quiz</td><td>No guessable answer pattern</td><td class="fail">Fail: two A-B-C-D style staircases</td><td class="pass">Pass</td><td class="pass">Pass</td></tr>
+<tr><td>Year 9 physics quiz, three topics</td><td>No guessable answer pattern</td><td class="fail">Fail: D-C-B staircase at Q6 to Q8</td><td class="pass">Pass</td><td class="pass">Pass</td></tr>
+<tr><td>Packets lesson pack</td><td>No guessable answer pattern</td><td class="pass">Pass</td><td class="pass">Pass</td><td class="pass">Pass</td></tr>
+<tr><td>Message to a parent</td><td>Under 100 words</td><td class="fail">Fail: 168 words</td><td class="pass">Pass: 66</td><td class="pass">Pass: 92</td></tr>
+<tr><td>Good-news message home</td><td>Under 80 words</td><td class="fail">Fail: 119 words</td><td class="pass">Pass: 62</td><td class="pass">Pass: 71</td></tr>
+<tr><td>Six student reports</td><td>No banned labels or repeated wording</td><td class="fail">Fail: "chatty", "greater depth"</td><td class="pass">Pass</td><td class="pass">Pass</td></tr>
+<tr><td>Rainforest text, reading age 9 asked</td><td>Reading age 10.5 or below</td><td class="pass">Pass: 8.8</td><td class="pass">Pass: 8.8</td><td class="fail">Fail: 11.0</td></tr>
+<tr><td>Vaccination text, reading age 8 asked</td><td>Reading age 9 or below</td><td class="fail">Fail: 10.0</td><td class="fail">Fail: 9.9</td><td class="fail">Fail: 11.4</td></tr>
+</tbody></table></div>
+<p>One check caught every entrant: no one brought the vaccination text down to reading age 9, which is genuinely hard without losing the science. Plain Sonnet failed both multiple-choice pattern checks, which is exactly the problem students learn to exploit.</p>
+<p>Writing this report also caught a bug in the benchmark itself. The first scoring couldn't read answer keys written as "1-C, 2-A", so the physics quiz was marked as missing for everyone. The checker was fixed, a test was added, and the run was rescored. Sonnet with the skills moved from 95.6 to 95.8, and Haiku with the skills from 84.8 to 85.0. Plain Sonnet's score didn't change, because its key had a pattern either way.</p>
+<p>Reading ages are estimated by formula, which is rough for short texts. They are a guide, not a measurement.</p>
+</div></section>
+
+<section class="on-ink"><div class="wrap narrow prose">
+<p class="kicker">Read this too</p>
+<h2>Limits</h2>
+<p>The direction of the main result is solid. Its exact size should be read with these limits in mind.</p>
+<ul>
+<li><b>The graders are AI, not teachers.</b> Claude Opus graded every answer. The criteria are concrete ("there is an explained answer key", "the message is under 100 words"), and the two graders agreed closely, but a model may share blind spots with the models it grades. A round graded by practising teachers is the most important next step.</li>
+<li><b>The author wrote both the tasks and the winning library.</b> Kalid Nur wrote the 72 tasks, the criteria and the ai-teaching-skills library. The criteria describe widely shared good practice (retrieval, worked examples, plain language to parents), but the skills were written by someone who values the same things. Tasks and criteria from other teachers are the fix, and they're open for submissions.</li>
+<li><b>One answer per task.</b> Each entrant answered each task once. A single task's score can swing, which is why this report leans on the overall score, its interval and the head-to-head record rather than any one task.</li>
+<li><b>All three entrants are Claude models.</b> That keeps the comparison fair for the question asked (do the skills help?), but it says nothing yet about other AI tools.</li>
+<li><b>Shared sessions.</b> Each answering session handled six tasks and was told to treat each as a new conversation. Some carry-over between tasks can't be ruled out.</li>
+<li><b>Mostly UK secondary.</b> 54 of the 72 tasks are secondary, and most follow English curricula and exam boards. Primary, early years and sixth form are present but thin.</li>
+<li><b>Reading ages are estimates.</b> Readability formulas are rough on short texts.</li>
+</ul>
+</div></section>
+
+<section><div class="wrap narrow prose">
+<p class="kicker">So what</p>
+<h2>What this means, and what's next</h2>
+<p><b>For schools and teachers:</b> how you set up the AI matters about as much as which AI you use. On this benchmark, good teaching instructions lifted Claude's score by 13 points, and they lifted the smallest model to the level of a bigger one.</p>
+<ul>
+<li><b>Give the AI your standards, not just your request.</b> The biggest gains came where good practice is specific: interleaved retrieval, explained answer keys, short parent messages, and reports without labels. Plain Claude knows these ideas but doesn't apply them unless told.</li>
+<li><b>Check the details that matter to students.</b> Answer-key patterns, word counts and reading age are easy to miss and quick to check. Plain Claude failed six of eight such checks.</li>
+<li><b>Keep a teacher in the loop.</b> Both setups made occasional factual slips, such as a Spanish grammar rule and a date in 1066. AI drafts; the teacher approves.</li>
+<li><b>Smaller models can be enough.</b> If cost or speed matters, a smaller model with good instructions is worth trying before paying for a bigger one.</li>
+</ul>
+<p><b>For TeachBench, Run 2 will:</b></p>
+<ol>
+<li>Add a round graded by practising teachers, to test whether the AI graders' judgements hold up.</li>
+<li>Open the tasks to other teachers, especially in primary, early years and subjects outside the author's own.</li>
+<li>Take outside entrants: anyone can submit a skill library or a prompt through the <a href="https://github.com/kal-eficia/teachbench#submit-an-entrant">repository</a>.</li>
+<li>Rewrite the tasks this run showed to be unclear, and answer each task more than once to measure how much scores vary.</li>
+</ol>
+<p style="margin-top:32px"><a href="./">See the leaderboard</a> &nbsp; <a href="https://github.com/kal-eficia/teachbench/tree/main/runs/2026-11-run1">Every answer and grade</a></p>
+</div></section>
