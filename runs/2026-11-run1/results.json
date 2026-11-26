@@ -6,10 +6,10 @@
    "model": "sonnet",
    "skills": "entrants/libraries/ai-teaching-skills/skills",
    "tasks": 72,
-   "score": 95.6,
+   "score": 95.8,
    "ci95": [
-    93.9,
-    97.2
+    94.1,
+    97.3
    ],
    "categories": {
     "assessment": 98.1,
@@ -18,13 +18,13 @@
     "leadership-ai": 99.1,
     "pastoral": 93.1,
     "planning": 99.1,
-    "retrieval": 92.8,
+    "retrieval": 94.4,
     "tutoring": 91.2
    },
    "code_checks": {
-    "passed": 6,
+    "passed": 7,
     "total": 8,
-    "format_missed": 1
+    "format_missed": 0
    },
    "median_words": 1220
   },
@@ -34,10 +34,10 @@
    "model": "haiku",
    "skills": "entrants/libraries/ai-teaching-skills/skills",
    "tasks": 72,
-   "score": 84.8,
+   "score": 85.0,
    "ci95": [
-    81.7,
-    87.6
+    82.0,
+    87.7
    ],
    "categories": {
     "assessment": 84.3,
@@ -46,13 +46,13 @@
     "leadership-ai": 87.5,
     "pastoral": 80.7,
     "planning": 88.9,
-    "retrieval": 82.4,
+    "retrieval": 84.0,
     "tutoring": 89.4
    },
    "code_checks": {
-    "passed": 5,
+    "passed": 6,
     "total": 8,
-    "format_missed": 1
+    "format_missed": 0
    },
    "median_words": 676
   },
@@ -80,7 +80,7 @@
    "code_checks": {
     "passed": 2,
     "total": 8,
-    "format_missed": 1
+    "format_missed": 0
    },
    "median_words": 975
   }
@@ -755,8 +755,8 @@
    "pct": 57.1,
    "auto": {
     "name": "No guessable answer pattern",
-    "pass": null,
-    "detail": "no ANSWER KEY line found"
+    "pass": false,
+    "detail": "key CADBADCBDA: staircase at Q6-Q8"
    },
    "words": 591,
    "notes": [
@@ -3050,11 +3050,11 @@
     2,
     1
    ],
-   "pct": 78.6,
+   "pct": 92.9,
    "auto": {
     "name": "No guessable answer pattern",
-    "pass": null,
-    "detail": "no ANSWER KEY line found"
+    "pass": true,
+    "detail": "key BDACABDCDA: clean"
    },
    "words": 942,
    "notes": [
@@ -4289,11 +4289,11 @@
     0,
     0
    ],
-   "pct": 35.7,
+   "pct": 50.0,
    "auto": {
     "name": "No guessable answer pattern",
-    "pass": null,
-    "detail": "no ANSWER KEY line found"
+    "pass": true,
+    "detail": "key BDCADBACDB: clean"
    },
    "words": 458,
    "notes": [

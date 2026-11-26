@@ -99,3 +99,10 @@ class EndToEnd(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+def test_numbered_answer_keys_are_read():
+    from checks import check
+    for line in ["ANSWER KEY: 1-B, 2-D, 3-A, 4-C, 5-B, 6-A", "ANSWER KEY: B D A C B A", "ANSWER KEY: BDACBA", "**ANSWER KEY:** 1. B 2. D 3. A 4. C 5. B 6. A"]:
+        r = check("key", line)
+        assert r["pass"] is not None and "BDACBA" in r["detail"], (line, r)

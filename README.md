@@ -12,8 +12,8 @@ There are 72 real requests a teacher might send, from Reception phonics to A lev
 
 | | Entrant | Score | 95% interval | Code checks |
 |---|---|---|---|---|
-| 1 | Claude Sonnet + [ai-teaching-skills](https://github.com/kal-eficia/ai-teaching-skills) | **95.6** | 93.9 to 97.2 | 6/8 |
-| 2 | Claude Haiku + ai-teaching-skills | 84.8 | 81.7 to 87.6 | 5/8 |
+| 1 | Claude Sonnet + [ai-teaching-skills](https://github.com/kal-eficia/ai-teaching-skills) | **95.8** | 94.1 to 97.3 | 7/8 |
+| 2 | Claude Haiku + ai-teaching-skills | 85.0 | 82.0 to 87.7 | 6/8 |
 | 3 | Claude Sonnet | 82.7 | 79.3 to 85.9 | 2/8 |
 
 Head to head, task by task (a gap of 1 point or less counts as level):

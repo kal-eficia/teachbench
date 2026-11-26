@@ -27,10 +27,15 @@ def check(kind: str, text: str) -> dict:
     """Return {"name", "pass": True/False/None, "detail"}. None means the answer ignored the required format."""
     name = NAMES[kind]
     if kind == "key":
-        found = re.findall(r"ANSWER KEY:\s*\**\s*([A-Da-d][A-Da-d\s,;/.-]*)", text)
+        found = re.findall(r"ANSWER KEY:\**\s*\**([^\n]*)", text)
         if not found:
             return {"name": name, "pass": None, "detail": "no ANSWER KEY line found"}
-        key = "".join(re.findall(r"[A-Da-d]", found[-1])).upper()
+        # accept "B D A C", "B, D, A" and numbered forms like "1-B, 2-D" or "1. B 2. D"
+        bare = re.sub(r"[\d\s,;/.()*:-]", "", found[-1])
+        if re.fullmatch(r"[A-Da-d]+", bare):
+            key = bare.upper()
+        else:
+            key = "".join(re.findall(r"(?<![A-Za-z])([A-Da-d])(?![A-Za-z])", found[-1])).upper()
         if len(key) < 4:
             return {"name": name, "pass": None, "detail": f"key too short: {key}"}
         rep = tools.check_answer_key(key=key, options=4)
