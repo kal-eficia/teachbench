@@ -1,0 +1,35 @@
+name: release
+
+# Run from the Actions tab with a version (e.g. run1-v1.0) to publish a fixed, citable release:
+# the tasks, the harness and every run's answers and grades, each as a zip GitHub counts.
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Version to release, e.g. run1-v1.0"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Build the zips
+        run: |
+          mkdir -p dist
+          zip -qr dist/teachbench-tasks-and-harness.zip tasks harness entrants tests README.md LICENSE -x '*__pycache__*'
+          for r in runs/*/; do zip -qr "dist/teachbench-$(basename "$r").zip" "$r"; done
+      - name: Publish the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ inputs.tag }}
+        run: |
+          cat > notes.md <<'NOTES'
+          A fixed snapshot of TeachBench: the 72 tasks and their criteria, the grading harness, and every answer and grade from each run.
+
+          Leaderboard: https://kal-eficia.github.io/teachbench/ · Run 1 report: https://kal-eficia.github.io/teachbench/report.html
+          NOTES
+          gh release create "$TAG" dist/*.zip --target "$GITHUB_SHA" --title "TeachBench $TAG" --notes-file notes.md
