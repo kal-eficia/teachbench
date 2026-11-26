@@ -1,0 +1,11 @@
+{"grader": "22b", "answers": [
+{"id": "8bee1df4", "task": "ai-policy-school", "scores": [1, 1, 2, 2, 2, 1], "note": "Strong on safety, JCQ/NEA and positive uses, but it runs well past one page and only gives allowed/not allowed rather than distinct check vs tool levels, with consequences stated as misconduct rather than graduated."},
+{"id": "a43e4dc3", "task": "ai-policy-school", "scores": [2, 1, 1, 2, 2, 2], "note": "Concise and student-friendly with proportionate consequences, but it has no tiered levels of use and never mentions exam board or coursework rules."},
+{"id": "255ef44c", "task": "ai-policy-school", "scores": [1, 2, 2, 2, 2, 2], "note": "Covers every criterion well, including a clear three-level table, JCQ precedence and a graduated response to misuse, though it is somewhat longer than one page."},
+{"id": "c6da6a34", "task": "ai-literacy", "scores": [2, 2, 2, 1, 2, 2], "note": "Clear, well-timed lesson (58 minutes) with a good catch-it-out task and quiz prompt, but bias appears only as a stretch question."},
+{"id": "d145fe0d", "task": "ai-literacy", "scores": [2, 2, 2, 2, 2, 1], "note": "Very thorough plan covering prediction, fact-checking, bias, learning prompts and safety, but the section 4 sub-timings add up to 20 minutes in an 18-minute slot, so the lesson overruns."},
+{"id": "1fe9a36f", "task": "ai-literacy", "scores": [2, 2, 2, 2, 2, 2], "note": "Engaging, timings add up to exactly 60 minutes, with a live bias demo, a four-part learning prompt, school AI levels and a ready-made student sheet."},
+{"id": "6ee4db24", "task": "observation-feedback", "scores": [2, 2, 2, 2, 2, 2], "note": "Excellent: links all three issues to one priority, gives a precise chunk-and-check action step, scripts an 8-minute rehearsal and sets clear success criteria for a dated follow-up."},
+{"id": "044bad4d", "task": "observation-feedback", "scores": [2, 1, 1, 0, 1, 2], "note": "Warm and practical, but it gives all three issues equal weight with long menus of strategies before prioritising, includes no rehearsal, and defines no success criteria."},
+{"id": "766b6637", "task": "observation-feedback", "scores": [1, 2, 2, 2, 2, 2], "note": "One clear priority with a practicable action step, rehearsal and measurable success, though the strengths include invented evidence (greeting students by name) not in the observer's notes."}
+]}

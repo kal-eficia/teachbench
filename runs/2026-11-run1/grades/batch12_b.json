@@ -1,0 +1,11 @@
+{"grader": "12b", "answers": [
+{"id": "753c70a7", "task": "mark-scheme-levels", "scores": [2,2,2,2,1,0], "note": "Sound question, levels and model extract, but the printed extract adds a line ('I am so fluttered and so glad') that is not in Dickens and there is no guidance on placing an answer within a level."},
+{"id": "1c7f6003", "task": "mark-scheme-levels", "scores": [2,2,2,2,2,2], "note": "Exemplary: AO-weighted levels, accurate quotations throughout, an annotated Level 6 extract and explicit within-level placement, capping and common-weakness guidance."},
+{"id": "3ca11042", "task": "mark-scheme-levels", "scores": [1,2,2,2,2,1], "note": "Strong analytical model answer and accurate content, but the question leaves the teacher to find the extract and marker notes give caps rather than help placing answers within a level."},
+{"id": "c2978cbe", "task": "feedback-on-essay", "scores": [2,2,0,1,2,1], "note": "Accurate praise and diagnosis, but five numbered improvements, model sentences for every point and a full-rewrite task bury the single priority."},
+{"id": "6f02a164", "task": "feedback-on-essay", "scores": [2,2,2,2,1,2], "note": "Tightly focused on one priority with guiding questions, a sentence starter and a short task, though the tone is clipped and only lightly encouraging for Year 9."},
+{"id": "235a67c8", "task": "feedback-on-essay", "scores": [2,2,2,2,2,2], "note": "Warm, direct feedback that quotes the student's own sentences, names one priority and sets a short focused rewrite task, though it misses the 1921 reparations-date point."},
+{"id": "225120c1", "task": "question-level-analysis", "scores": [2,1,1,1,1,2], "note": "Correct percentages, but it ranks purely by size and gives every one of the eight topics lesson time, with little diagnosis or spaced retrieval."},
+{"id": "828c22b7", "task": "question-level-analysis", "scores": [2,2,2,1,2,2], "note": "Ranks by loss and fixability, focuses on a manageable set with retrieval starters, and its arithmetic is correct, but diagnosis is limited to checking blanks versus wrong attempts."},
+{"id": "145b442a", "task": "question-level-analysis", "scores": [2,2,2,2,2,2], "note": "Accurate figures, a reasoned teachability ranking, a clear 10-lesson plan with retrieval starters, and practical diagnosis (blanks, 1-of-3 method marks, student profiles)."}
+]}

@@ -1,0 +1,11 @@
+{"grader": "02a", "answers": [
+{"id": "2baee4a6", "task": "hinge", "scores": [1,2,2,2,2,2], "note": "Accurate maths and good diagnostic tables, but only one of the three options is multiple choice (the others are open calculation and spot-the-mistake tasks)."},
+{"id": "f95b97f1", "task": "hinge", "scores": [2,2,2,2,2,2], "note": "Three genuine MCQ hinge questions with every distractor tied to a named misconception, correct maths and a detailed per-option decision rule."},
+{"id": "65cfb2c4", "task": "hinge", "scores": [2,1,2,2,2,2], "note": "Correct maths and clear decision rules, but some distractors are weak or implausible (e.g. 8/20 'left out the first fraction') and option 2 gives no response for choice A."},
+{"id": "bafcf7a6", "task": "misconceptions", "scores": [1,2,2,2,2,2], "note": "Thorough prioritisation by count and confidence with concrete demos, analogies and pattern-free hinge questions, though the main structure is still question by question with the shared current/charge/energy root added as a separate section."},
+{"id": "0f3c4d76", "task": "misconceptions", "scores": [1,2,1,2,2,2], "note": "Clear reteach steps and a hinge question for each error, but it works question by question and treats Q6 as a misconception rather than a recall/vocabulary gap."},
+{"id": "8f876ec6", "task": "misconceptions", "scores": [2,2,2,1,2,2], "note": "Groups Q3/Q8 by their shared root and separates firm misconceptions from gaps and slips well, but explains only thinly why each wrong idea is appealing."},
+{"id": "939de848", "task": "exam-question", "scores": [2,2,2,2,2,2], "note": "Well-built 8-mark question with examiner-style mark scheme, extensive accept/reject lists and model answers that highlight the linking words explain questions need."},
+{"id": "1b2c7d45", "task": "exam-question", "scores": [2,2,2,2,2,2], "note": "Good rising-difficulty structure building to a 4-mark explain with accept/reject guidance and a point-because-so scaffold, though it gives no full written model answer."},
+{"id": "bd3befe4", "task": "exam-question", "scores": [2,2,2,2,2,1], "note": "Solid mark scheme and model answers, but the data are flawed: a 20 s time cannot be recorded when sampling every 30 s, and amylase being fastest at 60 °C with no clear optimum is unrealistic for a foundation enzymes question."}
+]}

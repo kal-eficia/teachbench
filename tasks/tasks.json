@@ -1,0 +1,1090 @@
+[
+ {
+  "id": "lesson-pack",
+  "category": "planning",
+  "phase": "Secondary",
+  "subject": "Computing",
+  "task": "I teach Year 9 computing online over Zoom, 50-minute lessons. Tomorrow's topic is how data travels across the internet (packets and packet switching). Last lesson was network hardware: routers, switches and NICs. Make me everything I need to teach it. Include at least five multiple-choice questions for the students somewhere in the materials.\n\nFormat: at the very end, add one line starting 'ANSWER KEY:' listing the correct letter for every multiple-choice question in the order they appear, for example 'ANSWER KEY: B D A C A'.",
+  "criteria": [
+   "There is a teacher-facing plan with timings that add up to about 50 minutes",
+   "There is separate student-facing material written directly to the student (says 'you'), with no teacher notes mixed into it",
+   "The lesson opens with retrieval of the previous lesson (network hardware) from memory, not a recap by the teacher",
+   "There is a homework task and a mark scheme or model answers for it",
+   "There is a quick answer or solutions sheet the teacher can use to check student work live",
+   "The activities suit a live online lesson (chat, polls, shared screen) rather than assuming a physical classroom"
+  ],
+  "auto": "key"
+ },
+ {
+  "id": "recall-starter",
+  "category": "retrieval",
+  "phase": "Secondary",
+  "subject": "Science",
+  "task": "Year 8 science. Write the starter for tomorrow's lesson. The last four lessons were: (1) elements and compounds, (2) the periodic table groups, (3) chemical vs physical changes, (4) word equations (yesterday). Three weeks ago we did the particle model, and a month ago we did cells. In last week's quiz most of the class confused compounds with mixtures, and about half couldn't say what happens to particles when a solid melts. Tomorrow's new topic is acids and alkalis.",
+  "criteria": [
+   "Every question is on content already taught; none of them tests acids and alkalis (the new topic)",
+   "It includes questions on both things the class got wrong (compounds vs mixtures, particles when a solid melts)",
+   "It includes older material (particle model and/or cells), not just yesterday's lesson",
+   "Topics are mixed up so neighbouring questions are not all from the same lesson",
+   "Students are told to answer from memory (no notes) and it is short enough for about 5 to 8 minutes",
+   "There is a teacher answer key, and it explains why questions were chosen or what to look for"
+  ]
+ },
+ {
+  "id": "quiz",
+  "category": "retrieval",
+  "phase": "Secondary",
+  "subject": "Geography",
+  "task": "Write a 12-question multiple-choice quiz for my Year 7 geography class on rivers (source to mouth, erosion, transportation, deposition, landforms like meanders and waterfalls, and flooding). Four options each. I'll use it as a low-stakes check next week; they finished the unit two weeks ago and before that we did map skills.\n\nFormat: at the very end, add one line starting 'ANSWER KEY:' listing the correct letter for each question in order, for example 'ANSWER KEY: B D A C ...'.",
+  "criteria": [
+   "All 12 questions are accurate and unambiguous, with exactly one defensible correct answer each",
+   "Wrong options are plausible misconceptions, not obviously silly or jokey distractors",
+   "Questions go beyond single-word recall in at least a third of cases (applying or explaining, e.g. why a meander forms)",
+   "It mixes in some earlier material (map skills) or says how to, rather than only the most recent unit",
+   "The teacher gets an answer key with a short explanation or the misconception each question checks",
+   "It suggests how to use the results (for example confidence ratings, or what to reteach), keeping it low stakes"
+  ],
+  "auto": "key"
+ },
+ {
+  "id": "hinge",
+  "category": "assessment",
+  "phase": "Secondary",
+  "subject": "Maths",
+  "task": "Year 8 maths, adding fractions with different denominators. I want a question to ask in the middle of the lesson so I know whether to move on or go back. Give me three options to choose from.",
+  "criteria": [
+   "Each question is multiple choice and answerable by the whole class in about a minute",
+   "Each wrong option corresponds to a specific, real misconception (for example adding numerators and denominators), and the output says which",
+   "A student holding a misconception could not land on the right answer by accident (the numbers are chosen to prevent it)",
+   "There is a decision rule: what to do next depending on how the class answers",
+   "Each question tests one idea only, the one the next part of the lesson depends on",
+   "The maths is correct throughout, including the stated correct answers"
+  ]
+ },
+ {
+  "id": "misconceptions",
+  "category": "assessment",
+  "phase": "Secondary",
+  "subject": "Science",
+  "task": "Year 10 physics quiz on electricity, 26 students. Here's what went wrong:\n\nQ3 'What happens to the current after it passes through a bulb in a series circuit?' 14 said it gets smaller or is used up (9 of them very confident).\nQ5 'Two identical bulbs in parallel compared to one bulb: brightness of each?' 11 said dimmer (most not confident).\nQ6 'What does a voltmeter measure?' 4 said current, 3 left blank.\nQ8 'A battery stores...' 12 said electricity or charge (8 confident), correct was chemical energy.\nQ9 unit of resistance: 2 wrote amps, 1 wrote volts.\n\nWhat should I do about this?",
+  "criteria": [
+   "It groups the errors by the underlying idea (for example 'current is used up') rather than going question by question",
+   "It prioritises using both how many students and how confident they were, and names what to fix first with a reason",
+   "It separates genuine misconceptions from slips or vocabulary gaps (for example Q9 units is a minor slip)",
+   "For the main misconceptions it explains why the wrong idea is appealing to students",
+   "It gives a concrete reteach move for each main misconception (a demonstration, model, analogy or counter-example), not just 'reteach current'",
+   "It includes a check question or says when to revisit, so the teacher can see whether the fix worked; and the physics is correct"
+  ]
+ },
+ {
+  "id": "exam-question",
+  "category": "assessment",
+  "phase": "Secondary",
+  "subject": "Biology",
+  "task": "Write me an exam-style question on enzymes for AQA GCSE Biology (combined science, foundation tier), about 8 marks in total, with a mark scheme. My students struggle with 'explain' questions.",
+  "criteria": [
+   "The question is split into parts with rising difficulty and the marks shown for each part, totalling about 8",
+   "Command words are used correctly and the marks match the demand (for example 'explain' parts need linked reasons)",
+   "The mark scheme gives separate creditable points, one per mark, in examiner style",
+   "The mark scheme includes alternative acceptable answers and/or answers that should not be credited",
+   "There is a model full-mark answer or clear guidance students can learn from, relevant to 'explain' questions",
+   "The biology is correct and appropriate for foundation tier GCSE (active site, temperature, pH, denaturing)"
+  ]
+ },
+ {
+  "id": "worked-example",
+  "category": "explaining",
+  "phase": "Secondary",
+  "subject": "Maths",
+  "task": "Year 9 are learning to solve linear equations with the unknown on both sides, like 5x + 3 = 2x + 15. They've done one-sided equations fine. Make me the practice sheet.",
+  "criteria": [
+   "It starts with at least one fully worked example with every step shown",
+   "The worked steps explain why each step is done, not only what is done",
+   "Support fades gradually: partially completed examples come between the full example and independent questions",
+   "Independent questions rise in difficulty and include at least one twist (negative answers, brackets, or unknown larger on the right)",
+   "The step most likely to go wrong is flagged for students",
+   "Answers are provided for every question and are all correct"
+  ]
+ },
+ {
+  "id": "reports",
+  "category": "pastoral",
+  "phase": "Secondary",
+  "subject": "English",
+  "task": "Write end-of-term English reports for these Year 8 students, 60 to 90 words each. Use the codes, I'll add names.\n\n[S1] (she): reads widely, brilliant in discussion, written work is short and rushed, 6/10 average on essays.\n[S2] (he): very quiet, never volunteers, but his creative writing piece was the best in the class. Spelling weak.\n[S3] (he): chatty, often off task, homework missing 5 times. When focused his analysis of Macbeth was sharp.\n[S4] (she): steady, reliable, always does what's asked, never goes beyond it. 7/10 on everything.\n[S5] (they): joined mid-term from another school, still settling, missed the poetry unit. Works hard.\n[S6] (she): top marks all term, finishes early and gets bored.\n\nFormat: put each report on its own line starting with the code and a colon, for example '[S1]: ...'.",
+  "criteria": [
+   "Every report opens with a specific, earned strength drawn from the notes (not a generic phrase like 'a pleasure to teach')",
+   "Every report gives one clear, doable next step that says what to do, not a list of faults",
+   "Every report ends on a positive, forward-looking note",
+   "The six reports read as written about six different people: different openings and sentence shapes, no recycled sentences",
+   "Negative behaviour is described as work habits with a way forward, never as character labels (chatty, lazy, bored)",
+   "Plain language a parent can follow, with pronouns used correctly including 'they' for S5"
+  ],
+  "auto": "reports"
+ },
+ {
+  "id": "parent-message",
+  "category": "pastoral",
+  "phase": "Secondary",
+  "subject": "Maths",
+  "task": "Write a WhatsApp message to a parent. Their son (Year 10, call him [child]) has dropped from grade 6 to grade 4 in the last two maths assessments and hasn't handed in the last three homeworks. I run a catch-up session on Tuesdays 3:30 to 4:15 and I'd like him to come for the next four weeks. I don't want to alarm them but I do need them to act.\n\nFormat: put the message itself between two lines that contain only ===.",
+  "criteria": [
+   "It is short enough to read on a phone in a few seconds (roughly under 100 words)",
+   "It states the facts plainly (grades and missed homework) without blame or a list of faults",
+   "It has exactly one clear action for the parent, with the day and time, and an easy way to respond",
+   "It makes clear who does what (what the child will do, what the parent is asked to do)",
+   "The tone is warm and calm, opening with something positive or the shared aim, without gushing",
+   "No school jargon or internal names; a parent with no knowledge of the school's systems would understand it"
+  ],
+  "auto": "message100"
+ },
+ {
+  "id": "ai-proof",
+  "category": "leadership-ai",
+  "phase": "Secondary",
+  "subject": "History",
+  "task": "My Year 9 history homework is: 'Write an essay explaining the causes of the First World War.' I know most of them will just get ChatGPT to write it. What should I set instead?",
+  "criteria": [
+   "It redesigns the task so the learning still happens, rather than just banning AI or relying on detection",
+   "Students must retrieve or think for themselves before any AI use (for example a from-memory stage)",
+   "The task includes something AI cannot do for them (class-specific or personal material, a live explanation, or critiquing a flawed AI answer)",
+   "It states clearly what AI use is allowed for this task",
+   "It says what students hand in and how it will be marked so that thinking, not just the final product, gets credit",
+   "The task is ready to give to Year 9 students as written, and the history content is accurate"
+  ]
+ },
+ {
+  "id": "six-week-review",
+  "category": "tutoring",
+  "phase": "Secondary",
+  "subject": "Maths",
+  "task": "I tutor a Year 11 student (call them [S1]) for GCSE maths. Baseline test in week 1 and the same style of test in week 6:\n\nAlgebra: 35% then 70%\nNumber: 60% then 75%\nRatio and proportion: 40% then 45%\nGeometry: 30% then 55%\nProbability: 50% then 50%\nStatistics: not in baseline, 65% in week 6\n\nAttended 11 of 12 sessions. Homework done 4 times out of 6. Says they find ratio 'confusing' and avoids it. Write up the review. The parents want to know if the tutoring is working.",
+  "criteria": [
+   "It presents baseline, now and change for each topic clearly (a table or equivalent)",
+   "It does not claim progress for Statistics, since there was no baseline to compare with",
+   "It distinguishes topics that moved a lot from those that barely moved, and offers a reason for the weak ones (ratio avoided, probability flat)",
+   "It comments honestly on habits (homework 4 of 6) as part of the picture",
+   "It sets a small number of specific priorities for the next six weeks with actions, not a long list",
+   "It includes a plain-language summary for the parents that answers their question directly and honestly, with a strength, a priority and an encouraging close"
+  ]
+ },
+ {
+  "id": "explanation",
+  "category": "explaining",
+  "phase": "Secondary",
+  "subject": "Science",
+  "task": "Explain to my Year 7 class (age 11 to 12) why we have seasons. Lots of them think it's because the Earth is closer to the sun in summer.",
+  "criteria": [
+   "It tackles the 'closer to the sun' misconception directly, with a reason it can't be right (for example opposite seasons in the two hemispheres)",
+   "It starts from something students already know or can picture before introducing the tilt",
+   "It uses a concrete example, model or demonstration (torch, globe, or similar) before abstract statements",
+   "The language suits 11 to 12 year olds: short sentences, key terms explained",
+   "It includes questions to check understanding along the way, not just at the end",
+   "The science is correct (axial tilt, angle and spread of sunlight, day length)"
+  ]
+ },
+ {
+  "id": "send",
+  "category": "inclusion",
+  "phase": "Secondary",
+  "subject": "History",
+  "task": "Tomorrow's Year 8 history lesson has this task on the worksheet:\n\n'Read the three sources on pages 42 to 44 about the causes of the English Civil War. Using the sources and your own knowledge, write an extended answer to the question: \"Charles I was mainly to blame for the outbreak of the Civil War.\" How far do you agree? You have 30 minutes. Remember to use PEEL paragraphs and reach a judgement.'\n\nIn that class I have one student with dyslexia, one with ADHD, and one autistic student who gets very anxious about open-ended tasks. How do I adapt it?",
+  "criteria": [
+   "The learning goal stays the same for all three students: they still analyse causes and reach a judgement (the bar is not lowered)",
+   "Adaptations are specific to each need rather than one generic 'simplify it' list",
+   "For dyslexia: reduces the reading and writing load without removing the thinking (for example shorter extracts, key words, alternative ways to record)",
+   "For ADHD: breaks the 30 minutes into short steps with clear checkpoints",
+   "For the autistic student: reduces ambiguity (explicit structure, an example, what 'finished' looks like, warning of what is coming)",
+   "It is practical for one teacher to prepare by tomorrow, and avoids singling students out"
+  ]
+ },
+ {
+  "id": "text-level",
+  "category": "inclusion",
+  "phase": "Secondary",
+  "subject": "Geography",
+  "task": "Rewrite this for a Year 7 student with a reading age of about 9. Keep all the geography.\n\n'Tropical rainforests are characterised by exceptionally high levels of biodiversity, attributable to consistently elevated temperatures and substantial annual precipitation exceeding 2,000 millimetres. The vegetation is stratified into distinct layers, namely the emergent layer, the canopy, the understorey and the forest floor, each of which supports specialised flora and fauna adapted to its particular conditions of light availability and humidity. Deforestation, driven predominantly by commercial agriculture, logging and infrastructure development, poses a significant threat to these ecosystems, contributing to habitat fragmentation, the loss of endemic species and the release of sequestered carbon into the atmosphere, thereby exacerbating anthropogenic climate change.'\n\nFormat: put the rewritten text between two lines that contain only ===.",
+  "criteria": [
+   "Every key fact is kept: high biodiversity, warm all year, over 2,000 mm of rain, the four layers named, causes of deforestation, and its effects including carbon and climate change",
+   "Sentences are short and simple enough for a reading age of about 9",
+   "Subject vocabulary students must learn (for example canopy, deforestation, biodiversity) is kept and explained, not deleted",
+   "The meaning is accurate: nothing has been changed, invented or made wrong by simplifying",
+   "The tone is not babyish; it still reads as a text for a secondary school student",
+   "It adds helpful support such as a glossary, headings or a note of what was changed for the teacher"
+  ],
+  "auto": "reading10"
+ },
+ {
+  "id": "class-feedback",
+  "category": "assessment",
+  "phase": "Secondary",
+  "subject": "English",
+  "task": "I've just read 28 Year 10 essays on how Priestley presents Mr Birling in An Inspector Calls. My notes: most have good knowledge of the plot. Lots retell the story instead of analysing. About half used quotes but didn't comment on language. Almost nobody mentioned context (1912 vs 1945). Several strong ones linked Birling to capitalism. Common spellings wrong: Priestley, capitalism, responsibility. Paragraphs often too long. I don't have time to write on every essay. What do I give back to the class?",
+  "criteria": [
+   "It produces a single whole-class feedback sheet rather than individual comments",
+   "It names specific strengths from the notes, not generic praise",
+   "It lists the main common errors, each with how to fix it (retelling vs analysis, quotes without language comment, missing context)",
+   "It includes a model or example showing what good analysis looks like for this essay",
+   "It gives students a concrete improvement task to do in lesson time (not just things to read)",
+   "It saves the teacher time (for example error codes) and the literature content is accurate"
+  ]
+ },
+ {
+  "id": "homework",
+  "category": "planning",
+  "phase": "Secondary",
+  "subject": "French",
+  "task": "Set this week's homework for my Year 8 French class. We've just finished the perfect tense with avoir. Earlier this term we did family vocabulary and opinions (j'aime, je déteste, parce que). Lots of parents tell me they can't help because they don't speak French.",
+  "criteria": [
+   "The homework is short with a stated time expectation (roughly 15 to 30 minutes)",
+   "It includes practice of earlier material (family vocabulary, opinions) as well as the perfect tense",
+   "It requires students to recall or produce language, not just copy or re-read",
+   "A parent with no French does not need to teach or check the content; any parent role is something they can actually do",
+   "It is quick for the teacher to check, and answers or a marking approach are provided",
+   "The French is correct and suitable for Year 8"
+  ]
+ },
+ {
+  "id": "revision-timetable",
+  "category": "tutoring",
+  "phase": "Secondary",
+  "subject": "Study skills",
+  "task": "Make a revision timetable for a Year 11 student. Mocks start in 3 weeks: Maths Paper 1 on Monday of week 4, English Language Tuesday, Biology Wednesday, History Thursday. They're weakest at maths (algebra and ratio) and history (remembering dates and events). School finishes at 3:15, they have football Tuesday and Thursday 5 to 6:30, mosque class Saturday 10 to 12, and they say they can't concentrate for more than half an hour. They've never really revised before.",
+  "criteria": [
+   "It respects every fixed commitment (football Tuesday and Thursday, Saturday morning class) and school hours",
+   "Revision blocks are about 30 minutes or less with breaks, matching what the student said",
+   "Weak areas (maths algebra and ratio, history) get more time than stronger areas",
+   "Topics come back more than once across the three weeks (spacing) and subjects are mixed within days",
+   "Each block says what to do actively (self-testing, past questions, flashcards), not just 'revise maths'",
+   "It is realistic for a first-time reviser (a manageable daily load, rest time, some slack for catching up)"
+  ]
+ },
+ {
+  "id": "tutoring",
+  "category": "tutoring",
+  "phase": "Secondary",
+  "subject": "Chemistry",
+  "task": "I tutor a Year 10 student one to one online, GCSE chemistry, an hour a week. Last week we did ionic bonding; in the end-of-session check she got the dot-and-cross diagram for NaCl right but couldn't explain why ionic compounds have high melting points, and said she was 'guessing' on formulae like MgCl2. Homework was 6 questions on ionic formulae. School are starting covalent bonding next week. Plan this week's session.",
+  "criteria": [
+   "It starts with retrieval of what she got wrong last week (melting points, formulae), not a re-explanation",
+   "It reviews the homework and uses it as evidence of what to do next",
+   "The new teaching targets one clear focus, with modelling before she tries it",
+   "There is guided practice followed by independent practice, with the tutor watching method not just answers",
+   "It ends with a short check of what stuck and sets short homework she can do alone",
+   "It includes a brief note for the student and/or parent, and the chemistry is correct"
+  ]
+ },
+ {
+  "id": "cpd",
+  "category": "leadership-ai",
+  "phase": "Whole school",
+  "subject": "Leadership",
+  "task": "I'm a head of department. I've got a 60-minute slot at next week's staff meeting to train 15 teachers (mixed subjects, mixed confidence, some sceptical) on using AI to plan lessons. Most have never used it. Plan the session.",
+  "criteria": [
+   "It has one clear, limited goal for the hour rather than trying to cover everything about AI",
+   "Teachers spend a substantial part of the session (roughly a third or more) actually using the tool on their own real planning",
+   "It includes a live demonstration or worked example before teachers try it themselves",
+   "It addresses data protection or school policy (for example not entering student names) and shows where AI gets things wrong",
+   "Teachers leave with a specific commitment to try in their own classroom",
+   "There is a follow-up plan after the session (a check-in, sharing, or resource) and timings add up to about 60 minutes"
+  ]
+ },
+ {
+  "id": "difficult-conversation",
+  "category": "pastoral",
+  "phase": "Secondary",
+  "subject": "Pastoral",
+  "task": "I've got a meeting tomorrow with a parent who emailed to say I'm 'picking on' her daughter (Year 9). The facts: I've given her three detentions this half-term, all for not having her equipment and talking over me. She's also had two from other teachers. Mum says her daughter comes home crying and that I 'clearly don't like her'. My head of year will be there. Help me prepare.",
+  "criteria": [
+   "It separates the facts (dates, reasons for detentions, other teachers' detentions) from interpretations",
+   "It plans a calm opening that states a shared aim before anything else",
+   "It has the teacher listen first and acknowledge the parent's and child's feelings without accepting the claim of being picked on",
+   "It prepares responses to likely difficult moments (anger, 'you don't like her', tears)",
+   "It ends with agreed next steps: who does what, and when it will be reviewed",
+   "It suggests a short written follow-up and makes sensible use of the head of year or school policy"
+  ]
+ },
+ {
+  "id": "knowledge-organiser",
+  "category": "planning",
+  "phase": "Secondary",
+  "subject": "History",
+  "task": "Make a knowledge organiser for my Year 7 unit on the Norman Conquest (1066: the claimants, Stamford Bridge, Hastings, how William kept control: castles, feudal system, Domesday Book).",
+  "criteria": [
+   "It would fit on one page: selective, not an essay",
+   "Key vocabulary is listed with short, student-friendly definitions",
+   "There is a clear timeline or sequence of the key events with correct dates",
+   "Facts are chunked into sections a student can self-test on (for example cover and recall)",
+   "It tells students how to use it to test themselves, or includes quiz questions",
+   "The history is accurate (claimants, battles, dates, methods of control)"
+  ]
+ },
+ {
+  "id": "scheme-of-work",
+  "category": "planning",
+  "phase": "Secondary",
+  "subject": "Computing",
+  "task": "Plan a half-term (6 weeks, 2 lessons a week, 50 minutes each) for Year 8 computing on Python programming basics. They did Scratch in Year 7 and have never typed code. There's an assessment in the last week.",
+  "criteria": [
+   "All 12 lessons are listed in a sensible order where each builds on the last (for example output, variables, input, selection, iteration)",
+   "Each lesson has a clear objective and a main activity",
+   "It builds in retrieval of earlier lessons throughout, not just new content every lesson",
+   "It includes checkpoints before the final assessment so gaps are found early",
+   "It has a balance of reading or modifying code and writing code from scratch, suitable for beginners moving on from Scratch",
+   "The pace is realistic for Year 8 beginners in 50-minute lessons, and the final assessment matches what was taught"
+  ]
+ },
+ {
+  "id": "code-exercise",
+  "category": "explaining",
+  "phase": "Secondary",
+  "subject": "Computing",
+  "task": "Year 9, Python, first lesson on while loops. They know variables, input, if statements and for loops. Give me the programming tasks for the lesson.",
+  "criteria": [
+   "Students read and predict what given code does before writing their own",
+   "Tasks move gradually from changing existing code to writing new code",
+   "There is at least one debugging task with deliberate bugs, including an infinite loop or off-by-one error",
+   "Tasks have clear expected output or test cases so students know if they are right",
+   "Hints or support are provided for students who get stuck, and there is a stretch task",
+   "Solutions are provided and all the Python is correct"
+  ]
+ },
+ {
+  "id": "cover",
+  "category": "planning",
+  "phase": "Secondary",
+  "subject": "Science",
+  "task": "I'm off sick tomorrow. Year 8 science, period 3, 50 minutes, 30 students. We're in the middle of the digestive system unit (they've done the organs and their jobs; next is enzymes, which I want to teach myself). The cover teacher won't be a scientist. There are textbooks in the room but no computers. Write the cover work.",
+  "criteria": [
+   "There are clear instructions for the cover teacher that need no science knowledge, including timings",
+   "The work consolidates what has been taught (organs and their jobs) and does not try to teach enzymes",
+   "Students can do all of it independently with only textbooks, paper and pens",
+   "There is enough work for 50 minutes, including something for early finishers",
+   "Answers are provided so the cover teacher can go through them or students can be checked",
+   "It says what students should hand in or have completed, so the absent teacher can see what was done"
+  ]
+ },
+ {
+  "id": "primary-maths-lesson",
+  "category": "planning",
+  "phase": "Primary",
+  "subject": "Maths",
+  "task": "Year 3, 30 children, one hour. Tomorrow I'm introducing column addition with one exchange (like 47 + 36). They're secure with adding tens and ones mentally without crossing a ten. Plan the lesson.",
+  "criteria": [
+   "Uses concrete or pictorial representations (base 10, place value counters, drawings) before or alongside the written method",
+   "Explains the exchange (ten ones become one ten) explicitly rather than just teaching 'carry the one'",
+   "Includes worked examples modelled by the teacher before children practise",
+   "Practice moves from no exchange to one exchange, with a varied or reasoning question, not just a page of identical sums",
+   "Has a check partway through (mini whiteboards or similar) and says what to do with children who are not getting it",
+   "Timings fit an hour and the maths is correct"
+  ]
+ },
+ {
+  "id": "a-level-lesson",
+  "category": "planning",
+  "phase": "Sixth form",
+  "subject": "Psychology",
+  "task": "A level Psychology (AQA), Year 12, 70-minute lesson on Milgram's obedience study. They've done Asch on conformity last week. Plan it. There are 14 students and they find evaluation questions hard.",
+  "criteria": [
+   "Opens by retrieving prior learning (Asch, conformity) from memory",
+   "Covers Milgram's procedure and findings accurately (including the 65% figure at 450V and the setting)",
+   "Teaches evaluation explicitly, for example a structure for an evaluation point, with a model",
+   "Includes an exam-style question with AQA-style marks and some guidance on what earns them",
+   "Activities need students to think and discuss, not only copy notes, and suit 14 sixth formers",
+   "Includes ethical issues accurately (deception, right to withdraw, protection from harm)"
+  ]
+ },
+ {
+  "id": "unit-overview-primary",
+  "category": "planning",
+  "phase": "Primary",
+  "subject": "Science",
+  "task": "Plan a 6-week Year 4 science unit on electricity (one lesson a week, 1 hour). We have basic kits: cells, bulbs, wires, switches, buzzers. Include how I'll know what they've learned.",
+  "criteria": [
+   "Six lessons in a logical order where each builds on the last (complete circuits before switches, conductors and insulators)",
+   "Each lesson has a clear objective and a hands-on or investigative activity using the listed kit",
+   "Includes safety guidance appropriate for primary (mains electricity is dangerous, cells only)",
+   "Builds in retrieval of earlier lessons, not just new content each week",
+   "Has assessment: a starting check of prior ideas and an end-of-unit task or check that matches what was taught",
+   "Science vocabulary is accurate and pitched for Year 4 (cell, circuit, conductor, insulator)"
+  ]
+ },
+ {
+  "id": "retrieval-grid",
+  "category": "retrieval",
+  "phase": "Secondary",
+  "subject": "History",
+  "task": "Make me a retrieval grid for the start of my Year 10 history lessons this week. We're doing Edexcel GCSE Medicine Through Time. This half-term we've done medieval medicine (c1250-1500), and now we're halfway through the Renaissance (c1500-1700): Vesalius, Harvey, Pare, the Great Plague 1665. Last year they did the Norman Conquest.",
+  "criteria": [
+   "It is a grid or set of questions answered from memory, with questions from more than one time period",
+   "Includes questions from the current topic, earlier this half-term and further back",
+   "Questions are short and specific, answerable in a few words, not essay prompts",
+   "Varies difficulty, for example more marks or points for older material",
+   "All history is accurate (dates, names, contributions)",
+   "An answer key is provided"
+  ]
+ },
+ {
+  "id": "flashcards",
+  "category": "retrieval",
+  "phase": "Secondary",
+  "subject": "Chemistry",
+  "task": "Make flashcards for my Year 11 chemistry class on rates of reaction (collision theory, the factors: temperature, concentration, pressure, surface area, catalysts; measuring rate). They have their exam in eight weeks.\n\nFormat: one card per line as 'Q: ... | A: ...'.",
+  "criteria": [
+   "One idea per card rather than cards with long lists to memorise",
+   "Answers are precise and use correct scientific terms (frequency of successful collisions, activation energy)",
+   "Cards cover every factor listed plus measuring rate",
+   "Includes some 'explain why' cards, not only definitions",
+   "It tells students how to use the cards for spaced, self-testing practice over the eight weeks",
+   "All the chemistry is correct"
+  ]
+ },
+ {
+  "id": "spelling-retrieval",
+  "category": "retrieval",
+  "phase": "Primary",
+  "subject": "English",
+  "task": "Year 2. We've been learning words where 'ge' and 'dge' make the /j/ sound (badge, edge, bridge, age, huge, change) and before that the 'kn' and 'gn' words (knock, know, gnaw, gnat). I want 10 minutes of practice each morning this week that actually helps them remember, not just copying. Plan the five mornings.",
+  "criteria": [
+   "Children recall or apply the spellings from memory rather than copying",
+   "Earlier patterns (kn, gn) are revisited across the week, not only the current pattern",
+   "Each day's activity is different and genuinely 10 minutes long",
+   "Includes the rule or pattern (dge after a short vowel; ge after long vowels or consonants) explained simply",
+   "Activities suit six and seven year olds",
+   "There is a way for the teacher to see who is still getting them wrong"
+  ]
+ },
+ {
+  "id": "multi-topic-quiz",
+  "category": "retrieval",
+  "phase": "Secondary",
+  "subject": "Physics",
+  "task": "Write a 10-question multiple-choice quiz for Year 9 physics that mixes three topics we've done this year: energy stores and transfers, waves, and forces (resultant forces, Newton's first law). Four options each.\n\nFormat: at the very end, add one line starting 'ANSWER KEY:' listing the correct letter for each question in order.",
+  "criteria": [
+   "Questions from the three topics are mixed together, not grouped by topic",
+   "Every question has exactly one correct answer and the physics is accurate",
+   "Wrong options reflect common misconceptions (for example a moving object needs a resultant force)",
+   "At least three questions require applying understanding to a situation rather than recalling a definition",
+   "The answer key includes the misconception each wrong option targets or a short explanation",
+   "It suggests how to use the results, for example what to reteach if many choose a particular wrong option"
+  ],
+  "auto": "key"
+ },
+ {
+  "id": "vocab-retrieval-mfl",
+  "category": "retrieval",
+  "phase": "Secondary",
+  "subject": "Spanish",
+  "task": "Year 7 Spanish. Over the year we've done: greetings, numbers 1-31, school subjects, opinions (me gusta, no me gusta, porque es...), and family. Plan a 10-minute retrieval starter I can use every lesson for the next two weeks, changing what's in it each day.",
+  "criteria": [
+   "Retrieval is from memory and mixes topics from across the year",
+   "It changes day to day, with a system for rotating what comes up rather than one fixed starter",
+   "It includes production (students saying or writing Spanish), not only recognition",
+   "Older topics come up regularly, not only the most recent",
+   "All Spanish is correct, including accents and gender agreement",
+   "It is quick to run and to check in 10 minutes"
+  ]
+ },
+ {
+  "id": "knowledge-quiz-primary",
+  "category": "retrieval",
+  "phase": "Primary",
+  "subject": "Geography",
+  "task": "Year 5 geography. We've finished a unit on rivers and the water cycle. I'll check what has stuck in three weeks' time. Write me the check, with answers.",
+  "criteria": [
+   "Questions cover the main content of the unit (water cycle stages, river features from source to mouth, erosion and deposition)",
+   "Mix of question types suited to Year 5, including some that need explanation not just labels",
+   "Language is clear and accessible for 9 and 10 year olds",
+   "Geography is accurate",
+   "Answers are provided",
+   "Includes a way to use results, for example which questions show a misconception to revisit"
+  ]
+ },
+ {
+  "id": "mark-scheme-levels",
+  "category": "assessment",
+  "phase": "Secondary",
+  "subject": "English",
+  "task": "Write a 20-mark question and levels-based mark scheme for GCSE English Literature on how Dickens presents Scrooge's change in A Christmas Carol (AQA-style). Include an indicative content list and a model answer extract at the top level.",
+  "criteria": [
+   "The question is in the style of the exam board (an extract-based or whole-text question on how the writer presents something)",
+   "The levels descriptors progress clearly and match the assessment objectives (response, language and structure, context)",
+   "Indicative content is relevant and accurate to the novella (staves, ghosts, Cratchits, redemption)",
+   "The model extract demonstrates analysis of methods with embedded quotations and context, not plot retelling",
+   "Quotations used are accurate",
+   "Guidance helps teachers place an answer within a level"
+  ]
+ },
+ {
+  "id": "feedback-on-essay",
+  "category": "assessment",
+  "phase": "Secondary",
+  "subject": "History",
+  "task": "Give feedback on this Year 9 student's answer to 'Explain why the Treaty of Versailles was so unpopular in Germany (8 marks)'. Write the feedback to the student.\n\nStudent answer: 'The Treaty of Versailles was very unpopular in Germany. It was signed in 1919. Germany had to pay lots of money called reparations which was £6.6 billion. They also lost land like Alsace-Lorraine. Their army was cut to 100,000 men. They had to accept the blame for the war. The Germans thought this was very unfair and were angry. This is why it was unpopular.'",
+  "criteria": [
+   "Identifies what is good specifically (accurate, relevant knowledge with figures)",
+   "Identifies the main weakness accurately: it lists terms rather than explaining why each made Germans angry",
+   "Gives one clear priority, not a long list of everything",
+   "Shows how to improve with a pointer or sentence starter, without rewriting the whole answer for the student",
+   "Is written to the student in an encouraging, direct tone suitable for Year 9",
+   "Sets a short task to act on the feedback straight away"
+  ]
+ },
+ {
+  "id": "question-level-analysis",
+  "category": "assessment",
+  "phase": "Secondary",
+  "subject": "Maths",
+  "task": "Year 11 mock results, 28 students, foundation maths paper. Marks lost by question (out of total available across the class): Q3 fractions of amounts 12/56, Q7 area of compound shape 41/84, Q9 ratio sharing 58/84, Q12 solving linear equations 30/84, Q14 interpreting a pie chart 22/56, Q17 probability tree 70/84, Q19 compound interest 66/84, Q21 Pythagoras 60/84. We have 10 lessons before the real exam. Where should I focus?",
+  "criteria": [
+   "Converts the figures into comparable percentages of marks lost rather than comparing raw numbers",
+   "Ranks priorities by both size of the problem and how many marks the topic is likely to be worth or how fixable it is",
+   "Picks a manageable number of focus topics for 10 lessons rather than everything",
+   "Suggests how to diagnose why marks were lost (method, misconception, reading the question) before reteaching",
+   "Gives a concrete plan across the 10 lessons that keeps strong topics ticking over with retrieval",
+   "The arithmetic is correct"
+  ]
+ },
+ {
+  "id": "peer-assessment",
+  "category": "assessment",
+  "phase": "Secondary",
+  "subject": "Design and Technology",
+  "task": "Year 8 D&T students are halfway through designing a phone stand. I want them to give each other feedback on their design sheets in the next lesson but last time the comments were all 'good' and 'nice'. How do I make it useful?",
+  "criteria": [
+   "Gives clear success criteria students judge against",
+   "Shows students what good feedback looks like before they give it (a model or calibration example)",
+   "Provides structured prompts or sentence starters that force specific comments",
+   "Requires students to act on the feedback they receive",
+   "Includes a way for the teacher to check the quality of feedback",
+   "Practical for one D&T lesson with Year 8"
+  ]
+ },
+ {
+  "id": "coursework-support",
+  "category": "assessment",
+  "phase": "Secondary",
+  "subject": "Computer Science",
+  "task": "My Year 13 students are starting their A level Computer Science NEA (OCR). Many of them leave everything to the last month. Give me a plan to keep them on track over the next 8 months, and tell me what help I'm allowed to give.",
+  "criteria": [
+   "Breaks the project into stages with dates across the 8 months",
+   "States that teachers can give general guidance but not specific corrections or rewrite work, in line with exam board rules",
+   "Includes regular checkpoints where students show evidence of progress",
+   "Suggests how to support students who fall behind without breaching the rules",
+   "Explains what each stage is assessed on in student-friendly terms",
+   "Is realistic alongside teaching the rest of the course"
+  ]
+ },
+ {
+  "id": "analogy-explanation",
+  "category": "explaining",
+  "phase": "Secondary",
+  "subject": "Biology",
+  "task": "Explain how the immune system responds to a pathogen to my Year 9 class, including white blood cells, antibodies, antitoxins and memory cells. Many of them think antibiotics work against viruses.",
+  "criteria": [
+   "Addresses the antibiotics-and-viruses misconception directly and correctly",
+   "Sequences the explanation from what students know to the new ideas",
+   "Uses an analogy or concrete example and says where it breaks down",
+   "Includes check questions along the way",
+   "Biology is accurate (phagocytosis, antibody specificity, memory cells and faster secondary response)",
+   "Language suits 13 and 14 year olds, key terms are explained"
+  ]
+ },
+ {
+  "id": "dual-coding",
+  "category": "explaining",
+  "phase": "Secondary",
+  "subject": "Geography",
+  "task": "I'm teaching Year 8 how a coastal spit forms. Design the diagram I should draw on the board as I explain it, and tell me what to say at each stage.",
+  "criteria": [
+   "Breaks formation into clear sequential stages (longshore drift, change in coastline direction, deposition, recurved end, salt marsh)",
+   "Describes what to draw at each stage so it builds up step by step",
+   "Says what to say alongside each part of the drawing, keeping words and picture together",
+   "Labels are minimal and placed on the diagram, not in a separate key",
+   "Geography is accurate",
+   "Includes a check question or task at the end"
+  ]
+ },
+ {
+  "id": "modelling-writing",
+  "category": "explaining",
+  "phase": "Secondary",
+  "subject": "English",
+  "task": "Year 7 English. I want to model how to write an analytical paragraph about a poem (we're doing 'The Eagle' by Tennyson). Write me the script for an I do, we do, you do sequence.",
+  "criteria": [
+   "The teacher's model shows thinking aloud, not just the finished paragraph",
+   "The 'we do' stage has students contributing to a shared paragraph with prompts",
+   "The 'you do' stage gives students a different focus so they cannot copy the model",
+   "The model paragraph includes a point, a short embedded quotation and analysis of a specific word or technique",
+   "Quotations from the poem are accurate",
+   "The language suits Year 7"
+  ]
+ },
+ {
+  "id": "vocab-teaching",
+  "category": "explaining",
+  "phase": "Secondary",
+  "subject": "Religious Studies",
+  "task": "Year 10 RS (AQA, Christianity and Islam). Students keep losing marks because they don't use key terms properly: tawhid, akhirah, risalah, incarnation, atonement, the Trinity. Plan how to teach these words so they stick.",
+  "criteria": [
+   "Gives student-friendly definitions that are accurate for each term",
+   "Shows each term used correctly in a sentence or exam-style context",
+   "Includes activities where students use the words, not only read definitions",
+   "Revisits the terms over time rather than teaching once",
+   "Explains or uses word origins or connections where helpful",
+   "Shows how to use the terms in exam answers to gain marks"
+  ]
+ },
+ {
+  "id": "questioning-plan",
+  "category": "explaining",
+  "phase": "Secondary",
+  "subject": "Maths",
+  "task": "I'm teaching Year 8 how to find the nth term of a linear sequence. I tend to ask 'does everyone understand?' and the same three kids answer. Plan the questions I should ask through the lesson.",
+  "criteria": [
+   "Replaces 'does everyone understand' with questions that make every student think or respond",
+   "Includes a hinge question with options linked to misconceptions (for example 3n vs n+3)",
+   "Includes cold calling or whole-class response methods and wait time",
+   "Includes follow-up probing questions to deepen answers",
+   "Says what to do with wrong answers without shutting students down",
+   "The maths is correct"
+  ]
+ },
+ {
+  "id": "explain-primary",
+  "category": "explaining",
+  "phase": "Primary",
+  "subject": "Science",
+  "task": "Explain to my Year 1 class (age 5 and 6) why we have day and night.",
+  "criteria": [
+   "Uses very simple language and short sentences suitable for 5 and 6 year olds",
+   "Is scientifically correct: the Earth spins, so our side faces the Sun or faces away",
+   "Uses a concrete demonstration or role play (torch and ball, children turning)",
+   "Addresses the common idea that the Sun moves or goes to sleep, gently",
+   "Includes questions to ask the children",
+   "Stays short enough for Year 1 attention spans"
+  ]
+ },
+ {
+  "id": "eal-lesson",
+  "category": "inclusion",
+  "phase": "Secondary",
+  "subject": "Science",
+  "task": "I have a Year 9 student who arrived from Afghanistan two months ago. She speaks Dari and some Pashto, and her English is at an early stage, but she studied science in school before. Next week we're doing photosynthesis. How do I include her properly?",
+  "criteria": [
+   "Recognises and uses her prior science knowledge rather than treating her as having none",
+   "Provides key vocabulary with visuals and, where possible, first-language support",
+   "Gives practical ways for her to take part in the same lesson content, not a separate unrelated worksheet",
+   "Includes structured speaking or writing support (sentence frames)",
+   "Suggests pairing or grouping thoughtfully",
+   "Is practical for one teacher in one week"
+  ]
+ },
+ {
+  "id": "stretch-challenge",
+  "category": "inclusion",
+  "phase": "Secondary",
+  "subject": "Maths",
+  "task": "In my Year 8 maths class, four students always finish the work on solving equations in ten minutes and then mess about. What should I give them?",
+  "criteria": [
+   "Offers deeper challenge on the same topic rather than more of the same questions",
+   "Includes tasks that need reasoning, proof or generalising, not just harder numbers",
+   "Gives specific example tasks with the maths worked out",
+   "Explains how to set it up so the rest of the class is not disrupted",
+   "Avoids making extension work feel like a punishment",
+   "Maths is correct"
+  ]
+ },
+ {
+  "id": "dyslexia-resource",
+  "category": "inclusion",
+  "phase": "Secondary",
+  "subject": "History",
+  "task": "Adapt this source task for a Year 8 student with dyslexia, keeping the same thinking:\n\n'Read Source A, an extract from a 1665 diary describing the Great Plague in London, and Source B, a modern historian's account. Compare what each source suggests about how Londoners reacted to the plague and explain which you think is more useful for an enquiry into the impact of the plague, using your own knowledge.'",
+  "criteria": [
+   "Keeps the same historical thinking (comparison, utility, own knowledge)",
+   "Reduces the reading load (chunking, simplified layout, key words highlighted) without changing meaning",
+   "Breaks the task into smaller steps with clear instructions",
+   "Offers alternative ways to record or plan (bullet points, tables, frames)",
+   "Mentions dyslexia-friendly presentation choices (font, spacing, coloured background where useful)",
+   "Avoids singling the student out"
+  ]
+ },
+ {
+  "id": "adhd-routines",
+  "category": "inclusion",
+  "phase": "Primary",
+  "subject": "General",
+  "task": "I teach Year 4. One boy has a diagnosis of ADHD. He's lovely but struggles to start tasks, calls out, and gets up a lot. What can I do in class that will help him and not take all my time?",
+  "criteria": [
+   "Suggestions are specific and practical rather than generic advice",
+   "Includes ways to help him start tasks (chunking, first step clear, checklists)",
+   "Includes planned movement or breaks rather than only trying to stop movement",
+   "Uses positive reinforcement and clear routines rather than mainly sanctions",
+   "Suggestions are manageable for one teacher with 30 children",
+   "Suggests working with parents and the SENCO and keeping notes on what works"
+  ]
+ },
+ {
+  "id": "autism-transition",
+  "category": "inclusion",
+  "phase": "Secondary",
+  "subject": "Pastoral",
+  "task": "An autistic Year 7 student finds changes really hard. Next week we have a cover teacher for two days and then a trip to a museum. How can I prepare him?",
+  "criteria": [
+   "Gives advance warning in a concrete, visual way (schedule, photos of the cover teacher or the museum)",
+   "Explains what will be the same and what will be different",
+   "Offers a plan for what he can do if he feels overwhelmed (a safe space or card)",
+   "Suggests involving parents and the SENCO",
+   "Includes preparing the cover teacher with key information",
+   "Respectful in tone and avoids generalising about all autistic people"
+  ]
+ },
+ {
+  "id": "low-literacy-text",
+  "category": "inclusion",
+  "phase": "Secondary",
+  "subject": "Science",
+  "task": "Rewrite this for a Year 9 student with a reading age of about 8. Keep all the science.\n\n'Vaccination involves the introduction of small quantities of inactive or attenuated pathogens into the body, stimulating the white blood cells to produce antibodies specific to the antigens on the pathogen. Should the individual subsequently encounter the live pathogen, memory cells facilitate a rapid and amplified secondary immune response, preventing the onset of symptoms. When a sufficiently large proportion of a population is vaccinated, the spread of the pathogen is impeded, conferring protection on unvaccinated individuals; this phenomenon is termed herd immunity.'\n\nFormat: put the rewritten text between two lines that contain only ===.",
+  "criteria": [
+   "Keeps every key idea: dead or weakened pathogen, white blood cells make specific antibodies, memory cells give a fast response later, herd immunity",
+   "Sentences are short and simple enough for a reading age of about 8",
+   "Keeps and explains key terms (antibody, pathogen, herd immunity) rather than removing them",
+   "The science stays correct",
+   "The tone is suitable for a 13 or 14 year old, not babyish",
+   "Adds support such as a glossary or headings"
+  ],
+  "auto": "reading8"
+ },
+ {
+  "id": "mixed-attainment",
+  "category": "inclusion",
+  "phase": "Secondary",
+  "subject": "English",
+  "task": "My Year 9 English class has a huge range: two students working at about Year 5 level and several who could get top grades at GCSE. We're reading Of Mice and Men. How do I plan one lesson on the character of Curley's wife that works for all of them without writing three different lessons?",
+  "criteria": [
+   "Keeps one shared high-level goal and text for everyone (teaching to the top)",
+   "Provides scaffolds for those who need them (key quotations chosen, sentence starters, vocabulary)",
+   "Provides stretch for the most able (context, alternative interpretations, writer's purpose)",
+   "Uses grouping or questioning thoughtfully rather than fixed ability labels",
+   "The literature content is accurate",
+   "It is realistic to prepare as one lesson"
+  ]
+ },
+ {
+  "id": "parent-good-news",
+  "category": "pastoral",
+  "phase": "Primary",
+  "subject": "General",
+  "task": "Write a short message to the parents of a Year 2 child (call her [child]) to tell them she read aloud to the class for the first time today. She's normally very shy.\n\nFormat: put the message itself between two lines that contain only ===.",
+  "criteria": [
+   "Short and warm, readable in a few seconds",
+   "Specific about what she did and why it matters",
+   "Gives a small, easy way for parents to build on it at home, if any",
+   "Plain language with no jargon",
+   "Does not overstate or gush",
+   "Ends in a friendly way that invites no work from the parent unless they want to"
+  ],
+  "auto": "message80"
+ },
+ {
+  "id": "attendance-concern",
+  "category": "pastoral",
+  "phase": "Secondary",
+  "subject": "Pastoral",
+  "task": "Write an email to the parents of a Year 8 student (call him [child]) whose attendance has dropped to 84% this term, mostly Mondays and Fridays. I'm his form tutor. I want to meet them, not threaten them.",
+  "criteria": [
+   "States the attendance fact plainly with the pattern",
+   "Explains briefly why it matters for him (learning missed), not just rules",
+   "Shows care and curiosity about possible reasons rather than accusation",
+   "Proposes a meeting with an easy way to book or reply",
+   "Mentions support available without listing every policy and sanction",
+   "Professional, warm and under about 200 words, with a clear subject line"
+  ]
+ },
+ {
+  "id": "newsletter",
+  "category": "pastoral",
+  "phase": "Primary",
+  "subject": "General",
+  "task": "Write the Year 4 newsletter for parents for the end of this half-term. This half-term we did: Romans in Britain (history), Electricity (science), column subtraction and the 6, 7 and 9 times tables (maths), and we read 'Escape from Pompeii'. Coming up: Christmas performance on 12 December, multiplication tables check practice continues, PE days change to Tuesday and Thursday. We'd love parents to help with times tables at home.",
+  "criteria": [
+   "Short enough to read on a phone, with clear headings",
+   "Says what children learned in plain language parents understand",
+   "Key dates and changes are easy to find and accurate",
+   "The home help is specific and doable, and says who does what (for example 5 minutes of times tables with the child)",
+   "Warm tone without jargon",
+   "Ends with how to get in touch"
+  ]
+ },
+ {
+  "id": "restorative",
+  "category": "pastoral",
+  "phase": "Secondary",
+  "subject": "Pastoral",
+  "task": "Two Year 9 boys had a fight at lunch after one posted a mean comment about the other online. Both have done their sanction. I want to do a restorative conversation with them tomorrow. Plan it.",
+  "criteria": [
+   "Meets each student separately first to check they are willing and calm",
+   "Uses restorative questions (what happened, what were you thinking, who has been affected, what is needed to put it right)",
+   "Sets ground rules for the joint conversation",
+   "Focuses on harm and repair rather than blame and further punishment",
+   "Includes agreeing next steps and a follow-up check",
+   "Mentions involving others where appropriate (online element, safeguarding or parents)"
+  ]
+ },
+ {
+  "id": "mentoring",
+  "category": "pastoral",
+  "phase": "Secondary",
+  "subject": "Pastoral",
+  "task": "I'm mentoring a Year 11 student who is predicted grade 4s but is capable of 6s. She says she's 'just not motivated' and revises by reading her notes. Plan our first mentoring session (20 minutes).",
+  "criteria": [
+   "Opens by building rapport and asking about her view, not lecturing",
+   "Uses coaching questions to help her find her own reasons and goals",
+   "Addresses how she revises, explaining why active methods beat rereading",
+   "Agrees one small, specific target for the next fortnight",
+   "Plans a follow-up and how progress will be checked",
+   "Fits in 20 minutes"
+  ]
+ },
+ {
+  "id": "form-time",
+  "category": "pastoral",
+  "phase": "Secondary",
+  "subject": "Pastoral",
+  "task": "Plan four weeks of form time for Year 7 in their first term (15 minutes, every morning). They're struggling with organisation, friendships and phones.",
+  "criteria": [
+   "Covers organisation, friendships and phone use across the four weeks",
+   "Each session is genuinely 15 minutes and has a purpose",
+   "Mixes formats (discussion, short activities, quizzes, reflection) to keep it engaging",
+   "Includes practical habits students can use immediately (planners, packing bags, screen time)",
+   "Builds the form's sense of belonging",
+   "Easy for a busy form tutor to run with little preparation"
+  ]
+ },
+ {
+  "id": "exam-technique",
+  "category": "tutoring",
+  "phase": "Secondary",
+  "subject": "Geography",
+  "task": "My Year 11 geography students know the content but lose marks on 9-mark 'assess' questions in AQA GCSE Geography. Plan a lesson to fix it.",
+  "criteria": [
+   "Explains what 'assess' requires (weigh up factors and reach a supported judgement)",
+   "Uses a model answer and shows what earns marks at each level",
+   "Gives students a structure they can use under time pressure",
+   "Includes practice on a real-style question with feedback",
+   "Addresses timing (about 12 minutes for 9 marks) and planning",
+   "Geography content in examples is accurate"
+  ]
+ },
+ {
+  "id": "study-skills",
+  "category": "tutoring",
+  "phase": "Secondary",
+  "subject": "Study skills",
+  "task": "Plan a 50-minute session for Year 10 on how to revise effectively. Most of them highlight and reread their notes, and they're on their phones constantly.",
+  "criteria": [
+   "Explains why rereading and highlighting are weak and active recall and spacing are better, in student-friendly terms",
+   "Students try at least one technique in the session (self-quizzing, flashcards, blurting)",
+   "Includes a practical plan for managing phone distraction",
+   "Helps students plan when and what to revise",
+   "Is engaging rather than a lecture",
+   "Fits 50 minutes"
+  ]
+ },
+ {
+  "id": "intervention-plan",
+  "category": "tutoring",
+  "phase": "Secondary",
+  "subject": "English",
+  "task": "Six Year 11 students are below their target in English Language Paper 1, Question 4 (the evaluation question). I have them for 30 minutes after school once a week for six weeks. Plan the intervention.",
+  "criteria": [
+   "Targets the specific skill (evaluating a statement with evidence and analysis) rather than general English",
+   "Has a measure at the start and end to see progress",
+   "Each session has a clear focus, with modelling and practice",
+   "Includes regular practice under timed conditions",
+   "Says when a student no longer needs it, or what happens next",
+   "Realistic within 30-minute sessions"
+  ]
+ },
+ {
+  "id": "tutoring-primary",
+  "category": "tutoring",
+  "phase": "Primary",
+  "subject": "Maths",
+  "task": "I tutor a Year 5 child one to one online for 45 minutes. She is still not secure on times tables (especially 6, 7 and 8), which most children learn by Year 4, and she gets anxious when anything is timed. Plan the next session.",
+  "criteria": [
+   "Begins with low-stakes retrieval and builds confidence before anything new",
+   "Uses strategies and patterns (derived facts, doubling, commutativity) not just rote chanting",
+   "Avoids timed pressure at first and builds fluency gradually",
+   "Includes engaging online-friendly activities for a 9 or 10 year old",
+   "Ends with a short practice she can do at home and a note for parents",
+   "Maths is correct"
+  ]
+ },
+ {
+  "id": "progress-report-class",
+  "category": "tutoring",
+  "phase": "Secondary",
+  "subject": "Science",
+  "task": "Here are my Year 10 class's average scores on our end-of-topic tests this term: Cells 72%, Organisation 58%, Infection and response 65%, Bioenergetics 41%. Before the term, their baseline test on the same topics averaged 38%, 40%, 35%, 30%. Write a short summary for my head of department and what I'll do next.",
+  "criteria": [
+   "Reports the change for each topic correctly",
+   "Notes that the baseline and end tests may differ in difficulty, or interprets the comparison with appropriate caution",
+   "Identifies bioenergetics as the clear priority with a reason",
+   "Proposes specific next actions for the weakest topic and keeping others secure",
+   "Concise and suitable for a head of department",
+   "The arithmetic is correct"
+  ]
+ },
+ {
+  "id": "ucas-statement",
+  "category": "tutoring",
+  "phase": "Sixth form",
+  "subject": "Careers",
+  "task": "A Year 13 student wants feedback on the opening of her personal statement for medicine: 'Ever since I was a little girl, I have always been passionate about helping people. Medicine is the perfect career for me because I love science and I want to make a difference. I am a hard-working and dedicated person.' Give her feedback.",
+  "criteria": [
+   "Explains specifically why the opening is weak (cliché, unsupported claims) without being harsh",
+   "Gives concrete direction: use a specific experience and what she learned from it",
+   "Suggests questions she can answer to find better material",
+   "Does not rewrite the statement for her",
+   "Encouraging and direct, written to the student",
+   "Accurate about what medical schools look for (reflection, insight into the profession)"
+  ]
+ },
+ {
+  "id": "ai-policy-school",
+  "category": "leadership-ai",
+  "phase": "Whole school",
+  "subject": "Leadership",
+  "task": "Draft a one-page AI use policy for students at our secondary school (11 to 18). We want students to use AI to learn, not to cheat, and to be safe.",
+  "criteria": [
+   "Fits on roughly one page and is written so students can understand it",
+   "Distinguishes levels of permitted use (not allowed, allowed to check, allowed as a tool) with examples",
+   "Covers academic honesty including coursework and exam board rules",
+   "Covers safety and privacy (personal data, age restrictions, accuracy of outputs)",
+   "Encourages positive learning uses rather than only prohibitions",
+   "Says what happens if the policy is broken, proportionately"
+  ]
+ },
+ {
+  "id": "ai-literacy",
+  "category": "leadership-ai",
+  "phase": "Secondary",
+  "subject": "Computing",
+  "task": "Plan a one-hour Year 8 lesson that teaches students how AI chatbots work and how to use them well for learning.",
+  "criteria": [
+   "Explains in simple terms that chatbots predict likely text and can be confidently wrong",
+   "Students test or critique an AI output themselves",
+   "Teaches how to prompt AI to help learning (for example quizzing) rather than doing the work",
+   "Covers checking information and bias",
+   "Includes school rules or safety and age considerations",
+   "Engaging for Year 8 and fits an hour"
+  ]
+ },
+ {
+  "id": "observation-feedback",
+  "category": "leadership-ai",
+  "phase": "Secondary",
+  "subject": "Leadership",
+  "task": "I observed an early career teacher's Year 9 lesson. Notes: good relationships, clear explanation of the topic, but students were passive for 25 minutes of teacher talk, questions were mostly answered by volunteers, and the task at the end was too hard for about a third of the class. Write the feedback I'll give her.",
+  "criteria": [
+   "Starts with specific strengths backed by evidence",
+   "Picks one priority rather than giving all three issues equal weight",
+   "Gives a concrete action step she can practise, not general advice",
+   "Includes rehearsing the action step in the feedback meeting",
+   "Agrees a follow-up and what success looks like",
+   "Supportive tone without grading the lesson"
+  ]
+ },
+ {
+  "id": "curriculum-map",
+  "category": "leadership-ai",
+  "phase": "Secondary",
+  "subject": "Leadership",
+  "task": "I'm a new head of computing. Our KS3 curriculum (Years 7 to 9) was written by different teachers and nobody knows what is taught where. Tell me how to map it against the national curriculum and find gaps, and what the output should look like.",
+  "criteria": [
+   "Gives a clear step-by-step process for mapping",
+   "Uses the national curriculum statements as the reference",
+   "Suggests a practical output format (a grid or table) with example rows",
+   "Considers sequencing and dependencies between topics, not just coverage",
+   "Includes how to involve the department team",
+   "Ends with how to act on the gaps found"
+  ]
+ },
+ {
+  "id": "department-ai-cpd",
+  "category": "leadership-ai",
+  "phase": "Whole school",
+  "subject": "Leadership",
+  "task": "Our maths department wants to use AI to write differentiated worksheets but two teachers think it will make students lazy and one is worried about errors. As head of department, how do I run a 45-minute meeting that gets them trying it sensibly?",
+  "criteria": [
+   "Acknowledges the concerns seriously rather than dismissing them",
+   "Includes teachers trying the tool on a real worksheet during the meeting",
+   "Shows how to check AI output for maths errors",
+   "Distinguishes teacher use for planning from student use",
+   "Ends with a small agreed trial and how it will be reviewed",
+   "Fits 45 minutes"
+  ]
+ },
+ {
+  "id": "ai-marking-ethics",
+  "category": "leadership-ai",
+  "phase": "Whole school",
+  "subject": "Leadership",
+  "task": "Teachers at my school want to paste student essays into ChatGPT to speed up marking. What should our guidance say?",
+  "criteria": [
+   "Addresses data protection (student names and personal data, the school's approved tools)",
+   "Notes AI marking can be inaccurate or inconsistent and needs teacher checking",
+   "Suggests appropriate uses (feedback drafting, finding common errors) versus inappropriate ones (final grades without review)",
+   "Mentions transparency with students and parents",
+   "Gives practical steps such as anonymising and using approved accounts",
+   "Clear and concise enough for staff to follow"
+  ]
+ },
+ {
+  "id": "wellbeing-workload",
+  "category": "leadership-ai",
+  "phase": "Whole school",
+  "subject": "Leadership",
+  "task": "Staff morale is low and marking workload keeps coming up. As deputy head, suggest how we could cut marking time this term without hurting students' learning.",
+  "criteria": [
+   "Proposes whole-class feedback or similar approaches with evidence that they can work",
+   "Cuts low-value marking (for example deep-marking every book) rather than just asking staff to work faster",
+   "Keeps feedback that students act on",
+   "Considers consistency and accountability (what leaders will look for)",
+   "Suggests involving staff and reviewing impact",
+   "Practical for a school to implement this term"
+  ]
+ },
+ {
+  "id": "reception-phonics",
+  "category": "planning",
+  "phase": "Early years",
+  "subject": "Phonics",
+  "task": "Reception class, 26 children, mid-autumn term. Plan a 20-minute phonics session introducing the digraph 'sh'. They know s, a, t, p, i, n, m, d, g, o, c, k, e, u, r, h, b, f, l and the digraph 'ck'.",
+  "criteria": [
+   "Follows a clear structure: revisit and review, teach, practise, apply",
+   "Revisits previously taught sounds before introducing 'sh'",
+   "Teaches 'sh' as one sound made by two letters, with a clear model of the pure sound",
+   "Practice words use only taught graphemes plus sh (for example ship, shop, fish, rush, shed)",
+   "Includes reading and some writing or spelling, with a short sentence to read",
+   "Engaging and right for four and five year olds, fitting 20 minutes"
+  ]
+ },
+ {
+  "id": "a-level-retrieval",
+  "category": "retrieval",
+  "phase": "Sixth form",
+  "subject": "Economics",
+  "task": "A level Economics, Year 13. Write a 15-minute retrieval task for the start of the lesson. This term we're on macroeconomics (aggregate demand and supply, inflation, unemployment, fiscal and monetary policy). Last year they did microeconomics (elasticities, market failure, government intervention). Their exam is in five months.",
+  "criteria": [
+   "Mixes current macro content with earlier micro content",
+   "Includes some questions requiring application or short explanation, not only definitions",
+   "Includes at least one diagram-based recall item (for example drawing or labelling an AD/AS shift)",
+   "Economics is accurate (definitions, causes and effects, policy mechanisms)",
+   "Answers or mark points are provided",
+   "Can realistically be done in 15 minutes"
+  ]
+ }
+]

@@ -1,0 +1,4 @@
+{"id": "sonnet-teaching-skills", "name": "Claude Sonnet + ai-teaching-skills", "model": "sonnet",
+ "skills": "entrants/libraries/ai-teaching-skills/skills",
+ "source": "https://github.com/kal-eficia/ai-teaching-skills",
+ "notes": "Claude Sonnet with the 56-skill ai-teaching-skills library. It chooses the skill itself from an index."}

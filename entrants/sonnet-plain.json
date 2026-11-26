@@ -1,0 +1,2 @@
+{"id": "sonnet-plain", "name": "Claude Sonnet", "model": "sonnet", "skills": null,
+ "notes": "Plain Claude Sonnet with no skills or extra instructions. The baseline."}

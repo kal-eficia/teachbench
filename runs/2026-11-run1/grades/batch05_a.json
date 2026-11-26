@@ -1,0 +1,11 @@
+{"grader": "05a", "answers": [
+{"id": "daff24f3", "task": "send", "scores": [2,2,2,2,2,2], "note": "Thorough, need-specific adaptations plus a ready-to-use whole-class sheet with timed steps, planning table and completion checklist, keeping the judgement for everyone."},
+{"id": "9ddba88f", "task": "send", "scores": [2,2,2,2,2,2], "note": "Strong whole-class rewrite with an explicit finish line and judgement scale, clear per-need tables, and a practical prep list for tomorrow."},
+{"id": "a2f1fc93", "task": "send", "scores": [2,1,2,2,1,2], "note": "Useful single scaffolded sheet for everyone, but per-need adaptations are compressed into one brief table and the autistic student gets no model answer or explicit picture of what finished looks like."},
+{"id": "fc392575", "task": "text-level", "scores": [2,2,2,2,2,2], "note": "Accurate, age-appropriate rewrite keeping every fact and key term, backed by a full glossary, comprehension questions and a teacher note."},
+{"id": "e182f23b", "task": "text-level", "scores": [2,2,1,2,2,1], "note": "Clear and accurate simplification, but the term 'biodiversity' is dropped and there is no glossary or teacher note beyond the in-text layer list."},
+{"id": "a6a6245c", "task": "text-level", "scores": [2,2,2,2,2,2], "note": "Excellent rewrite with headings, every subject term kept and explained, accurate additions, a full glossary, questions and a clear note of what was kept."},
+{"id": "6b7cce7d", "task": "class-feedback", "scores": [2,2,2,2,2,2], "note": "Ready-to-copy sheet with retell-versus-analysis and word-level examples, accurate 1912/1945 context, margin codes and a fully timed lesson ending in a paragraph rewrite."},
+{"id": "52ec9473", "task": "class-feedback", "scores": [2,2,2,2,2,2], "note": "Excellent coded feedback table with fixes, an accurate annotated model paragraph and differentiated code-specific rewrite tasks for lesson time."},
+{"id": "e46de621", "task": "class-feedback", "scores": [2,2,2,2,2,1], "note": "Solid coded sheet, model paragraph and rewrite task, but the model wrongly claims 'himself' is repeated in the quotation, a small accuracy slip in the exemplar."}
+]}

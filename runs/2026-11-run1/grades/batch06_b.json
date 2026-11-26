@@ -1,0 +1,11 @@
+{"grader": "06b", "answers": [
+{"id": "a524892d", "task": "homework", "scores": [2,2,2,2,2,2], "note": "Tight 25-minute sheet that mixes perfect tense, family words and opinions, with a full answer key, though the opinion task is not linked to the perfect tense or family theme."},
+{"id": "dee24204", "task": "homework", "scores": [2,2,2,2,2,2], "note": "Strongest design: from-memory retrieval, error-spotting and production tying family plus perfect tense plus opinion, with a parent role (listen and tick) any parent can do."},
+{"id": "e49a0b4b", "task": "homework", "scores": [2,2,1,2,2,2], "note": "Well supported for parents and teacher, but the word table at the top hands over every answer to Tasks 1 and 2, so much of it is copying rather than recall."},
+{"id": "7a85105f", "task": "revision-timetable", "scores": [2,2,2,2,2,2], "note": "Complete day-by-day plan for all three weeks with 25-minute active blocks, clear spacing, lighter football evenings and built-in spare blocks."},
+{"id": "e133aa60", "task": "revision-timetable", "scores": [2,1,2,2,1,2], "note": "Sensible weighting and spacing, but the weekly grid labels blocks only by subject and Week 3 asks for full timed papers far beyond the student's 30-minute limit."},
+{"id": "971b7df4", "task": "revision-timetable", "scores": [2,2,2,1,1,2], "note": "Only Week 1 is actually planned; Weeks 2 and 3 are one vague line each, so spacing and specific active tasks are mostly asserted rather than shown."},
+{"id": "53790404", "task": "tutoring", "scores": [2,2,2,2,2,2], "note": "Opens with retrieval on exactly the two gaps, models charge balancing before faded and independent practice, and ends with exit check, homework and student and parent notes."},
+{"id": "b2b156d0", "task": "tutoring", "scores": [1,1,2,2,2,2], "note": "Excellent modelling and practice on melting points, but the starter retrieves formulae and not the melting-point explanation, which is then re-taught, and the homework review is not clearly used to shape next steps."},
+{"id": "d75404c6", "task": "tutoring", "scores": [1,2,1,1,2,1], "note": "Thorough chemistry, but the starter re-tests what she already got right rather than her gaps, the hour splits across three focuses, and there is no note for the student or parent."}
+]}

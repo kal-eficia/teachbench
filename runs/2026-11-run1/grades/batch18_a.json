@@ -1,0 +1,11 @@
+{"grader": "18a", "answers": [
+{"id": "7e37ca4a", "task": "parent-good-news", "scores": [2, 2, 2, 2, 2, 1], "note": "Short, specific and measured with a good conversation prompt for home, though it closes on a request rather than a no-pressure friendly sign-off."},
+{"id": "81839eeb", "task": "parent-good-news", "scores": [1, 2, 2, 2, 1, 2], "note": "Warm and specific with a gentle no-pressure close, but longer than a few-second read and leans towards gushing ('beautifully', 'lovely' twice, 'so was I')."},
+{"id": "f751238a", "task": "parent-good-news", "scores": [2, 1, 2, 2, 2, 1], "note": "Very brief with a useful home prompt, but it never says she is normally shy (only 'nervous'), invents a class clap, and ends abruptly on instructions with no friendly close."},
+{"id": "c0627c98", "task": "attendance-concern", "scores": [2, 0, 2, 2, 1, 2], "note": "Warm, concise email with the fact, pattern and an easy meeting ask, but it never explains what the missed days mean for his learning."},
+{"id": "82a54c10", "task": "attendance-concern", "scores": [2, 0, 2, 2, 1, 2], "note": "Listening-first tone with flexible meeting formats and a clear subject line, but gives no reason why the absences matter for his learning and support is only implied."},
+{"id": "f2d970f2", "task": "attendance-concern", "scores": [2, 1, 2, 2, 1, 1], "note": "Very caring with concrete meeting slots and several ways to reply, but at roughly 280 words it is well over the limit and the impact on learning is only vaguely stated."},
+{"id": "85752ca7", "task": "newsletter", "scores": [1, 2, 1, 1, 1, 1], "note": "Rich, well-headed explanations of the learning, but too long for a phone, wrongly calls 12 December a Friday (it is a Saturday this year), and has no actual contact details."},
+{"id": "59cb537d", "task": "newsletter", "scores": [2, 1, 2, 2, 2, 2], "note": "Phone-friendly with an excellent who-does-what times tables routine and clear contact line, but the learning section is a bare list of topics that doesn't say what children actually learned."},
+{"id": "ef93ffd4", "task": "newsletter", "scores": [2, 2, 2, 1, 2, 2], "note": "Concise, plain and accurate (it correctly flags that 12 December is a Saturday), but the home help oddly has the child quiz the parent, which muddles who practises what."}
+]}

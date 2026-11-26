@@ -1,0 +1,866 @@
+{
+ "a94df5c6": {
+  "entrant": "sonnet-plain",
+  "task": "recall-starter"
+ },
+ "1c4af290": {
+  "entrant": "sonnet-plain",
+  "task": "questioning-plan"
+ },
+ "02b6fa6c": {
+  "entrant": "sonnet-plain",
+  "task": "unit-overview-primary"
+ },
+ "8e081462": {
+  "entrant": "sonnet-plain",
+  "task": "coursework-support"
+ },
+ "cd804967": {
+  "entrant": "sonnet-plain",
+  "task": "six-week-review"
+ },
+ "4ae0fbe7": {
+  "entrant": "sonnet-plain",
+  "task": "stretch-challenge"
+ },
+ "70e9e5ac": {
+  "entrant": "sonnet-plain",
+  "task": "analogy-explanation"
+ },
+ "7d520352": {
+  "entrant": "sonnet-plain",
+  "task": "tutoring-primary"
+ },
+ "3ae4e2c0": {
+  "entrant": "sonnet-plain",
+  "task": "difficult-conversation"
+ },
+ "046f57a2": {
+  "entrant": "sonnet-plain",
+  "task": "vocab-teaching"
+ },
+ "08ab5c69": {
+  "entrant": "sonnet-plain",
+  "task": "study-skills"
+ },
+ "658b645b": {
+  "entrant": "sonnet-plain",
+  "task": "dyslexia-resource"
+ },
+ "d75404c6": {
+  "entrant": "sonnet-plain",
+  "task": "tutoring"
+ },
+ "8fd95953": {
+  "entrant": "sonnet-plain",
+  "task": "parent-message"
+ },
+ "ca370271": {
+  "entrant": "sonnet-plain",
+  "task": "mentoring"
+ },
+ "2baee4a6": {
+  "entrant": "sonnet-plain",
+  "task": "hinge"
+ },
+ "ed60f542": {
+  "entrant": "sonnet-plain",
+  "task": "wellbeing-workload"
+ },
+ "daff24f3": {
+  "entrant": "sonnet-plain",
+  "task": "send"
+ },
+ "672a3148": {
+  "entrant": "sonnet-plain",
+  "task": "quiz"
+ },
+ "3f5057de": {
+  "entrant": "sonnet-plain",
+  "task": "adhd-routines"
+ },
+ "6b7cce7d": {
+  "entrant": "sonnet-plain",
+  "task": "class-feedback"
+ },
+ "387b2dfb": {
+  "entrant": "sonnet-plain",
+  "task": "cover"
+ },
+ "7c5b5bde": {
+  "entrant": "sonnet-plain",
+  "task": "explanation"
+ },
+ "5de5e11e": {
+  "entrant": "sonnet-plain",
+  "task": "retrieval-grid"
+ },
+ "72ae7f2a": {
+  "entrant": "sonnet-plain",
+  "task": "ai-marking-ethics"
+ },
+ "fd96962b": {
+  "entrant": "sonnet-plain",
+  "task": "mixed-attainment"
+ },
+ "3ca11042": {
+  "entrant": "sonnet-plain",
+  "task": "mark-scheme-levels"
+ },
+ "ce96cbe8": {
+  "entrant": "sonnet-plain",
+  "task": "multi-topic-quiz"
+ },
+ "8b2ac101": {
+  "entrant": "sonnet-plain",
+  "task": "low-literacy-text"
+ },
+ "01c19e4b": {
+  "entrant": "sonnet-plain",
+  "task": "autism-transition"
+ },
+ "2e49bc40": {
+  "entrant": "sonnet-plain",
+  "task": "restorative"
+ },
+ "e9b60eb4": {
+  "entrant": "sonnet-plain",
+  "task": "ai-proof"
+ },
+ "78b9921c": {
+  "entrant": "sonnet-plain",
+  "task": "spelling-retrieval"
+ },
+ "6c18f5f6": {
+  "entrant": "sonnet-plain",
+  "task": "peer-assessment"
+ },
+ "fcbaf283": {
+  "entrant": "sonnet-plain",
+  "task": "exam-technique"
+ },
+ "c2978cbe": {
+  "entrant": "sonnet-plain",
+  "task": "feedback-on-essay"
+ },
+ "828c22b7": {
+  "entrant": "sonnet-plain",
+  "task": "question-level-analysis"
+ },
+ "822b87c0": {
+  "entrant": "sonnet-plain",
+  "task": "intervention-plan"
+ },
+ "5a6137f8": {
+  "entrant": "sonnet-plain",
+  "task": "scheme-of-work"
+ },
+ "8f876ec6": {
+  "entrant": "sonnet-plain",
+  "task": "misconceptions"
+ },
+ "ce59632d": {
+  "entrant": "sonnet-plain",
+  "task": "reception-phonics"
+ },
+ "3e4280ff": {
+  "entrant": "sonnet-plain",
+  "task": "knowledge-quiz-primary"
+ },
+ "c35b8644": {
+  "entrant": "sonnet-plain",
+  "task": "primary-maths-lesson"
+ },
+ "a6bb43d5": {
+  "entrant": "sonnet-plain",
+  "task": "eal-lesson"
+ },
+ "7a6b3322": {
+  "entrant": "sonnet-plain",
+  "task": "code-exercise"
+ },
+ "e133aa60": {
+  "entrant": "sonnet-plain",
+  "task": "revision-timetable"
+ },
+ "640ab86a": {
+  "entrant": "sonnet-plain",
+  "task": "a-level-lesson"
+ },
+ "55d8bc17": {
+  "entrant": "sonnet-plain",
+  "task": "department-ai-cpd"
+ },
+ "374363db": {
+  "entrant": "sonnet-plain",
+  "task": "knowledge-organiser"
+ },
+ "81839eeb": {
+  "entrant": "sonnet-plain",
+  "task": "parent-good-news"
+ },
+ "3a5e963a": {
+  "entrant": "sonnet-plain",
+  "task": "vocab-retrieval-mfl"
+ },
+ "4a1f7cfe": {
+  "entrant": "sonnet-plain",
+  "task": "explain-primary"
+ },
+ "8bee1df4": {
+  "entrant": "sonnet-plain",
+  "task": "ai-policy-school"
+ },
+ "023e5c77": {
+  "entrant": "sonnet-plain",
+  "task": "progress-report-class"
+ },
+ "5c495d4d": {
+  "entrant": "sonnet-plain",
+  "task": "curriculum-map"
+ },
+ "50f77216": {
+  "entrant": "sonnet-plain",
+  "task": "worked-example"
+ },
+ "f2d970f2": {
+  "entrant": "sonnet-plain",
+  "task": "attendance-concern"
+ },
+ "54463b38": {
+  "entrant": "sonnet-plain",
+  "task": "cpd"
+ },
+ "e7c4f84d": {
+  "entrant": "sonnet-plain",
+  "task": "reports"
+ },
+ "1b2c7d45": {
+  "entrant": "sonnet-plain",
+  "task": "exam-question"
+ },
+ "b7ce98c1": {
+  "entrant": "sonnet-plain",
+  "task": "dual-coding"
+ },
+ "1ac7c631": {
+  "entrant": "sonnet-plain",
+  "task": "lesson-pack"
+ },
+ "7413f1ac": {
+  "entrant": "sonnet-plain",
+  "task": "a-level-retrieval"
+ },
+ "d42a3556": {
+  "entrant": "sonnet-plain",
+  "task": "form-time"
+ },
+ "3aa94a4f": {
+  "entrant": "sonnet-plain",
+  "task": "ucas-statement"
+ },
+ "85752ca7": {
+  "entrant": "sonnet-plain",
+  "task": "newsletter"
+ },
+ "9dedc6e8": {
+  "entrant": "sonnet-plain",
+  "task": "flashcards"
+ },
+ "e182f23b": {
+  "entrant": "sonnet-plain",
+  "task": "text-level"
+ },
+ "044bad4d": {
+  "entrant": "sonnet-plain",
+  "task": "observation-feedback"
+ },
+ "d145fe0d": {
+  "entrant": "sonnet-plain",
+  "task": "ai-literacy"
+ },
+ "8246a48a": {
+  "entrant": "sonnet-plain",
+  "task": "modelling-writing"
+ },
+ "e49a0b4b": {
+  "entrant": "sonnet-plain",
+  "task": "homework"
+ },
+ "2d554688": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "analogy-explanation"
+ },
+ "1f35b250": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "knowledge-organiser"
+ },
+ "205d2947": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "exam-technique"
+ },
+ "96ffc0b3": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "peer-assessment"
+ },
+ "5cebd4da": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "primary-maths-lesson"
+ },
+ "939de848": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "exam-question"
+ },
+ "f89862cc": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "dyslexia-resource"
+ },
+ "d60b9117": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "adhd-routines"
+ },
+ "c0627c98": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "attendance-concern"
+ },
+ "25a0cb95": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "study-skills"
+ },
+ "bafcf7a6": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "misconceptions"
+ },
+ "2d79ece1": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "a-level-retrieval"
+ },
+ "faf6f188": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "dual-coding"
+ },
+ "6ee4db24": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "observation-feedback"
+ },
+ "07c73b90": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "explanation"
+ },
+ "6b7b74a2": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "scheme-of-work"
+ },
+ "f95b97f1": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "hinge"
+ },
+ "d1dc1ff9": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "intervention-plan"
+ },
+ "16143bcf": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "six-week-review"
+ },
+ "f751238a": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "parent-good-news"
+ },
+ "36e81f06": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "recall-starter"
+ },
+ "48c292e3": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "coursework-support"
+ },
+ "78ece8e9": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "department-ai-cpd"
+ },
+ "8b23d032": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "unit-overview-primary"
+ },
+ "00028218": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "mixed-attainment"
+ },
+ "255ef44c": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "ai-policy-school"
+ },
+ "dee24204": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "homework"
+ },
+ "a7f408fd": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "code-exercise"
+ },
+ "b268feec": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "parent-message"
+ },
+ "61dd9c0c": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "wellbeing-workload"
+ },
+ "1c7f6003": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "mark-scheme-levels"
+ },
+ "97314b7e": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "cover"
+ },
+ "f8f9d621": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "vocab-retrieval-mfl"
+ },
+ "7e6b1dbe": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "mentoring"
+ },
+ "bc3abde6": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "ai-proof"
+ },
+ "9ba3520b": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "quiz"
+ },
+ "4ce287a9": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "lesson-pack"
+ },
+ "b2b156d0": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "tutoring"
+ },
+ "1fe9a36f": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "ai-literacy"
+ },
+ "9ddba88f": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "send"
+ },
+ "a2d502f7": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "retrieval-grid"
+ },
+ "d161c50b": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "autism-transition"
+ },
+ "59cb537d": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "newsletter"
+ },
+ "3ce616c5": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "knowledge-quiz-primary"
+ },
+ "05eab81d": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "vocab-teaching"
+ },
+ "f4481f84": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "low-literacy-text"
+ },
+ "ee070dc3": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "difficult-conversation"
+ },
+ "01226897": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "questioning-plan"
+ },
+ "adcaef7f": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "a-level-lesson"
+ },
+ "145b442a": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "question-level-analysis"
+ },
+ "f0f17e3e": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "reception-phonics"
+ },
+ "6f02a164": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "feedback-on-essay"
+ },
+ "4a3d7a25": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "stretch-challenge"
+ },
+ "3f8ac7b6": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "multi-topic-quiz"
+ },
+ "1e083c26": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "explain-primary"
+ },
+ "0afa9012": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "spelling-retrieval"
+ },
+ "dd6659e5": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "eal-lesson"
+ },
+ "b5186d36": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "modelling-writing"
+ },
+ "f3b0a6ce": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "reports"
+ },
+ "0596a7fd": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "ucas-statement"
+ },
+ "ab0200aa": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "ai-marking-ethics"
+ },
+ "52ec9473": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "class-feedback"
+ },
+ "a18005c9": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "form-time"
+ },
+ "909415cb": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "progress-report-class"
+ },
+ "db084ef3": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "cpd"
+ },
+ "b5921aaa": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "tutoring-primary"
+ },
+ "91144062": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "restorative"
+ },
+ "a6a6245c": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "text-level"
+ },
+ "e2108f27": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "curriculum-map"
+ },
+ "235e2176": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "worked-example"
+ },
+ "7a85105f": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "revision-timetable"
+ },
+ "25bef0d6": {
+  "entrant": "sonnet-teaching-skills",
+  "task": "flashcards"
+ },
+ "f9ac9b82": {
+  "entrant": "haiku-teaching-skills",
+  "task": "department-ai-cpd"
+ },
+ "0fba7d10": {
+  "entrant": "haiku-teaching-skills",
+  "task": "cover"
+ },
+ "66b62833": {
+  "entrant": "haiku-teaching-skills",
+  "task": "ai-marking-ethics"
+ },
+ "ad4bd042": {
+  "entrant": "haiku-teaching-skills",
+  "task": "progress-report-class"
+ },
+ "7e37ca4a": {
+  "entrant": "haiku-teaching-skills",
+  "task": "parent-good-news"
+ },
+ "65cfb2c4": {
+  "entrant": "haiku-teaching-skills",
+  "task": "hinge"
+ },
+ "ba66a98d": {
+  "entrant": "haiku-teaching-skills",
+  "task": "difficult-conversation"
+ },
+ "753c70a7": {
+  "entrant": "haiku-teaching-skills",
+  "task": "mark-scheme-levels"
+ },
+ "ee6fda82": {
+  "entrant": "haiku-teaching-skills",
+  "task": "a-level-retrieval"
+ },
+ "49e36493": {
+  "entrant": "haiku-teaching-skills",
+  "task": "six-week-review"
+ },
+ "f812a246": {
+  "entrant": "haiku-teaching-skills",
+  "task": "retrieval-grid"
+ },
+ "f192fc00": {
+  "entrant": "haiku-teaching-skills",
+  "task": "study-skills"
+ },
+ "225120c1": {
+  "entrant": "haiku-teaching-skills",
+  "task": "question-level-analysis"
+ },
+ "53f0150e": {
+  "entrant": "haiku-teaching-skills",
+  "task": "reception-phonics"
+ },
+ "c6da6a34": {
+  "entrant": "haiku-teaching-skills",
+  "task": "ai-literacy"
+ },
+ "3092278d": {
+  "entrant": "haiku-teaching-skills",
+  "task": "dyslexia-resource"
+ },
+ "6e7d3dc9": {
+  "entrant": "haiku-teaching-skills",
+  "task": "vocab-teaching"
+ },
+ "60b85f57": {
+  "entrant": "haiku-teaching-skills",
+  "task": "worked-example"
+ },
+ "0f771e0d": {
+  "entrant": "haiku-teaching-skills",
+  "task": "eal-lesson"
+ },
+ "b7cf9209": {
+  "entrant": "haiku-teaching-skills",
+  "task": "unit-overview-primary"
+ },
+ "1a582dcb": {
+  "entrant": "haiku-teaching-skills",
+  "task": "restorative"
+ },
+ "e90e86f2": {
+  "entrant": "haiku-teaching-skills",
+  "task": "spelling-retrieval"
+ },
+ "971b7df4": {
+  "entrant": "haiku-teaching-skills",
+  "task": "revision-timetable"
+ },
+ "9231c95e": {
+  "entrant": "haiku-teaching-skills",
+  "task": "explain-primary"
+ },
+ "7e3f9e3c": {
+  "entrant": "haiku-teaching-skills",
+  "task": "analogy-explanation"
+ },
+ "71836c26": {
+  "entrant": "haiku-teaching-skills",
+  "task": "a-level-lesson"
+ },
+ "0f3c4d76": {
+  "entrant": "haiku-teaching-skills",
+  "task": "misconceptions"
+ },
+ "766b6637": {
+  "entrant": "haiku-teaching-skills",
+  "task": "observation-feedback"
+ },
+ "ab3853f2": {
+  "entrant": "haiku-teaching-skills",
+  "task": "scheme-of-work"
+ },
+ "fc392575": {
+  "entrant": "haiku-teaching-skills",
+  "task": "text-level"
+ },
+ "4b4737e9": {
+  "entrant": "haiku-teaching-skills",
+  "task": "mentoring"
+ },
+ "b8e04f71": {
+  "entrant": "haiku-teaching-skills",
+  "task": "curriculum-map"
+ },
+ "bd39b509": {
+  "entrant": "haiku-teaching-skills",
+  "task": "knowledge-quiz-primary"
+ },
+ "85f41583": {
+  "entrant": "haiku-teaching-skills",
+  "task": "stretch-challenge"
+ },
+ "89b00904": {
+  "entrant": "haiku-teaching-skills",
+  "task": "multi-topic-quiz"
+ },
+ "e46de621": {
+  "entrant": "haiku-teaching-skills",
+  "task": "class-feedback"
+ },
+ "014b323f": {
+  "entrant": "haiku-teaching-skills",
+  "task": "low-literacy-text"
+ },
+ "c87a66fe": {
+  "entrant": "haiku-teaching-skills",
+  "task": "parent-message"
+ },
+ "eb1629df": {
+  "entrant": "haiku-teaching-skills",
+  "task": "vocab-retrieval-mfl"
+ },
+ "e546ecf4": {
+  "entrant": "haiku-teaching-skills",
+  "task": "peer-assessment"
+ },
+ "41be2369": {
+  "entrant": "haiku-teaching-skills",
+  "task": "tutoring-primary"
+ },
+ "b6c52b56": {
+  "entrant": "haiku-teaching-skills",
+  "task": "knowledge-organiser"
+ },
+ "043aecb3": {
+  "entrant": "haiku-teaching-skills",
+  "task": "ucas-statement"
+ },
+ "61e97a51": {
+  "entrant": "haiku-teaching-skills",
+  "task": "ai-proof"
+ },
+ "7038a18f": {
+  "entrant": "haiku-teaching-skills",
+  "task": "code-exercise"
+ },
+ "55c60f56": {
+  "entrant": "haiku-teaching-skills",
+  "task": "modelling-writing"
+ },
+ "5193709a": {
+  "entrant": "haiku-teaching-skills",
+  "task": "questioning-plan"
+ },
+ "53790404": {
+  "entrant": "haiku-teaching-skills",
+  "task": "tutoring"
+ },
+ "1ba825ab": {
+  "entrant": "haiku-teaching-skills",
+  "task": "intervention-plan"
+ },
+ "b825e628": {
+  "entrant": "haiku-teaching-skills",
+  "task": "autism-transition"
+ },
+ "e80eca41": {
+  "entrant": "haiku-teaching-skills",
+  "task": "quiz"
+ },
+ "c1471bd5": {
+  "entrant": "haiku-teaching-skills",
+  "task": "form-time"
+ },
+ "7aae8cf7": {
+  "entrant": "haiku-teaching-skills",
+  "task": "reports"
+ },
+ "a524892d": {
+  "entrant": "haiku-teaching-skills",
+  "task": "homework"
+ },
+ "00f0b280": {
+  "entrant": "haiku-teaching-skills",
+  "task": "wellbeing-workload"
+ },
+ "f59c4ea3": {
+  "entrant": "haiku-teaching-skills",
+  "task": "mixed-attainment"
+ },
+ "25ee98ba": {
+  "entrant": "haiku-teaching-skills",
+  "task": "dual-coding"
+ },
+ "bd3befe4": {
+  "entrant": "haiku-teaching-skills",
+  "task": "exam-question"
+ },
+ "ef93ffd4": {
+  "entrant": "haiku-teaching-skills",
+  "task": "newsletter"
+ },
+ "235a67c8": {
+  "entrant": "haiku-teaching-skills",
+  "task": "feedback-on-essay"
+ },
+ "b34cde5d": {
+  "entrant": "haiku-teaching-skills",
+  "task": "coursework-support"
+ },
+ "6d3a58a5": {
+  "entrant": "haiku-teaching-skills",
+  "task": "flashcards"
+ },
+ "a7b2695a": {
+  "entrant": "haiku-teaching-skills",
+  "task": "lesson-pack"
+ },
+ "816d45f4": {
+  "entrant": "haiku-teaching-skills",
+  "task": "explanation"
+ },
+ "0bacde63": {
+  "entrant": "haiku-teaching-skills",
+  "task": "recall-starter"
+ },
+ "d3242ecf": {
+  "entrant": "haiku-teaching-skills",
+  "task": "exam-technique"
+ },
+ "e322f461": {
+  "entrant": "haiku-teaching-skills",
+  "task": "cpd"
+ },
+ "82a54c10": {
+  "entrant": "haiku-teaching-skills",
+  "task": "attendance-concern"
+ },
+ "a2e04eba": {
+  "entrant": "haiku-teaching-skills",
+  "task": "primary-maths-lesson"
+ },
+ "a2f1fc93": {
+  "entrant": "haiku-teaching-skills",
+  "task": "send"
+ },
+ "5968a63b": {
+  "entrant": "haiku-teaching-skills",
+  "task": "adhd-routines"
+ },
+ "a43e4dc3": {
+  "entrant": "haiku-teaching-skills",
+  "task": "ai-policy-school"
+ }
+}

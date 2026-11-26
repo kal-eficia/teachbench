@@ -1,0 +1,11 @@
+{"grader": "01a", "answers": [
+{"id": "a7b2695a", "task": "lesson-pack", "scores": [2,2,2,2,2,2], "note": "Complete, Zoom-ready pack with a clean student HTML page, separate mark scheme and live solutions sheet, and a correct answer key (C A D B A D)."},
+{"id": "4ce287a9", "task": "lesson-pack", "scores": [2,2,2,2,2,2], "note": "Very thorough pack with scripted online moves, correct packet puzzles and a full mark scheme and solutions sheet; answer key C A D B D A checks out."},
+{"id": "1ac7c631", "task": "lesson-pack", "scores": [2,0,2,1,1,2], "note": "Solid teacher plan for Zoom, but there is no separate student-facing material, homework answers cover only two of four tasks, and there is no dedicated live solutions sheet."},
+{"id": "0bacde63", "task": "recall-starter", "scores": [2,2,2,2,2,2], "note": "Well-targeted, interleaved eight-question starter that hits both quiz gaps and older cells/particle work, with a key that explains each choice."},
+{"id": "a94df5c6", "task": "recall-starter", "scores": [0,2,2,1,1,2], "note": "Good misconception-focused answers, but Q5 deliberately previews acids and alkalis (neutralisation), the compounds questions sit next to each other, and students are never told to work from memory."},
+{"id": "36e81f06", "task": "recall-starter", "scores": [2,2,2,2,2,2], "note": "Strong starter that tests both weak areas twice in different formats, interleaves all prior lessons including cells, and gives a reasoned key with follow-up guidance."},
+{"id": "9ba3520b", "task": "quiz", "scores": [2,2,2,0,2,2], "note": "Accurate, well-explained quiz with good application questions and confidence ratings, but it includes no map-skills material and does not say how to add it."},
+{"id": "e80eca41", "task": "quiz", "scores": [2,1,2,2,2,2], "note": "Accurate quiz that interleaves two map-skills questions and explains distractors, though some options (e.g. 'North-east' or '5 km' as a grid reference) are not plausible distractors."},
+{"id": "672a3148", "task": "quiz", "scores": [2,1,2,0,0,0], "note": "Accurate questions with a correct key, but it has only a bare answer key with no explanations, no map skills, no guidance on using results, and some jokey distractors."}
+]}

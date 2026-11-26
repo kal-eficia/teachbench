@@ -1,0 +1,5207 @@
+{
+ "leaderboard": [
+  {
+   "entrant": "sonnet-teaching-skills",
+   "name": "Claude Sonnet + ai-teaching-skills",
+   "model": "sonnet",
+   "skills": "entrants/libraries/ai-teaching-skills/skills",
+   "tasks": 72,
+   "score": 95.6,
+   "ci95": [
+    93.9,
+    97.2
+   ],
+   "categories": {
+    "assessment": 98.1,
+    "explaining": 95.4,
+    "inclusion": 96.1,
+    "leadership-ai": 99.1,
+    "pastoral": 93.1,
+    "planning": 99.1,
+    "retrieval": 92.8,
+    "tutoring": 91.2
+   },
+   "code_checks": {
+    "passed": 6,
+    "total": 8,
+    "format_missed": 1
+   },
+   "median_words": 1220
+  },
+  {
+   "entrant": "haiku-teaching-skills",
+   "name": "Claude Haiku + ai-teaching-skills",
+   "model": "haiku",
+   "skills": "entrants/libraries/ai-teaching-skills/skills",
+   "tasks": 72,
+   "score": 84.8,
+   "ci95": [
+    81.7,
+    87.6
+   ],
+   "categories": {
+    "assessment": 84.3,
+    "explaining": 81.5,
+    "inclusion": 83.5,
+    "leadership-ai": 87.5,
+    "pastoral": 80.7,
+    "planning": 88.9,
+    "retrieval": 82.4,
+    "tutoring": 89.4
+   },
+   "code_checks": {
+    "passed": 5,
+    "total": 8,
+    "format_missed": 1
+   },
+   "median_words": 676
+  },
+  {
+   "entrant": "sonnet-plain",
+   "name": "Claude Sonnet",
+   "model": "sonnet",
+   "skills": null,
+   "tasks": 72,
+   "score": 82.7,
+   "ci95": [
+    79.3,
+    85.9
+   ],
+   "categories": {
+    "assessment": 87.0,
+    "explaining": 87.0,
+    "inclusion": 90.8,
+    "leadership-ai": 85.2,
+    "pastoral": 73.0,
+    "planning": 85.7,
+    "retrieval": 68.7,
+    "tutoring": 84.3
+   },
+   "code_checks": {
+    "passed": 2,
+    "total": 8,
+    "format_missed": 1
+   },
+   "median_words": 975
+  }
+ ],
+ "head_to_head": {
+  "sonnet-teaching-skills v haiku-teaching-skills": {
+   "wins": 57,
+   "losses": 8,
+   "level": 7
+  },
+  "sonnet-teaching-skills v sonnet-plain": {
+   "wins": 52,
+   "losses": 4,
+   "level": 16
+  },
+  "haiku-teaching-skills v sonnet-plain": {
+   "wins": 30,
+   "losses": 33,
+   "level": 9
+  }
+ },
+ "meta": {
+  "answers_scored": 216,
+  "missing": [],
+  "grader_mean_gap_points": 0.27,
+  "graders_within_2_points": 99.5
+ },
+ "answers": [
+  {
+   "id": "a94df5c6",
+   "entrant": "sonnet-plain",
+   "task": "recall-starter",
+   "category": "retrieval",
+   "phase": "Secondary",
+   "criteria": [
+    0,
+    2,
+    1.5,
+    1,
+    1,
+    2
+   ],
+   "pct": 62.5,
+   "auto": null,
+   "words": 916,
+   "notes": [
+    "Good misconception-focused answers, but Q5 deliberately previews acids and alkalis (neutralisation), the compounds questions sit next to each other, and students are never told to work from memory.",
+    "Q5 deliberately uses an acid/alkali neutralisation equation, so it tests the new topic, and students are never told to work from memory; cells dropped and two compound questions sit side by side."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "1c4af290",
+   "entrant": "sonnet-plain",
+   "task": "questioning-plan",
+   "category": "explaining",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    1,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 91.7,
+   "auto": null,
+   "words": 1216,
+   "notes": [
+    "Strong routines, probing and misconception checks with correct maths, but the hinge question tests substitution rather than finding the nth term, puts the correct answer at A despite advising against it, and gives a vague rationale for distractor 24.",
+    "Good habits, scripts and misconception checks, but the single hinge question puts the correct answer at A right after saying not to, and its 24 distractor is only loosely linked to a real error."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "02b6fa6c",
+   "entrant": "sonnet-plain",
+   "task": "unit-overview-primary",
+   "category": "planning",
+   "phase": "Primary",
+   "criteria": [
+    2,
+    1,
+    2,
+    1,
+    2,
+    1.5
+   ],
+   "pct": 79.2,
+   "auto": null,
+   "words": 1860,
+   "notes": [
+    "Strong baseline torch drawing, safety and end quiz, but Week 1 has no hands-on kit activity and the Week 4 and 5 starters introduce new content rather than retrieving earlier learning.",
+    "Detailed plan with good safety and a baseline and end quiz, but week 1 has no kit-based practical, most starters introduce new content rather than retrieve, and it teaches Year 6 circuit symbols and lists 'all metals are conductors' as a misconception."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "8e081462",
+   "entrant": "sonnet-plain",
+   "task": "coursework-support",
+   "category": "assessment",
+   "phase": "Secondary",
+   "criteria": [
+    1,
+    2,
+    2,
+    2,
+    1,
+    2
+   ],
+   "pct": 83.3,
+   "auto": null,
+   "words": 1957,
+   "notes": [
+    "Very thorough on what help is allowed, with records and an escalating plan for students who fall behind, but stages are labelled Month 1 to 8 with no calendar dates, and the assessment explanation is a teacher-facing marks table rather than student-friendly.",
+    "Clear checkpoints, rules and realistic habits (mocks, stand-ups), but the month-by-month plan is not anchored to calendar dates and stages are not explained in student-friendly assessment terms."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "cd804967",
+   "entrant": "sonnet-plain",
+   "task": "six-week-review",
+   "category": "tutoring",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    1,
+    2
+   ],
+   "pct": 91.7,
+   "auto": null,
+   "words": 1153,
+   "notes": [
+    "An honest, parent-friendly report that answers the question directly and handles Statistics and measurement noise well, but the six-point plan is longer than a small set of priorities.",
+    "Honest, clear parent-facing review with a good table, correct averages and caveats on noise, but the next-block plan has six items rather than a small set of focused priorities."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "4ae0fbe7",
+   "entrant": "sonnet-plain",
+   "task": "stretch-challenge",
+   "category": "inclusion",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    1
+   ],
+   "pct": 91.7,
+   "auto": null,
+   "words": 1265,
+   "notes": [
+    "Rich bank of reasoning tasks with a clear routine and explicit 'don't punish speed' advice, but the perimeter example leaves messy trial-and-error working in the answer and one always/sometimes/never statement is mislabelled 'never'.",
+    "Rich range of reasoning tasks with a clear no-need-to-ask routine, but the perimeter example is left as a muddled self-correction (perimeter 34 suggested though it gives x = 10/3) and one always/sometimes/never statement is mislabelled 'never'."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "70e9e5ac",
+   "entrant": "sonnet-plain",
+   "task": "analogy-explanation",
+   "category": "explaining",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    1,
+    1,
+    2,
+    2
+   ],
+   "pct": 83.3,
+   "auto": null,
+   "words": 908,
+   "notes": [
+    "Accurate, well-sequenced lesson with a strong elicit-and-revote on antibiotics, but it says to point out where the security analogy breaks down without ever saying where, and most check questions come at the end rather than along the way.",
+    "A solid, accurate lesson with a good elicit-then-correct misconception task and response graph, but it promises to show where the security analogy breaks down and never does, and most checks come only at the end."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "7d520352",
+   "entrant": "sonnet-plain",
+   "task": "tutoring-primary",
+   "category": "tutoring",
+   "phase": "Primary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    1,
+    2
+   ],
+   "pct": 91.7,
+   "auto": null,
+   "words": 819,
+   "notes": [
+    "Strong, playful untimed plan (traffic-light grid, catch-me-out, fact families) with correct patterns and derived facts, but home practice is vague and there is no written note for parents.",
+    "Strong strategy range and playful, untimed online activities (traffic-light grid, catch-me-out, fact-family cards), but home practice is only a verbal explanation to the parent rather than a written note."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "3ae4e2c0",
+   "entrant": "sonnet-plain",
+   "task": "difficult-conversation",
+   "category": "pastoral",
+   "phase": "Secondary",
+   "criteria": [
+    1,
+    1,
+    2,
+    1,
+    2,
+    1
+   ],
+   "pct": 66.7,
+   "auto": null,
+   "words": 1190,
+   "notes": [
+    "Warm, reflective preparation with good listening and acknowledgement, but it never clearly separates facts from interpretations, the opening does not state a shared aim, tears are not planned for, and the written follow-up is only an internal note rather than one to the parent.",
+    "Empathetic and strong on listening first and self-reflection, but it never explicitly separates facts from interpretations, the opening does not state a shared aim, tears in the meeting are not planned for, and the written follow-up is only an internal note rather than one to the parent."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "046f57a2",
+   "entrant": "sonnet-plain",
+   "task": "vocab-teaching",
+   "category": "explaining",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    1.5,
+    2,
+    2,
+    1.5,
+    2
+   ],
+   "pct": 91.7,
+   "auto": null,
+   "words": 1428,
+   "notes": [
+    "Thorough four-phase plan with accurate definitions, links, spaced retrieval and exam embedding, though it wrongly puts a source in the 4-mark question (sources go in the 5-mark) and gives almost no word origins.",
+    "Strong phased plan with spaced retrieval and exam embedding, but some example sentences are left as unfinished stems and word origins are not covered."
+   ],
+   "grader_gap": 2
+  },
+  {
+   "id": "08ab5c69",
+   "entrant": "sonnet-plain",
+   "task": "study-skills",
+   "category": "tutoring",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 1106,
+   "notes": [
+    "Well-evidenced and active session with a live brain dump, a spacing grid, phone options students choose from and a 7-day plan, timed exactly to 50 minutes.",
+    "Well-evidenced and well-paced plan covering retrieval, spacing, interleaving and phone boundaries with a concrete 7-day plan, timings adding to exactly 50 minutes."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "658b645b",
+   "entrant": "sonnet-plain",
+   "task": "dyslexia-resource",
+   "category": "inclusion",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    0.5
+   ],
+   "pct": 87.5,
+   "auto": null,
+   "words": 1190,
+   "notes": [
+    "Full, well-structured adaptation with glossary, chunked sources, planning grids, three response options and detailed layout guidance, though it does not consider how to avoid singling the student out in class.",
+    "Thorough, well-scaffolded student sheet with glossary, grids, response choices and clear presentation guidance, but nothing on avoiding singling the student out."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "d75404c6",
+   "entrant": "sonnet-plain",
+   "task": "tutoring",
+   "category": "tutoring",
+   "phase": "Secondary",
+   "criteria": [
+    1,
+    2,
+    1,
+    1,
+    2,
+    1
+   ],
+   "pct": 66.7,
+   "auto": null,
+   "words": 1495,
+   "notes": [
+    "Good diagnostic homework review and correct chemistry, but the hour is split three ways (formulae, melting points, covalent preview) with no single focus, the starter does not retrieve either of her actual gaps, and there is no note for the student or parent.",
+    "Thorough chemistry, but the starter re-tests what she already got right rather than her gaps, the hour splits across three focuses, and there is no note for the student or parent."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "8fd95953",
+   "entrant": "sonnet-plain",
+   "task": "parent-message",
+   "category": "pastoral",
+   "phase": "Secondary",
+   "criteria": [
+    0,
+    2,
+    1,
+    2,
+    2,
+    2
+   ],
+   "pct": 64.3,
+   "auto": {
+    "name": "Message under 100 words",
+    "pass": false,
+    "detail": "168 words"
+   },
+   "words": 325,
+   "notes": [
+    "Warm, jargon-free and clear about roles, but at roughly 165 words it is far too long for a quick phone read and adds a second ask about home.",
+    "Warm and clear, but at about 168 words it is far too long for a quick phone read and it adds a second ask about home circumstances."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "ca370271",
+   "entrant": "sonnet-plain",
+   "task": "mentoring",
+   "category": "pastoral",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    1.5,
+    1,
+    2
+   ],
+   "pct": 87.5,
+   "auto": null,
+   "words": 1036,
+   "notes": [
+    "Strong coaching flow with a live recall experiment that shows her why retrieval beats rereading, but the target is set for one week not a fortnight and the follow-up has no date or measure.",
+    "Strong coaching questions and a well-timed retrieval experiment with a clear explanation, though the follow-up is only 'next time' with no agreed date."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "2baee4a6",
+   "entrant": "sonnet-plain",
+   "task": "hinge",
+   "category": "assessment",
+   "phase": "Secondary",
+   "criteria": [
+    1,
+    1.5,
+    1.5,
+    2,
+    1.5,
+    2
+   ],
+   "pct": 79.2,
+   "auto": null,
+   "words": 725,
+   "notes": [
+    "Accurate maths and good diagnostic tables, but only one of the three options is multiple choice (the others are open calculation and spot-the-mistake tasks).",
+    "Only Option 2 is genuinely multiple choice; Option 1 repeats the same sum as free response and Option 3 is an open explanation task whose wording already tells students Sam is wrong, so it cannot detect the misconception."
+   ],
+   "grader_gap": 3
+  },
+  {
+   "id": "ed60f542",
+   "entrant": "sonnet-plain",
+   "task": "wellbeing-workload",
+   "category": "leadership-ai",
+   "phase": "Whole school",
+   "criteria": [
+    1,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 91.7,
+   "auto": null,
+   "words": 1116,
+   "notes": [
+    "Thorough, practical plan with a clear termly timeline, leadership commitments and impact checks, but it asserts that whole-class feedback and quizzes work without citing any evidence.",
+    "Thorough, implementable plan with staff consultation, scrutiny changes and a ready staff message, though the claim that whole-class feedback works rests on assertion rather than cited evidence."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "daff24f3",
+   "entrant": "sonnet-plain",
+   "task": "send",
+   "category": "inclusion",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 1669,
+   "notes": [
+    "Thorough, need-specific adaptations plus a ready-to-use whole-class sheet with timed steps, planning table and completion checklist, keeping the judgement for everyone.",
+    "Thorough and practical: whole-class changes avoid singling anyone out, each need gets targeted adjustments, and a complete ready-to-print task with a 30-minute timed breakdown is provided."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "672a3148",
+   "entrant": "sonnet-plain",
+   "task": "quiz",
+   "category": "retrieval",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    1,
+    1.5,
+    0,
+    0,
+    0
+   ],
+   "pct": 32.1,
+   "auto": {
+    "name": "No guessable answer pattern",
+    "pass": false,
+    "detail": "key BDACADBCDABC: staircase at Q7-Q9; staircase at Q10-Q12"
+   },
+   "words": 598,
+   "notes": [
+    "Accurate questions with a correct key, but it has only a bare answer key with no explanations, no map skills, no guidance on using results, and some jokey distractors.",
+    "Accurate but mostly definition recall with several obviously wrong distractors (e.g. river freezing), no map skills, and only a bare answer key with no explanations or guidance on using results."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "3f5057de",
+   "entrant": "sonnet-plain",
+   "task": "adhd-routines",
+   "category": "inclusion",
+   "phase": "Primary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 999,
+   "notes": [
+    "Comprehensive yet prioritised advice with a 'launch check', planned whole-class movement, positive reinforcement, parent and SENCo liaison and a simple two-week tally to track what works.",
+    "Comprehensive, prioritised and practical, covering task starts, planned movement, positive routines, parent and SENCo liaison and a simple tally to track what works."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "6b7cce7d",
+   "entrant": "sonnet-plain",
+   "task": "class-feedback",
+   "category": "assessment",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    1.5
+   ],
+   "pct": 95.8,
+   "auto": null,
+   "words": 925,
+   "notes": [
+    "Ready-to-copy sheet with retell-versus-analysis and word-level examples, accurate 1912/1945 context, margin codes and a fully timed lesson ending in a paragraph rewrite.",
+    "Well-structured sheet, codes and fully timed lesson with a rewrite task, but the analysis example claims a 'repeated focus on his own' that is not in the quoted line."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "387b2dfb",
+   "entrant": "sonnet-plain",
+   "task": "cover",
+   "category": "planning",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    1.5
+   ],
+   "pct": 95.8,
+   "auto": null,
+   "words": 956,
+   "notes": [
+    "Good, well-timed consolidation tasks with full answers and early-finisher work, but what should be handed in or completed is left vague ('collect the books or sheets', 'leave the work').",
+    "A solid, non-specialist-friendly lesson (draw and label, organ jobs table, sandwich journey, challenge, read-aloud quiz) with full answers and clear instructions to leave the books or sheets on the desk."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "7c5b5bde",
+   "entrant": "sonnet-plain",
+   "task": "explanation",
+   "category": "explaining",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    1,
+    2,
+    1,
+    2
+   ],
+   "pct": 83.3,
+   "auto": null,
+   "words": 900,
+   "notes": [
+    "Accurate science and a strong Australia/January challenge to the misconception, but the torch demonstration comes after the abstract explanation and most check questions are saved for the end.",
+    "Accurate, well-worded science that tackles the misconception well, but the torch demonstration comes after the abstract explanation and the understanding checks are mostly bunched at the end."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "5de5e11e",
+   "entrant": "sonnet-plain",
+   "task": "retrieval-grid",
+   "category": "retrieval",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    1,
+    1,
+    2,
+    2
+   ],
+   "pct": 83.3,
+   "auto": null,
+   "words": 1148,
+   "notes": [
+    "Three well-balanced grids with accurate, detailed answers, though several 'why'/'compare' link questions are longer than few-word recall and difficulty is varied only implicitly through the link questions, not marks.",
+    "Three well-mixed grids with an accurate, detailed answer key, but several questions (link and 'why' items) need extended answers and difficulty is not signalled with marks or points."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "72ae7f2a",
+   "entrant": "sonnet-plain",
+   "task": "ai-marking-ethics",
+   "category": "leadership-ai",
+   "phase": "Whole school",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    1
+   ],
+   "pct": 91.7,
+   "auto": null,
+   "words": 965,
+   "notes": [
+    "Very comprehensive on GDPR, accuracy, bias, JCQ rules and transparency, but at ten sections it reads as a full policy rather than guidance staff can quickly follow.",
+    "Comprehensive and accurate on UK GDPR, inaccuracy, acceptable and unacceptable uses, and transparency, but at ten sections it is long for staff to follow, and the under-13s rule is unexplained."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "fd96962b",
+   "entrant": "sonnet-plain",
+   "task": "mixed-attainment",
+   "category": "inclusion",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    1.5,
+    2
+   ],
+   "pct": 95.8,
+   "auto": null,
+   "words": 985,
+   "notes": [
+    "Strong 'one question, three gears' design with a shared grid, glossed extracts, starters, rich contextual and critical stretch, and cross-ability paired talk, although it doesn't list the actual Gear 1 quotations.",
+    "Good shared question with self-chosen 'gears' and rich stretch on context and structure, but it misplaces Curley's wife's Chapter 5 speech as being 'to the men' and calls Chapter 5 mid-way through the novel."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "3ca11042",
+   "entrant": "sonnet-plain",
+   "task": "mark-scheme-levels",
+   "category": "assessment",
+   "phase": "Secondary",
+   "criteria": [
+    1,
+    2,
+    2,
+    2,
+    2,
+    1
+   ],
+   "pct": 83.3,
+   "auto": null,
+   "words": 1387,
+   "notes": [
+    "Strong, accurate indicative content and a genuinely analytical Level 5 model extract, but the extract-based question does not actually print an extract and there is little guidance on placing an answer within a level.",
+    "Strong analytical model answer and accurate content, but the question leaves the teacher to find the extract and marker notes give caps rather than help placing answers within a level."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "ce96cbe8",
+   "entrant": "sonnet-plain",
+   "task": "multi-topic-quiz",
+   "category": "retrieval",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    0,
+    0
+   ],
+   "pct": 57.1,
+   "auto": {
+    "name": "No guessable answer pattern",
+    "pass": null,
+    "detail": "no ANSWER KEY line found"
+   },
+   "words": 591,
+   "notes": [
+    "Well-interleaved, accurate quiz with misconception-based distractors and several applied questions, but the answer key is letters only and there is no guidance on using the results.",
+    "Well-interleaved, accurate, application-heavy questions with strong misconception distractors, but the key is letters only with no explanations or next steps."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "8b2ac101",
+   "entrant": "sonnet-plain",
+   "task": "low-literacy-text",
+   "category": "inclusion",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    1,
+    2,
+    2,
+    0
+   ],
+   "pct": 64.3,
+   "auto": {
+    "name": "Reading age 9 or below",
+    "pass": false,
+    "detail": "estimated reading age 10.0"
+   },
+   "words": 182,
+   "notes": [
+    "Clear, accurate and age-appropriate, but it drops the word 'pathogen' and provides no glossary, headings or other support.",
+    "Clear, accurate and age-appropriate rewrite with a good lock-and-key analogy, but it drops the term 'pathogen' and offers no glossary or headings."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "01c19e4b",
+   "entrant": "sonnet-plain",
+   "task": "autism-transition",
+   "category": "inclusion",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 1086,
+   "notes": [
+    "Covers every criterion well, including a photo and note from the cover teacher, a social story with museum photos, a break signal and SENCo/parent involvement, and it explicitly avoids generalising.",
+    "Thorough and well-organised plan covering photo of the cover teacher, visual timetables, museum preview, break card, cover-teacher briefing and parent/SENCo involvement, with a respectful individualised tone."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "2e49bc40",
+   "entrant": "sonnet-plain",
+   "task": "restorative",
+   "category": "pastoral",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 1119,
+   "notes": [
+    "Thorough, well-sequenced plan with separate pre-meetings, clear ground rules, full restorative question set, a signed agreement and two-stage follow-up, though parents are not mentioned.",
+    "Thorough, well-sequenced plan with separate pre-meetings, clear ground rules, full restorative question set, a signed agreement and two-stage follow-up, plus safeguarding and online checks (parents not mentioned)."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "e9b60eb4",
+   "entrant": "sonnet-plain",
+   "task": "ai-proof",
+   "category": "leadership-ai",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    1,
+    2,
+    1,
+    1,
+    1
+   ],
+   "pct": 66.7,
+   "auto": null,
+   "words": 935,
+   "notes": [
+    "Offers a useful menu of redesign options and principles, but none is a single finished task with a from-memory stage, a specific AI rule, a hand-in list and a mark scheme, so the teacher still has to build it.",
+    "A useful menu of AI-resistant options and principles, but it is not a single ready-to-set task: there is no clear from-memory stage before AI, AI rules and hand-in/marking are only generic, and the flawed paragraph is left for the teacher to write."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "78b9921c",
+   "entrant": "sonnet-plain",
+   "task": "spelling-retrieval",
+   "category": "retrieval",
+   "phase": "Primary",
+   "criteria": [
+    1,
+    2,
+    1.5,
+    2,
+    2,
+    1
+   ],
+   "pct": 79.2,
+   "auto": null,
+   "words": 940,
+   "notes": [
+    "Varied, child-friendly games with old patterns mixed in daily, but one activity has children copy words, Monday packs 17 words into a few minutes, and checking relies on self-marking rather than the teacher tracking who is still wrong.",
+    "Varied, timed sessions with the rule explained simply, but Thursday's silent letter hunt has children copy words and teacher tracking is only of class-wide common problems via self-checking."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "6c18f5f6",
+   "entrant": "sonnet-plain",
+   "task": "peer-assessment",
+   "category": "assessment",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    1,
+    2
+   ],
+   "pct": 91.7,
+   "auto": null,
+   "words": 868,
+   "notes": [
+    "Strong frames, a good weak-versus-strong model comment and a compulsory response box, but the teacher's check on feedback quality amounts to circulating and collecting sheets rather than a planned sampling step.",
+    "Good sentence frames, model comments and a required response, but the teacher check is limited to circulating and challenging vague comments rather than a systematic quality check."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "fcbaf283",
+   "entrant": "sonnet-plain",
+   "task": "exam-technique",
+   "category": "tutoring",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    1,
+    2,
+    2,
+    1,
+    1
+   ],
+   "pct": 75.0,
+   "auto": null,
+   "words": 1077,
+   "notes": [
+    "Solid structure (PEEL plus judgement, planning grid) and timed practice with peer feedback, but no model answer is actually written out, the timing advice is inconsistent (9 minutes versus up to 15 minutes of writing) and there is almost no geography content to check.",
+    "Clear PEEL-plus-judgement structure and a planning grid, but it provides no actual model answer or geography content, and its timing advice (up to 15 minutes writing) is inconsistent."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "c2978cbe",
+   "entrant": "sonnet-plain",
+   "task": "feedback-on-essay",
+   "category": "assessment",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    0,
+    1,
+    2,
+    1
+   ],
+   "pct": 66.7,
+   "auto": null,
+   "words": 690,
+   "notes": [
+    "Encouraging and accurate on the main weakness, but it gives five numbered improvements, writes model sentences and a conclusion for the student, and sets a full rewrite rather than a short task (it also credits the student with naming the war guilt clause, which they did not).",
+    "Accurate praise and diagnosis, but five numbered improvements, model sentences for every point and a full-rewrite task bury the single priority."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "828c22b7",
+   "entrant": "sonnet-plain",
+   "task": "question-level-analysis",
+   "category": "assessment",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    1,
+    2,
+    2
+   ],
+   "pct": 91.7,
+   "auto": null,
+   "words": 773,
+   "notes": [
+    "Correct percentages and share-of-loss figures with sensible ranking by fixability, but diagnosis is limited to a blanks-versus-wrong-answers check and the stated lesson allocations (5/3/1/1) do not match the 10-lesson sequence given.",
+    "Ranks by loss and fixability, focuses on a manageable set with retrieval starters, and its arithmetic is correct, but diagnosis is limited to checking blanks versus wrong attempts."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "822b87c0",
+   "entrant": "sonnet-plain",
+   "task": "intervention-plan",
+   "category": "tutoring",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    1,
+    1.5,
+    1,
+    0.5,
+    2
+   ],
+   "pct": 66.7,
+   "auto": null,
+   "words": 714,
+   "notes": [
+    "Well-targeted weekly focuses on statement, evidence and effect, but the baseline (one cold paragraph) isn't comparable with the final full answer, timed practice only comes in weeks 5-6, and there is no exit criterion or next step.",
+    "Focused weekly sequence on Q4 skills, but the baseline (a cold paragraph) is not comparable with the full Week 6 answer, timed practice appears only at the end and there are no exit criteria."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "5a6137f8",
+   "entrant": "sonnet-plain",
+   "task": "scheme-of-work",
+   "category": "planning",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    1,
+    1,
+    1,
+    2,
+    1.5
+   ],
+   "pct": 70.8,
+   "auto": null,
+   "words": 745,
+   "notes": [
+    "Good see-modify-make approach and a well-matched assessment, but lessons give a focus rather than clear objectives, and retrieval and checkpoints are only generic or loosely implied.",
+    "The lesson order and see-modify-make approach are sound, but lessons list a focus rather than objectives, retrieval and checkpoints are only mentioned in passing, and the assessment timing (15 + 35 minutes plus 5 minutes of testing) overruns the 50-minute lesson."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "8f876ec6",
+   "entrant": "sonnet-plain",
+   "task": "misconceptions",
+   "category": "assessment",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    1,
+    2,
+    2
+   ],
+   "pct": 91.7,
+   "auto": null,
+   "words": 691,
+   "notes": [
+    "Groups Q3/Q8 by their shared root and separates firm misconceptions from gaps and slips well, but explains only thinly why each wrong idea is appealing.",
+    "Strong grouping of Q3 and Q8 as one 'electricity is a substance used up' root with predict-observe-explain and rope-loop models, but it barely explains why each wrong idea appeals to students."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "ce59632d",
+   "entrant": "sonnet-plain",
+   "task": "reception-phonics",
+   "category": "planning",
+   "phase": "Early years",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    1,
+    2
+   ],
+   "pct": 91.7,
+   "auto": null,
+   "words": 706,
+   "notes": [
+    "Solid, engaging session with decodable words, but the sentence reading is only a challenge for quicker children, and it wrongly lists 'a' and 'in' as tricky words.",
+    "Solid, engaging plan with decodable words and writing, but the sentence to read is only offered as a challenge for quicker children and it wrongly lists 'a' and 'in' as tricky words."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "3e4280ff",
+   "entrant": "sonnet-plain",
+   "task": "knowledge-quiz-primary",
+   "category": "retrieval",
+   "phase": "Primary",
+   "criteria": [
+    1,
+    2,
+    2,
+    1,
+    2,
+    2
+   ],
+   "pct": 83.3,
+   "auto": null,
+   "words": 757,
+   "notes": [
+    "Good mix of recall, diagram and explanation questions with a clear mark scheme and results guidance, but deposition is never assessed and the Q8 ordering task has an arbitrary, ambiguous sequence.",
+    "Good mix of recall, explanation and diagram with a clear mark scheme, but deposition is missing and the source-to-mouth ordering question (Q8) uses muddled, overlapping stages."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "c35b8644",
+   "entrant": "sonnet-plain",
+   "task": "primary-maths-lesson",
+   "category": "planning",
+   "phase": "Primary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    1
+   ],
+   "pct": 91.7,
+   "auto": null,
+   "words": 1270,
+   "notes": [
+    "Strong concrete-pictorial-abstract sequence with a whiteboard check and clear follow-up, but the challenge missing-digit item is printed with visible muddled self-correction (4_ + 38 = 73 is impossible) before being fixed.",
+    "Strong CPA teaching, whiteboard guided check and tiered, varied practice, but the challenge missing-digit item is left half-corrected with an impossible original version in the text."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "a6bb43d5",
+   "entrant": "sonnet-plain",
+   "task": "eal-lesson",
+   "category": "inclusion",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    1.5,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 95.8,
+   "auto": null,
+   "words": 1141,
+   "notes": [
+    "Comprehensive and thoughtful, including wellbeing and a same-language pairing idea, but it only asks the teacher to source translations rather than giving any Dari or Pashto vocabulary.",
+    "Thorough and practical: probes her prior science, uses Dari/Pashto as a strength, keeps the same tasks with scaffolds, gives frames and thoughtful pairing including a same-language peer with rotation."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "7a6b3322",
+   "entrant": "sonnet-plain",
+   "task": "code-exercise",
+   "category": "explaining",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    1,
+    2,
+    1,
+    1,
+    2
+   ],
+   "pct": 75.0,
+   "auto": null,
+   "words": 1239,
+   "notes": [
+    "Solid tasks and correct solutions, but it jumps quickly from a small modify step to writing from scratch, gives students few expected outputs or test cases, has hints on only two tasks, and the debugging task sits in an optional extension.",
+    "The solutions are correct and the stretch tasks are rich, but students go straight to writing code after one predict task, the debugging task (with an infinite loop) is hidden in an optional extension, and there are few test cases or hints."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "e133aa60",
+   "entrant": "sonnet-plain",
+   "task": "revision-timetable",
+   "category": "tutoring",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    1.5,
+    1.5,
+    2,
+    1.5,
+    2
+   ],
+   "pct": 87.5,
+   "auto": null,
+   "words": 1063,
+   "notes": [
+    "Realistic, well-explained weekly pattern with active methods and free evenings, but the actual grid gives History only 3 blocks, the same as Biology and English (the table claims 4), so History is not really prioritised.",
+    "Sensible weighting and spacing, but the weekly grid labels blocks only by subject and Week 3 asks for full timed papers far beyond the student's 30-minute limit."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "640ab86a",
+   "entrant": "sonnet-plain",
+   "task": "a-level-lesson",
+   "category": "planning",
+   "phase": "Sixth form",
+   "criteria": [
+    2,
+    2,
+    2,
+    1.5,
+    2,
+    2
+   ],
+   "pct": 95.8,
+   "auto": null,
+   "words": 1445,
+   "notes": [
+    "Accurate procedure and findings, a staged evaluation workshop (model, card sort, build) and an AQA-style 6-mark question with a peer-check checklist make it fully meet every criterion.",
+    "Accurate Milgram content and a well-scaffolded PEEL evaluation workshop with a model and card sort, but the 6-mark exam question has only a PEEL checklist rather than guidance on how the marks are earned."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "55d8bc17",
+   "entrant": "sonnet-plain",
+   "task": "department-ai-cpd",
+   "category": "leadership-ai",
+   "phase": "Whole school",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 1366,
+   "notes": [
+    "Well-timed agenda that sums to 45 minutes, turns each concern into a testable question, includes an error-hunt demo, a six-step checking protocol and a logged two-week trial with a set review.",
+    "Well-structured 45-minute agenda (sub-timings add up) that reframes each concern as a testable question, includes an error demo and 18 minutes of paired hands-on work with a checking protocol, and ends with a logged trial and a review date."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "374363db",
+   "entrant": "sonnet-plain",
+   "task": "knowledge-organiser",
+   "category": "planning",
+   "phase": "Secondary",
+   "criteria": [
+    0,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 83.3,
+   "auto": null,
+   "words": 1448,
+   "notes": [
+    "Accurate and thorough with good vocabulary, timeline and a self-quiz, but at ten sections with extended battle narratives it is a multi-page revision booklet, not a one-page organiser.",
+    "Accurate and rich in detail (Fulford, Oath of Salisbury, Harrying), with good vocabulary and a self-quiz, but at ten sections with several large tables it is a multi-page study guide, not a one-page knowledge organiser."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "81839eeb",
+   "entrant": "sonnet-plain",
+   "task": "parent-good-news",
+   "category": "pastoral",
+   "phase": "Primary",
+   "criteria": [
+    1,
+    2,
+    2,
+    2,
+    1,
+    2
+   ],
+   "pct": 71.4,
+   "auto": {
+    "name": "Message under 80 words",
+    "pass": false,
+    "detail": "119 words"
+   },
+   "words": 137,
+   "notes": [
+    "Warm and specific with a gentle no-pressure close, but longer than a few-second read and leans towards gushing ('beautifully', 'lovely' twice, 'so was I').",
+    "Warm and specific with a gentle home suggestion, but longer than needed and slightly gushing ('did it beautifully', 'so was I')."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "3a5e963a",
+   "entrant": "sonnet-plain",
+   "task": "vocab-retrieval-mfl",
+   "category": "retrieval",
+   "phase": "Secondary",
+   "criteria": [
+    1,
+    1,
+    2,
+    1,
+    1,
+    1
+   ],
+   "pct": 58.3,
+   "auto": null,
+   "words": 862,
+   "notes": [
+    "Week 1 is single-topic days rather than mixed retrieval, there are no answer keys for the quiz days, and it wrongly says me gusta stays singular with any subject (las matem\u00e1ticas needs gustan).",
+    "Clear routine with plenty of production, but most days focus on one topic, older topics are not systematically revisited, and it wrongly says me gusta stays singular with any subject (las matem\u00e1ticas needs me gustan)."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "4a1f7cfe",
+   "entrant": "sonnet-plain",
+   "task": "explain-primary",
+   "category": "explaining",
+   "phase": "Primary",
+   "criteria": [
+    2,
+    1.5,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 95.8,
+   "auto": null,
+   "words": 555,
+   "notes": [
+    "Lively, child-friendly read-aloud with spinning, a chant and good check questions, but calling the Sun 'a great big ball of fire' introduces a scientific inaccuracy.",
+    "Warm, very simple read-aloud with spinning actions, a chant and check questions that gently address the Sun going to bed, though calling the Sun 'a ball of fire' is a small inaccuracy."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "8bee1df4",
+   "entrant": "sonnet-plain",
+   "task": "ai-policy-school",
+   "category": "leadership-ai",
+   "phase": "Whole school",
+   "criteria": [
+    1,
+    1,
+    2,
+    2,
+    2,
+    1
+   ],
+   "pct": 75.0,
+   "auto": null,
+   "words": 649,
+   "notes": [
+    "Good coverage of honesty, JCQ/NEA and safety, but it only splits use into encouraged and not allowed (no 'allowed to check' level), sanctions are stated without any proportionate first step, and it runs over a page.",
+    "Strong on safety, JCQ/NEA and positive uses, but it runs well past one page and only gives allowed/not allowed rather than distinct check vs tool levels, with consequences stated as misconduct rather than graduated."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "023e5c77",
+   "entrant": "sonnet-plain",
+   "task": "progress-report-class",
+   "category": "tutoring",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    1,
+    2,
+    2,
+    2,
+    1.5
+   ],
+   "pct": 87.5,
+   "auto": null,
+   "words": 389,
+   "notes": [
+    "Correct figures and strong diagnose-then-reteach plan, but it assumes the baseline and end tests are comparable rather than cautioning that they may differ in difficulty.",
+    "Clear table and specific next steps, but it assumes the tests are comparable instead of cautioning about difficulty, and it says Infection and response gained 'over 30 points' when the gain was exactly 30."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "5c495d4d",
+   "entrant": "sonnet-plain",
+   "task": "curriculum-map",
+   "category": "leadership-ai",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 1311,
+   "notes": [
+    "Excellent end-to-end method with coded NC strands, depth codes, a worked RAG grid, team moderation of tags and a phased action plan, marred only by a small slip implying KS3 computing is optional in Year 9.",
+    "Thorough and accurate: coded KS3 strands, lesson-level tagging with depth codes, a termly grid with example rows, progression-break analysis, team sense-checking and a prioritised action plan with owners and deadlines."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "50f77216",
+   "entrant": "sonnet-plain",
+   "task": "worked-example",
+   "category": "explaining",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    1,
+    0,
+    2,
+    1,
+    2
+   ],
+   "pct": 66.7,
+   "auto": null,
+   "words": 827,
+   "notes": [
+    "Clear worked table and a well-graded progression to brackets, fractions and negatives with all answers correct, but the 'Guided' section is just bare questions, not partially completed examples.",
+    "Clear fully worked example and 21 well-graded questions with all answers correct, but the worked steps mostly say what rather than why and there are no partially completed examples to fade support."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "f2d970f2",
+   "entrant": "sonnet-plain",
+   "task": "attendance-concern",
+   "category": "pastoral",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    1,
+    2,
+    2,
+    1,
+    1
+   ],
+   "pct": 75.0,
+   "auto": null,
+   "words": 315,
+   "notes": [
+    "Very caring with concrete meeting slots and several ways to reply, but at roughly 280 words it is well over the limit and the impact on learning is only vaguely stated.",
+    "Caring and curious with concrete meeting slots and several reply options, but at roughly 280 words it is well over the 200-word target and the learning impact is only vague."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "54463b38",
+   "entrant": "sonnet-plain",
+   "task": "cpd",
+   "category": "leadership-ai",
+   "phase": "Whole school",
+   "criteria": [
+    1,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 91.7,
+   "auto": null,
+   "words": 1207,
+   "notes": [
+    "Strong hands-on session with a demo, error-spotting, data rules, commitment and follow-up in a correct 60-minute running order, but it sets four aims rather than one clear, limited goal.",
+    "Strong hands-on plan with demo, 20 minutes of paired practice, a dedicated 'what did it get wrong' segment and data rules, but it lists four aims rather than one clear limited goal."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "e7c4f84d",
+   "entrant": "sonnet-plain",
+   "task": "reports",
+   "category": "pastoral",
+   "phase": "Secondary",
+   "criteria": [
+    1,
+    1,
+    1.5,
+    1,
+    0,
+    2
+   ],
+   "pct": 46.4,
+   "auto": {
+    "name": "Reports pass length, repetition and jargon checks",
+    "pass": false,
+    "detail": "4 of 6 reports pass every check. [S3]: jargon or label to avoid: 'chatty' | [S4]: jargon or label to avoid: 'greater depth'"
+   },
+   "words": 436,
+   "notes": [
+    "Uses character labels ('chatty', 'bored'), opens S3 and S2 on negatives, and gives list-style next steps rather than one doable action.",
+    "Reports end positively, but several open with weaknesses rather than strengths and S3 and S6 use character labels like 'chatty' and 'bored'."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "1b2c7d45",
+   "entrant": "sonnet-plain",
+   "task": "exam-question",
+   "category": "assessment",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 678,
+   "notes": [
+    "Good rising-difficulty structure building to a 4-mark explain with accept/reject guidance and a point-because-so scaffold, though it gives no full written model answer.",
+    "Rising 1-1-2-4 structure building to a four-point denaturing chain, with accept/reject guidance and a point-because-so scaffold that directly targets weak 'explain' answers."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "b7ce98c1",
+   "entrant": "sonnet-plain",
+   "task": "dual-coding",
+   "category": "explaining",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    1.5,
+    2,
+    2
+   ],
+   "pct": 95.8,
+   "auto": null,
+   "words": 1148,
+   "notes": [
+    "Covers every stage accurately with drawing instructions, a script and plenary questions, though the four-panel ASCII layout sits a little awkwardly with the advice to build one growing diagram.",
+    "Covers all stages accurately with draw/say pairs and plenary questions, though labels are numerous and the ASCII shows four separate pictures despite advising one growing diagram."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "1ac7c631",
+   "entrant": "sonnet-plain",
+   "task": "lesson-pack",
+   "category": "planning",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    0,
+    2,
+    1,
+    1,
+    2
+   ],
+   "pct": 71.4,
+   "auto": {
+    "name": "No guessable answer pattern",
+    "pass": true,
+    "detail": "key BCADBD: clean"
+   },
+   "words": 1424,
+   "notes": [
+    "Solid teacher plan for Zoom, but there is no separate student-facing material, homework answers cover only two of four tasks, and there is no dedicated live solutions sheet.",
+    "Solid Zoom-ready teacher plan with timings adding to 50, but there is no separate student-facing material at all, and the homework answers and solutions are thin and partial."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "7413f1ac",
+   "entrant": "sonnet-plain",
+   "task": "a-level-retrieval",
+   "category": "retrieval",
+   "phase": "Sixth form",
+   "criteria": [
+    2,
+    2,
+    0,
+    2,
+    2,
+    1
+   ],
+   "pct": 75.0,
+   "auto": null,
+   "words": 936,
+   "notes": [
+    "Strong mark scheme and good chains of reasoning, but no diagram is required, and a full analytical paragraph with evaluation in about four minutes is unrealistic.",
+    "Accurate mix with a levelled mark scheme, but no diagram item is required and fourteen questions plus an evaluative paragraph and self-check will not fit in 15 minutes."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "d42a3556",
+   "entrant": "sonnet-plain",
+   "task": "form-time",
+   "category": "pastoral",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    1,
+    2,
+    2,
+    2,
+    1
+   ],
+   "pct": 83.3,
+   "auto": null,
+   "words": 1028,
+   "notes": [
+    "Covers all three themes with varied, practical daily activities, but sessions have no minute-by-minute timings, several look overloaded for 15 minutes, and scenario cards must be made by the tutor.",
+    "Covers all three themes with purposeful, varied daily activities and practical habits, but sessions have no timings and several are overstuffed or need scenario cards the tutor must make."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "3aa94a4f",
+   "entrant": "sonnet-plain",
+   "task": "ucas-statement",
+   "category": "tutoring",
+   "phase": "Sixth form",
+   "criteria": [
+    2,
+    2,
+    2,
+    1,
+    2,
+    2
+   ],
+   "pct": 91.7,
+   "auto": null,
+   "words": 655,
+   "notes": [
+    "Thorough, kind and accurate on reflection and insight, with clear next steps, but it supplies a full sample opening paragraph that edges towards writing it for her.",
+    "Comprehensive, warm and accurate about reflection and insight into medicine, but it supplies a full model opening paragraph, which partly does the rewriting for her."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "85752ca7",
+   "entrant": "sonnet-plain",
+   "task": "newsletter",
+   "category": "pastoral",
+   "phase": "Primary",
+   "criteria": [
+    1,
+    2,
+    1,
+    1,
+    1.5,
+    1
+   ],
+   "pct": 62.5,
+   "auto": null,
+   "words": 535,
+   "notes": [
+    "Rich, well-headed explanations of the learning, but too long for a phone, wrongly calls 12 December a Friday (it is a Saturday this year), and has no actual contact details.",
+    "Rich, warm explanations of the learning, but too long for a phone, wrongly calls 12 December a Friday, and has no actual contact details."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "9dedc6e8",
+   "entrant": "sonnet-plain",
+   "task": "flashcards",
+   "category": "retrieval",
+   "phase": "Secondary",
+   "criteria": [
+    1.5,
+    2,
+    2,
+    2,
+    1,
+    2
+   ],
+   "pct": 87.5,
+   "auto": null,
+   "words": 1585,
+   "notes": [
+    "Thorough and correct coverage with precise terms and exam tips, but several cards ask for lists (five factors, three methods, control variables) and the spaced self-testing guidance is only a brief closing line.",
+    "Comprehensive, accurate card set with precise terminology, explain-why cards and calculations, but guidance on spaced self-testing is only a one-line afterthought."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "e182f23b",
+   "entrant": "sonnet-plain",
+   "task": "text-level",
+   "category": "inclusion",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    1,
+    2,
+    2,
+    0.5
+   ],
+   "pct": 82.1,
+   "auto": {
+    "name": "Reading age 10.5 or below",
+    "pass": true,
+    "detail": "estimated reading age 8.8"
+   },
+   "words": 259,
+   "notes": [
+    "Clear and accurate simplification, but the term 'biodiversity' is dropped and there is no glossary or teacher note beyond the in-text layer list.",
+    "Clear, short-sentence rewrite keeping the facts, but the word 'biodiversity' is removed and there is no glossary, headings or teacher note."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "044bad4d",
+   "entrant": "sonnet-plain",
+   "task": "observation-feedback",
+   "category": "leadership-ai",
+   "phase": "Secondary",
+   "criteria": [
+    1.5,
+    1,
+    1.5,
+    0,
+    1,
+    2
+   ],
+   "pct": 58.3,
+   "auto": null,
+   "words": 910,
+   "notes": [
+    "Warm and practical, but it gives all three issues full treatment before prioritising, includes no rehearsal of the action step, and sets a follow-up without defining success.",
+    "Warm and practical, but it gives all three issues equal weight with long menus of strategies before prioritising, includes no rehearsal, and defines no success criteria."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "d145fe0d",
+   "entrant": "sonnet-plain",
+   "task": "ai-literacy",
+   "category": "leadership-ai",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    1
+   ],
+   "pct": 91.7,
+   "auto": null,
+   "words": 1495,
+   "notes": [
+    "Thorough plan with fact-check task, bias, learning prompts and safeguarding notes, but the 'using chatbots well' section's sub-timings (6+3+9+2 = 20 minutes) overrun its 18-minute slot.",
+    "Very thorough plan covering prediction, fact-checking, bias, learning prompts and safety, but the section 4 sub-timings add up to 20 minutes in an 18-minute slot, so the lesson overruns."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "8246a48a",
+   "entrant": "sonnet-plain",
+   "task": "modelling-writing",
+   "category": "explaining",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 2214,
+   "notes": [
+    "A very full script: detailed think-aloud, step-by-step co-construction using mini-whiteboards, and a separate independent focus on the final line with circulating prompts.",
+    "Detailed script that models thinking aloud and shortening the quotation, builds the shared paragraph with step-by-step prompts and gives a different you-do line."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "e49a0b4b",
+   "entrant": "sonnet-plain",
+   "task": "homework",
+   "category": "planning",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    1,
+    2,
+    2,
+    2
+   ],
+   "pct": 91.7,
+   "auto": null,
+   "words": 1113,
+   "notes": [
+    "Well-built parent note and checklist that need no French, but the word table hands students the answers to Tasks 1 and 2, so much of the work is copying rather than recall.",
+    "Well supported for parents and teacher, but the word table at the top hands over every answer to Tasks 1 and 2, so much of it is copying rather than recall."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "2d554688",
+   "entrant": "sonnet-teaching-skills",
+   "task": "analogy-explanation",
+   "category": "explaining",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 1554,
+   "notes": [
+    "Starts from students' own experience of chickenpox, has a check question after every step with likely wrong answers, gives four explicit limits of the analogy, and tackles the antibiotics misconception with a sort task and a comparison table.",
+    "Builds from a lived chickenpox experience with a check after every step, an analogy with four explicit break points, accurate biology and a direct, well-reasoned treatment of the antibiotics misconception."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "1f35b250",
+   "entrant": "sonnet-teaching-skills",
+   "task": "knowledge-organiser",
+   "category": "planning",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 1314,
+   "notes": [
+    "A genuinely one-page, selective organiser with an accurate dated timeline, numbered self-testable chunks, a blank look-cover-write-check version and ten retrieval questions.",
+    "Well-sized one-page organiser with an accurate dated timeline, a clear vocabulary table, a blank look-cover-write-check version, retrieval questions and guidance on how students should use it."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "205d2947",
+   "entrant": "sonnet-teaching-skills",
+   "task": "exam-technique",
+   "category": "tutoring",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    1.5,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 95.8,
+   "auto": null,
+   "words": 2686,
+   "notes": [
+    "Thorough I do / we do / you do lesson with full think-aloud model answers, a P-E-E-A scaffold, peer checking against criteria, realistic 10-12 minute timing and accurate coasts, flooding, urbanisation and climate content.",
+    "Very thorough I do/we do/you do lesson with full model answers, P-E-E-A scaffold and accurate geography, though it never shows example answers labelled at each mark level."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "96ffc0b3",
+   "entrant": "sonnet-teaching-skills",
+   "task": "peer-assessment",
+   "category": "assessment",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 1182,
+   "notes": [
+    "A complete, timed 55-minute lesson with five checkable criteria, calibration on two sample sheets, a forcing form, a compulsory writer response and teacher sampling, plus a short-time fallback.",
+    "A complete, timed 55-minute lesson with clear criteria, a two-sample calibration with teacher reveal, a forcing feedback form, a mandatory visible response and teacher sampling of forms."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "5cebd4da",
+   "entrant": "sonnet-teaching-skills",
+   "task": "primary-maths-lesson",
+   "category": "planning",
+   "phase": "Primary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 2573,
+   "notes": [
+    "Excellent pack: concrete-pictorial-abstract modelling, diagnostic hinge questions with a specific response plan, and practice that moves from an exchange/no-exchange sort through faded examples to reasoning, all with correct maths.",
+    "Excellent CPA sequence with explicit exchange language, diagnostic hinge questions with clear next steps, and varied practice (exchange/no-exchange sort, faded examples, reasoning and missing-digit tasks), all maths and timings correct."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "939de848",
+   "entrant": "sonnet-teaching-skills",
+   "task": "exam-question",
+   "category": "assessment",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 1248,
+   "notes": [
+    "Well-built 8-mark question with examiner-style mark scheme, extensive accept/reject lists and model answers that highlight the linking words explain questions need.",
+    "Excellent pack: plausible data, an explain part on temperature then a transfer explain part on pH, detailed accept/reject lists and model answers with linking words highlighted for students."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "f89862cc",
+   "entrant": "sonnet-teaching-skills",
+   "task": "dyslexia-resource",
+   "category": "inclusion",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    0.5
+   ],
+   "pct": 87.5,
+   "auto": null,
+   "words": 1260,
+   "notes": [
+    "Thorough adaptation that keeps comparison, utility and own knowledge, chunks sources without rewriting them and gives tables, frames and full presentation guidance, but never addresses avoiding singling the student out.",
+    "Strongest adaptation: chunks the real sources without rewriting them, scaffolds comparison and utility with tables and explains each change, but does not mention avoiding singling the student out."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "d60b9117",
+   "entrant": "sonnet-teaching-skills",
+   "task": "adhd-routines",
+   "category": "inclusion",
+   "phase": "Primary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 942,
+   "notes": [
+    "Specific, low-effort strategies covering task starts, planned movement and positive routines, with a sensible two-at-a-time approach and a tally to share with the SENCO and parents.",
+    "Practical, low-effort strategies that treat movement as a need, favour praise over sanctions, and include parent/SENCO contact plus a simple tally of what works."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "c0627c98",
+   "entrant": "sonnet-teaching-skills",
+   "task": "attendance-concern",
+   "category": "pastoral",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    0,
+    2,
+    2,
+    1,
+    2
+   ],
+   "pct": 75.0,
+   "auto": null,
+   "words": 349,
+   "notes": [
+    "Warm, concise email with the fact, pattern and an easy meeting ask, but it never explains what the missed days mean for his learning.",
+    "Short, friendly email with a clear ask and flexible meeting, but says nothing about the learning he is missing and support is only a vague 'see how school can help'."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "25a0cb95",
+   "entrant": "sonnet-teaching-skills",
+   "task": "study-skills",
+   "category": "tutoring",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 1199,
+   "notes": [
+    "Excellent student-friendly explanation of fluency, retrieval and spacing, with a brain dump and partner quiz on their own notes, a realistic weekly plan, a practical phone experiment and timings that add up to 50 minutes.",
+    "Strong, engaging session that explains fluency, retrieval and spacing in student language, has students practise on their own notes, and runs a practical phone experiment within an exact 50 minutes."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "bafcf7a6",
+   "entrant": "sonnet-teaching-skills",
+   "task": "misconceptions",
+   "category": "assessment",
+   "phase": "Secondary",
+   "criteria": [
+    1,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 91.7,
+   "auto": null,
+   "words": 1474,
+   "notes": [
+    "Thorough prioritisation by count and confidence with concrete demos, analogies and pattern-free hinge questions, though the main structure is still question by question with the shared current/charge/energy root added as a separate section.",
+    "Very thorough, with why-it-feels-right, demos, analogies, pattern-checked hinge questions and a re-test plan, though the main analysis still runs per question and the current/charge/energy grouping only comes afterwards."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "2d79ece1",
+   "entrant": "sonnet-teaching-skills",
+   "task": "a-level-retrieval",
+   "category": "retrieval",
+   "phase": "Sixth form",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    1
+   ],
+   "pct": 91.7,
+   "auto": null,
+   "words": 1306,
+   "notes": [
+    "Accurate, well-interleaved task with a diagram question, evaluation and a full key, but 10 recall questions, a diagram, an extended answer and self-marking are hard to fit into 15 minutes.",
+    "Accurate, well-interleaved task with a drawn AD/AS item and a full key, but twelve questions including a diagram, extended choice question and self-marking is a stretch for 15 minutes."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "faf6f188",
+   "entrant": "sonnet-teaching-skills",
+   "task": "dual-coding",
+   "category": "explaining",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    1.5,
+    2,
+    2
+   ],
+   "pct": 95.8,
+   "auto": null,
+   "words": 1615,
+   "notes": [
+    "Strong six-stage build-up with draw/say/check at every step, accurate swash-backwash and recurved-end geography, and a blank-diagram retrieval task to finish.",
+    "Thorough six-stage build covering every required stage with accurate geography, paired draw/say instructions and good checks, though the label list is long and includes sentence-length labels."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "6ee4db24",
+   "entrant": "sonnet-teaching-skills",
+   "task": "observation-feedback",
+   "category": "leadership-ai",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 1022,
+   "notes": [
+    "Exemplary: links the three issues into one priority, gives a precise chunk-and-check action step, scripts an 8-minute rehearsal, and sets a dated follow-up with clear success criteria.",
+    "Excellent: links all three issues to one priority, gives a precise chunk-and-check action step, scripts an 8-minute rehearsal and sets clear success criteria for a dated follow-up."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "07c73b90",
+   "entrant": "sonnet-teaching-skills",
+   "task": "explanation",
+   "category": "explaining",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 1427,
+   "notes": [
+    "Starts from Christmas in Australia, does the torch before the tilt, explains key vocabulary, checks understanding after every step and keeps the science correct, including the fixed axis direction.",
+    "Excellent: starts from Christmas in Australia, demolishes the distance idea with two pieces of evidence, uses the torch before introducing tilt, defines vocabulary, checks understanding at every step and gets the science right including the fixed axis."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "6b7b74a2",
+   "entrant": "sonnet-teaching-skills",
+   "task": "scheme-of-work",
+   "category": "planning",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 1765,
+   "notes": [
+    "Thorough, well-sequenced plan with named retrieval starters, two checkpoints, predict/modify/make tasks and an assessment that tests exactly what was taught.",
+    "A complete, well-sequenced 12-lesson plan with named retrieval starters, two checkpoint lessons before the assessment and an assessment that matches the content taught."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "f95b97f1",
+   "entrant": "sonnet-teaching-skills",
+   "task": "hinge",
+   "category": "assessment",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 1106,
+   "notes": [
+    "Three genuine MCQ hinge questions with every distractor tied to a named misconception, correct maths and a detailed per-option decision rule.",
+    "Three distinct multiple-choice hinge questions whose every distractor maps to a named, real error (including half-converted and denominator-added variants), with correct maths and a full decision rule per option."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "d1dc1ff9",
+   "entrant": "sonnet-teaching-skills",
+   "task": "intervention-plan",
+   "category": "tutoring",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    1,
+    2,
+    1
+   ],
+   "pct": 83.3,
+   "auto": null,
+   "words": 1680,
+   "notes": [
+    "Strong plan with a matched timed pre- and post-check, accurate AQA detail, fading worked examples and clear exit criteria, though timed writing only appears in session 5 and that session crams a 15-minute modelled answer into an 8-minute teaching slot.",
+    "Detailed and well-targeted, with moderated pre/post checks, fading worked examples and clear exit rules, but Session 5 crams teacher modelling of a 15-minute answer plus student writing into 30 minutes."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "16143bcf",
+   "entrant": "sonnet-teaching-skills",
+   "task": "six-week-review",
+   "category": "tutoring",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 1073,
+   "notes": [
+    "Correct averages, a clear verdict column, reasoned explanations for ratio and probability, three actionable priorities with week-12 targets, and a direct, honest parent summary.",
+    "Complete and honest: verdict column, correct matched-topic averages, statistics excluded from progress, reasoned explanations for ratio and probability, three actionable priorities and a plain parent report that opens with a direct yes."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "f751238a",
+   "entrant": "sonnet-teaching-skills",
+   "task": "parent-good-news",
+   "category": "pastoral",
+   "phase": "Primary",
+   "criteria": [
+    2,
+    1,
+    2,
+    2,
+    2,
+    1
+   ],
+   "pct": 85.7,
+   "auto": {
+    "name": "Message under 80 words",
+    "pass": true,
+    "detail": "62 words"
+   },
+   "words": 94,
+   "notes": [
+    "Very brief with a useful home prompt, but it never says she is normally shy (only 'nervous'), invents a class clap, and ends abruptly on instructions with no friendly close.",
+    "Very short with a nice home prompt, but never says she is normally shy so why it matters is only implied, and it ends on instructions to the parent rather than a friendly sign-off."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "36e81f06",
+   "entrant": "sonnet-teaching-skills",
+   "task": "recall-starter",
+   "category": "retrieval",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 875,
+   "notes": [
+    "Strong starter that tests both weak areas twice in different formats, interleaves all prior lessons including cells, and gives a reasoned key with follow-up guidance.",
+    "Excellent starter: both misconceptions tested twice in different formats, all four recent lessons plus particles and cells interleaved, from memory in 7 minutes, with a key that explains each choice."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "48c292e3",
+   "entrant": "sonnet-teaching-skills",
+   "task": "coursework-support",
+   "category": "assessment",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    1.5
+   ],
+   "pct": 95.8,
+   "auto": null,
+   "words": 2102,
+   "notes": [
+    "Week-numbered timeline mapped to September to April ahead of the May deadline, fortnightly RAG checkpoints, stage checklists students can use, a rule-compliant escalation table and a careful account of allowed help including AI.",
+    "Thorough week-by-week plan from September to April with correct OCR mark allocations, fortnightly RAG checkpoints, an escalation table and clear allowed/not-allowed help, though it says little about fitting NEA time around the taught course."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "78ece8e9",
+   "entrant": "sonnet-teaching-skills",
+   "task": "department-ai-cpd",
+   "category": "leadership-ai",
+   "phase": "Whole school",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 1426,
+   "notes": [
+    "Strongest facilitation: clarifies what 'lazy' means, gives sceptics checking roles, runs an error hunt, provides a six-step checking routine, model prompt, commitment card and a dated review with a stop option, all within 45 minutes.",
+    "Excellent plan that gives both sceptics a real role, includes an error hunt and hands-on generation for real upcoming content, sets out a six-step checking routine, and times out to exactly 45 minutes with a two-week trial and a review that ends in a decision."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "8b23d032",
+   "entrant": "sonnet-teaching-skills",
+   "task": "unit-overview-primary",
+   "category": "planning",
+   "phase": "Primary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 2031,
+   "notes": [
+    "Thorough, well-sequenced unit with kit-based practicals every week, spaced retrieval starters, a matched before/after assessment and accurate Year 4 pitch including clear mains and short-circuit safety.",
+    "Logical, kit-based sequence with retrieval starters every week, a baseline torch drawing repeated at the end, a matching end quiz and practical, and clear primary safety rules."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "00028218",
+   "entrant": "sonnet-teaching-skills",
+   "task": "mixed-attainment",
+   "category": "inclusion",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 1361,
+   "notes": [
+    "The best of the set: three accurately quoted evidence cards, open-access support and challenge for everyone, a questioning ladder, shared success criteria and a precisely timed 60-minute plan.",
+    "Outstanding single-lesson design: one big question and three shared evidence cards with accurate quotations, open-access scaffolds and challenge, mixed pairs and a questioning ladder, all realistic to prepare in an evening."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "255ef44c",
+   "entrant": "sonnet-teaching-skills",
+   "task": "ai-policy-school",
+   "category": "leadership-ai",
+   "phase": "Whole school",
+   "criteria": [
+    1,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 91.7,
+   "auto": null,
+   "words": 651,
+   "notes": [
+    "Strong, student-friendly policy with a clear three-level table, JCQ rules and proportionate sanctions, but at around 750 words with age-stage and parent sections it runs beyond one page.",
+    "Covers every criterion well, including a clear three-level table, JCQ precedence and a graduated response to misuse, though it is somewhat longer than one page."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "dee24204",
+   "entrant": "sonnet-teaching-skills",
+   "task": "homework",
+   "category": "planning",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 663,
+   "notes": [
+    "Strong retrieval-first homework that interleaves avoir, family words and opinions, with full answers and a parent role (listen, count, tick) any parent can do.",
+    "Strongest design: from-memory retrieval, error-spotting and production tying family plus perfect tense plus opinion, with a parent role (listen and tick) any parent can do."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "a7f408fd",
+   "entrant": "sonnet-teaching-skills",
+   "task": "code-exercise",
+   "category": "explaining",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 1655,
+   "notes": [
+    "Excellent ladder from predict and trace to modify, make, debug (infinite loop and off-by-one) and challenges, with test cases, staged hints and correct, verified solutions.",
+    "A well-graded predict-trace-modify-make sequence with a debugging task covering both an infinite loop and an off-by-one error, a full test-case table, staged hints, challenges and correct solutions (including the 27-day doubling answer)."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "b268feec",
+   "entrant": "sonnet-teaching-skills",
+   "task": "parent-message",
+   "category": "pastoral",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    1.5
+   ],
+   "pct": 96.4,
+   "auto": {
+    "name": "Message under 100 words",
+    "pass": true,
+    "detail": "66 words"
+   },
+   "words": 181,
+   "notes": [
+    "Short, warm and leads with the shared aim with a single 'reply YES' ask, but 'three homeworks are outstanding' is school phrasing a parent could misread as praise.",
+    "A 66-word message that opens with the shared aim, states the facts plainly and gives one easy action (reply YES) with day and time."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "61dd9c0c",
+   "entrant": "sonnet-teaching-skills",
+   "task": "wellbeing-workload",
+   "category": "leadership-ai",
+   "phase": "Whole school",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 760,
+   "notes": [
+    "Grounded in the DfE 2016 marking review, it names specific low-value marking to drop, says in writing what leaders will check, and sets out a measured pilot with clear owners.",
+    "Grounded in the DfE 2016 marking review, with a clear stop list, explicit statement of what leaders will check, and a timed staff-involved pilot with impact measures."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "1c7f6003",
+   "entrant": "sonnet-teaching-skills",
+   "task": "mark-scheme-levels",
+   "category": "assessment",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 2877,
+   "notes": [
+    "A complete, AQA-faithful pack with a correctly quoted extract, AO-mapped six-level descriptors, explicit within-level placement and capping rules, and an annotated model that analyses methods with accurate embedded quotations and integrated context.",
+    "Exemplary: AO-weighted levels, accurate quotations throughout, an annotated Level 6 extract and explicit within-level placement, capping and common-weakness guidance."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "97314b7e",
+   "entrant": "sonnet-teaching-skills",
+   "task": "cover",
+   "category": "planning",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 2096,
+   "notes": [
+    "Very complete cover pack with a word-for-word script, timings, a no-enzymes approach, a scaffolded writing task, full answers and a clear hand-in with a note for the returning teacher.",
+    "A very thorough pack with a word-for-word script, timings, a quiz, a scaffolded writing frame, challenge and exit question, full answers with model responses, and explicit hand-in and absence notes, though Q9 is awkwardly worded."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "f8f9d621",
+   "entrant": "sonnet-teaching-skills",
+   "task": "vocab-retrieval-mfl",
+   "category": "retrieval",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 2220,
+   "notes": [
+    "A fixed, timed routine with ten different interleaved question sets, written and spoken production, a tally-driven rotation system and correct Spanish including accents and gender.",
+    "Excellent: interleaved daily items with full answers, a tally system feeding the Friday checks, careful accurate Spanish, and a tightly timed whiteboard routine."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "7e6b1dbe",
+   "entrant": "sonnet-teaching-skills",
+   "task": "mentoring",
+   "category": "pastoral",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    1.5,
+    2,
+    2
+   ],
+   "pct": 95.8,
+   "auto": null,
+   "words": 1417,
+   "notes": [
+    "Detailed, coaching-led session with a blank-page recall demo, specific when/where action, confidence check, record template and next-session preview, though the target covers a week rather than a fortnight.",
+    "Excellent coaching-led plan with timings that sum to 20 minutes, a live blank-page recall demo that shows why rereading is weak, a specific student-chosen action and an agreed next date with a record template."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "bc3abde6",
+   "entrant": "sonnet-teaching-skills",
+   "task": "ai-proof",
+   "category": "leadership-ai",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 1398,
+   "notes": [
+    "A complete, accurate, student-ready task with a timed from-memory stage, a planted-error AI paragraph with answer key, explicit AI rules, a clear hand-in list and a mark scheme that credits thinking.",
+    "Thorough and classroom-ready: timed from-memory stage, a critique task with five accurate planted errors and answer key, explicit AI rules, a clear hand-in including prompts used, and a detailed mark scheme rewarding judgement and process."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "9ba3520b",
+   "entrant": "sonnet-teaching-skills",
+   "task": "quiz",
+   "category": "retrieval",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    0,
+    2,
+    2
+   ],
+   "pct": 85.7,
+   "auto": {
+    "name": "No guessable answer pattern",
+    "pass": true,
+    "detail": "key CADBCABDACDB: clean"
+   },
+   "words": 1359,
+   "notes": [
+    "Accurate, well-explained quiz with good application questions and confidence ratings, but it includes no map-skills material and does not say how to add it.",
+    "Accurate, well-explained quiz with misconception-based distractors and good use of confidence ratings, but it ignores map skills entirely."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "4ce287a9",
+   "entrant": "sonnet-teaching-skills",
+   "task": "lesson-pack",
+   "category": "planning",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": {
+    "name": "No guessable answer pattern",
+    "pass": true,
+    "detail": "key CADBDA: clean"
+   },
+   "words": 3147,
+   "notes": [
+    "Very thorough pack with scripted online moves, correct packet puzzles and a full mark scheme and solutions sheet; answer key C A D B D A checks out.",
+    "Very thorough and accurate pack with strong Zoom moves (polls, chat, hinge thresholds), recall starter from memory, full homework mark scheme and a one-screen solutions table."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "b2b156d0",
+   "entrant": "sonnet-teaching-skills",
+   "task": "tutoring",
+   "category": "tutoring",
+   "phase": "Secondary",
+   "criteria": [
+    1,
+    1,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 83.3,
+   "auto": null,
+   "words": 1671,
+   "notes": [
+    "Excellent modelling of the melting-point explanation, with accurate chemistry and a good parent note, but the starter retrieves only formulae (melting points go straight to re-teaching), and the homework review is not used to decide what comes next.",
+    "Excellent modelling and practice on melting points, but the starter retrieves formulae and not the melting-point explanation, which is then re-taught, and the homework review is not clearly used to shape next steps."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "1fe9a36f",
+   "entrant": "sonnet-teaching-skills",
+   "task": "ai-literacy",
+   "category": "leadership-ai",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 1558,
+   "notes": [
+    "Complete, well-timed lesson (sums to 60 minutes) with a predict-the-word game, catch-it-out critique, bias demo, four-part learning prompt, school AI levels and a ready student sheet.",
+    "Engaging, timings add up to exactly 60 minutes, with a live bias demo, a four-part learning prompt, school AI levels and a ready-made student sheet."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "9ddba88f",
+   "entrant": "sonnet-teaching-skills",
+   "task": "send",
+   "category": "inclusion",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 1364,
+   "notes": [
+    "Strong whole-class rewrite with an explicit finish line and judgement scale, clear per-need tables, and a practical prep list for tomorrow.",
+    "Strong, need-specific adaptations built on whole-class changes, with a timed four-step structure, a clear finish line and a realistic prep list for tomorrow."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "a2d502f7",
+   "entrant": "sonnet-teaching-skills",
+   "task": "retrieval-grid",
+   "category": "retrieval",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    1.5,
+    1,
+    1,
+    2
+   ],
+   "pct": 79.2,
+   "auto": null,
+   "words": 952,
+   "notes": [
+    "Strong mixed grid with a full key and confidence ratings, but several squares are explain/evaluate prompts, there is no explicit difficulty or marks weighting, and one listed 'misconception' wrongly says William was not king in 1066 (he was crowned on Christmas Day 1066).",
+    "Strong 12-square interleaved grid with confidence ratings and a full key, but no marks weighting by age of material and the misconception note wrongly implies William of Normandy was not king in 1066 (he was crowned on 25 December 1066)."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "d161c50b",
+   "entrant": "sonnet-teaching-skills",
+   "task": "autism-transition",
+   "category": "inclusion",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 1287,
+   "notes": [
+    "Thorough and practical, with a clear timeline, a script that leads with what stays the same, a photo card and trip guide, a one-page cover brief and an exit plan, all framed around this individual student.",
+    "Excellent, complete answer with a clear timeline, scripted explanation of same vs different, photo card, detailed trip guide, exit plan, cover briefing and explicit parent/SENCO involvement."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "59cb537d",
+   "entrant": "sonnet-teaching-skills",
+   "task": "newsletter",
+   "category": "pastoral",
+   "phase": "Primary",
+   "criteria": [
+    2,
+    1,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 91.7,
+   "auto": null,
+   "words": 339,
+   "notes": [
+    "Phone-friendly with an excellent who-does-what times tables routine and clear contact line, but the learning section is a bare list of topics that doesn't say what children actually learned.",
+    "Tight, scannable and excellent on who does what for times tables, but the learning section is a bare list of topics with no plain-language detail of what children learned."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "3ce616c5",
+   "entrant": "sonnet-teaching-skills",
+   "task": "knowledge-quiz-primary",
+   "category": "retrieval",
+   "phase": "Primary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 959,
+   "notes": [
+    "Covers water cycle, river features and deposition with accurate, child-friendly questions, confidence ratings and a key that links each wrong answer to a misconception to reteach.",
+    "Covers water cycle, river features and erosion/transport/deposition in child-friendly language, with a key that diagnoses each wrong answer and confidence ratings to spot misconceptions."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "05eab81d",
+   "entrant": "sonnet-teaching-skills",
+   "task": "vocab-teaching",
+   "category": "explaining",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 1000,
+   "notes": [
+    "Pairing each Christian term with an Islamic one, plus etymology, non-examples, fix-the-sentence tasks and a six-week retrieval schedule, makes this the most complete plan.",
+    "Well-designed paired-contrast approach with accurate definitions, origins, misconception fixes, spaced retrieval and an exam answer frame."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "f4481f84",
+   "entrant": "sonnet-teaching-skills",
+   "task": "low-literacy-text",
+   "category": "inclusion",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 85.7,
+   "auto": {
+    "name": "Reading age 9 or below",
+    "pass": false,
+    "detail": "estimated reading age 9.9"
+   },
+   "words": 377,
+   "notes": [
+    "Keeps all the science, including antigens, attenuated pathogens and the secondary response, in short, mature sentences, and adds a full glossary and questions, though one stray label says 'same for all versions'.",
+    "Keeps every key idea and term with in-text explanations, short sentences and a glossary plus questions, though the 'same for all versions' label on the questions is a stray artefact."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "ee070dc3",
+   "entrant": "sonnet-teaching-skills",
+   "task": "difficult-conversation",
+   "category": "pastoral",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 1039,
+   "notes": [
+    "Complete preparation: explicit facts-versus-interpretations split, shared-aim opening, listen-first, a table of responses covering anger, tears and 'you don't like her', owned next steps with a review date, and a ready follow-up email.",
+    "Thorough preparation that separates facts from interpretations, opens on a shared aim, listens and summarises before defending, covers anger, tears and 'you don't like her', assigns actions to each person with a review date, and drafts a same-day email."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "01226897",
+   "entrant": "sonnet-teaching-skills",
+   "task": "questioning-plan",
+   "category": "explaining",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 945,
+   "notes": [
+    "Excellent plan with three misconception-linked hinge questions (including decreasing sequences), decision rules, wait time, cold calling and correct maths throughout.",
+    "Strong, complete plan with three hinge questions whose distractors map to named misconceptions (including n + 4 and 3n + 4), clear decision rules, and all maths checked correct."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "adcaef7f",
+   "entrant": "sonnet-teaching-skills",
+   "task": "a-level-lesson",
+   "category": "planning",
+   "phase": "Sixth form",
+   "criteria": [
+    2,
+    2,
+    2,
+    1,
+    2,
+    2
+   ],
+   "pct": 91.7,
+   "auto": null,
+   "words": 1477,
+   "notes": [
+    "Outstanding explicit teaching of evaluation through a four-step chain with I do/we do/you do and a broken model to repair, but no actual AQA exam question is set for students, only a reference to the 16-mark format.",
+    "Outstanding explicit teaching of an evaluation chain with I do/we do/you do and good and broken models, though students never attempt the referenced 16-mark question in the lesson."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "145b442a",
+   "entrant": "sonnet-teaching-skills",
+   "task": "question-level-analysis",
+   "category": "assessment",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 884,
+   "notes": [
+    "The strongest analysis: accurate percentages and totals (359/616, 254/359, about 3 marks per student), a ranking explicitly weighing loss against teachability, a likely-cause column plus script checks for blanks, partial method marks and student profiles, and a 10-lesson plan with retrieval starters.",
+    "Accurate figures, a reasoned teachability ranking, a clear 10-lesson plan with retrieval starters, and practical diagnosis (blanks, 1-of-3 method marks, student profiles)."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "f0f17e3e",
+   "entrant": "sonnet-teaching-skills",
+   "task": "reception-phonics",
+   "category": "planning",
+   "phase": "Early years",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 730,
+   "notes": [
+    "Well-timed 20-minute plan that builds on ck, models a pure /sh/, uses only decodable words and includes dictation and a short caption to read.",
+    "Well-timed revisit-teach-practise-apply session with a pure /sh/ model, fully decodable word list, dictation and a decodable caption to read."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "6f02a164",
+   "entrant": "sonnet-teaching-skills",
+   "task": "feedback-on-essay",
+   "category": "assessment",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    1.5,
+    2
+   ],
+   "pct": 95.8,
+   "auto": null,
+   "words": 268,
+   "notes": [
+    "Tight, well-judged feedback with specific strengths, one clearly labelled priority, guiding questions plus a sentence starter rather than a rewrite, a useful accuracy note on the 1921 figure, and a timed 10-minute task.",
+    "Tightly focused on one priority with guiding questions, a sentence starter and a short task, though the tone is clipped and only lightly encouraging for Year 9."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "4a3d7a25",
+   "entrant": "sonnet-teaching-skills",
+   "task": "stretch-challenge",
+   "category": "inclusion",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    1.5,
+    1.5,
+    2
+   ],
+   "pct": 91.7,
+   "auto": null,
+   "words": 751,
+   "notes": [
+    "Well-chosen tiered tasks with correct, checked worked answers and a practical challenge-desk and log set-up, though it only lightly addresses making extension feel like a reward rather than extra work.",
+    "Well-tiered, correctly worked tasks including no-solution and always/sometimes/never reasoning, though it says little about keeping the rest of the class undisturbed beyond a challenge desk and log."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "3f8ac7b6",
+   "entrant": "sonnet-teaching-skills",
+   "task": "multi-topic-quiz",
+   "category": "retrieval",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    1
+   ],
+   "pct": 78.6,
+   "auto": {
+    "name": "No guessable answer pattern",
+    "pass": null,
+    "detail": "no ANSWER KEY line found"
+   },
+   "words": 942,
+   "notes": [
+    "Strong interleaved, accurate, application-heavy quiz with a misconception table for every wrong option, though it stops short of saying explicitly what to reteach from the results.",
+    "Strong interleaved quiz with accurate calculations and a full misconception table, though it stops short of explicit reteaching advice based on the results."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "1e083c26",
+   "entrant": "sonnet-teaching-skills",
+   "task": "explain-primary",
+   "category": "explaining",
+   "phase": "Primary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    1.5
+   ],
+   "pct": 95.8,
+   "auto": null,
+   "words": 987,
+   "notes": [
+    "Thorough, accurate script with a sticker-on-ball demo, spinny-chair role play and gentle misconception handling, but six steps plus a partner check is long for a Year 1 attention span.",
+    "Clear, correct torch-and-ball script with child actions, gentle correction of 'the Sun goes to bed', and check questions at every step, kept to a few minutes of talk."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "0afa9012",
+   "entrant": "sonnet-teaching-skills",
+   "task": "spelling-retrieval",
+   "category": "retrieval",
+   "phase": "Primary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 1124,
+   "notes": [
+    "Minute-by-minute plans that are all recall-based, mix kn/gn into every day, explain the dge/ge rule simply and build in ways to note who is struggling, including a Friday tally.",
+    "Fully worked five mornings with minute-by-minute recall tasks, kn/gn mixed in daily, a simple rule, transfer words and teacher tracking of who is still wrong."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "dd6659e5",
+   "entrant": "sonnet-teaching-skills",
+   "task": "eal-lesson",
+   "category": "inclusion",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 797,
+   "notes": [
+    "Practical and well judged: uses the symbol equation to tap her prior knowledge, gives a pictured vocabulary sheet with Dari translations to check, keeps the same tasks, and adds sentence frames and a supportive partner.",
+    "Concise and usable, with a pre-checked Dari vocabulary table, an equation-based probe of prior knowledge, same-task scaffolds, frames and a sensible order for fading supports."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "b5186d36",
+   "entrant": "sonnet-teaching-skills",
+   "task": "modelling-writing",
+   "category": "explaining",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 1241,
+   "notes": [
+    "Excellent think-aloud with live self-correction, sequenced shared prompts and a hinge question, but the hinge distractor says rhyme is absent from a line that does rhyme (crawls/walls/falls).",
+    "Excellent think-aloud model with live self-correction, prompted we-do, accurate quotations and different you-do lines with model answers."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "f3b0a6ce",
+   "entrant": "sonnet-teaching-skills",
+   "task": "reports",
+   "category": "pastoral",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    1,
+    2,
+    2
+   ],
+   "pct": 92.9,
+   "auto": {
+    "name": "Reports pass length, repetition and jargon checks",
+    "pass": true,
+    "detail": "6 of 6 reports pass every check."
+   },
+   "words": 469,
+   "notes": [
+    "Each report opens on an earned strength and gives one concrete step framed as a habit, but 'The next step is' recurs in five of the six, so they feel templated.",
+    "Strength-first, specific and habit-focused reports with concrete next steps, slightly weakened by the repeated 'The next step is' and 'a real highlight' phrasing."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "0596a7fd",
+   "entrant": "sonnet-teaching-skills",
+   "task": "ucas-statement",
+   "category": "tutoring",
+   "phase": "Sixth form",
+   "criteria": [
+    2,
+    2,
+    1,
+    2,
+    1.5,
+    1
+   ],
+   "pct": 79.2,
+   "auto": null,
+   "words": 199,
+   "notes": [
+    "Sharp, direct diagnosis of the cliches and a clear redraft task, but it offers almost no prompting questions and says little about what medical schools look for beyond 'a moment'.",
+    "Sharp, accurate diagnosis of the claims-not-evidence problem and a clear redraft task, but it is thin on guiding questions, encouragement and what medical schools actually look for."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "ab0200aa",
+   "entrant": "sonnet-teaching-skills",
+   "task": "ai-marking-ethics",
+   "category": "leadership-ai",
+   "phase": "Whole school",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 804,
+   "notes": [
+    "Covers every point in a staff-friendly format, with a four-question check before feedback reaches students, explicit transparency, a pilot and a ready-to-use handbook paragraph.",
+    "Covers every criterion clearly, with practical anonymising and approved-account steps, a four-question checking routine, transparency with students and parents, and a ready-to-use one-paragraph handbook version."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "52ec9473",
+   "entrant": "sonnet-teaching-skills",
+   "task": "class-feedback",
+   "category": "assessment",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 1095,
+   "notes": [
+    "Excellent coded feedback table with fixes, an accurate annotated model paragraph and differentiated code-specific rewrite tasks for lesson time.",
+    "Excellent code-linked sheet with accurate quotations and context, an annotated model paragraph, code-specific 15-minute rewrite tasks and a stretch code for the capitalism students."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "a18005c9",
+   "entrant": "sonnet-teaching-skills",
+   "task": "form-time",
+   "category": "pastoral",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 1586,
+   "notes": [
+    "Consistent 15-minute routine with timed sessions for weeks 1 to 2, practical habits (night-before bag routine, planner, charging outside bedroom) and belonging-building compliment cards, though weeks 3 to 4 are only outlined.",
+    "Highly runnable plan with a consistent daily shape, inline scripts and scenarios and strong belonging elements, though several timed breakdowns add to 13 or 14 rather than 15 minutes."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "909415cb",
+   "entrant": "sonnet-teaching-skills",
+   "task": "progress-report-class",
+   "category": "tutoring",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    1.5,
+    1.5
+   ],
+   "pct": 91.7,
+   "auto": null,
+   "words": 479,
+   "notes": [
+    "Accurate changes and means, sensible caution and specific, measurable next steps, though it wrongly claims gains were largest where the class started lowest (Bioenergetics started lowest and gained least).",
+    "Thorough and cautious with strong next actions, but longer than a short summary and it wrongly claims gains were largest where the class started lowest, which the data contradicts (Bioenergetics started lowest and gained least)."
+   ],
+   "grader_gap": 2
+  },
+  {
+   "id": "db084ef3",
+   "entrant": "sonnet-teaching-skills",
+   "task": "cpd",
+   "category": "leadership-ai",
+   "phase": "Whole school",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 1148,
+   "notes": [
+    "A tightly focused plan with one clear goal, 25 protected minutes of hands-on work on teachers' own lessons, a deliberate failure demo, data rules, a commitment card and a two-week follow-up, all fitting exactly into 60 minutes.",
+    "Tightly focused session with 25 protected minutes of paired practice on real lessons, a live demo that deliberately shows an error, explicit data rules, commitment cards and a two-week follow-up, with timings totalling exactly 60 minutes."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "b5921aaa",
+   "entrant": "sonnet-teaching-skills",
+   "task": "tutoring-primary",
+   "category": "tutoring",
+   "phase": "Primary",
+   "criteria": [
+    2,
+    2,
+    2,
+    1,
+    2,
+    1.5
+   ],
+   "pct": 87.5,
+   "auto": null,
+   "words": 1409,
+   "notes": [
+    "Calm, well-sequenced 6x plan built from 5x with correct maths and a clear parent note, but activities are plain whiteboard questioning with little game-like engagement for a 9-10 year old.",
+    "Very well-structured untimed plan built on 5x plus one more with homework and a clear parent note, but activities are mostly question tables rather than engaging online games, and it wrongly says the only hard facts left are six, ignoring the 9s."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "91144062",
+   "entrant": "sonnet-teaching-skills",
+   "task": "restorative",
+   "category": "pastoral",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 1294,
+   "notes": [
+    "Complete and practical plan covering willingness checks, ground rules, restorative questions, written repair agreement, parent messages, safeguarding and one-week follow-up.",
+    "Strong, practical plan covering willingness and calm checks, the restorative questions, written repair agreement, a one-week check-in and involvement of parents, safeguarding and the year team on the online element."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "a6a6245c",
+   "entrant": "sonnet-teaching-skills",
+   "task": "text-level",
+   "category": "inclusion",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": {
+    "name": "Reading age 10.5 or below",
+    "pass": true,
+    "detail": "estimated reading age 8.8"
+   },
+   "words": 770,
+   "notes": [
+    "Excellent rewrite with headings, every subject term kept and explained, accurate additions, a full glossary, questions and a clear note of what was kept.",
+    "Keeps every fact and all key terms with in-text definitions, short sentences, accurate conversions, plus headings, a glossary, questions and a note of what was kept."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "e2108f27",
+   "entrant": "sonnet-teaching-skills",
+   "task": "curriculum-map",
+   "category": "leadership-ai",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 1332,
+   "notes": [
+    "Thorough and practical: atomic NC statement codes, an I/D/A/R term-by-term grid with example rows, explicit ordering and progression checks, and prioritised actions with owners and dates.",
+    "Strong, practical method with an accurate 22-point breakdown, an I/D/A/R grid with illustrative rows, explicit order and progression checks, and a ranked action list. One small slip: it says the programme of study has nine bullet points when it has ten."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "235e2176",
+   "entrant": "sonnet-teaching-skills",
+   "task": "worked-example",
+   "category": "explaining",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    1,
+    0,
+    2,
+    1,
+    2
+   ],
+   "pct": 66.7,
+   "auto": null,
+   "words": 1775,
+   "notes": [
+    "Strong, fully correct variation-based set with negatives and right-side unknowns, but the worked example only says what is done, and there are no partially completed examples to fade support.",
+    "Rich, accurate sheet with a fully worked example and good reasoning tasks, but the example gives little reasoning for each step and there are no partially completed examples between it and independent work."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "7a85105f",
+   "entrant": "sonnet-teaching-skills",
+   "task": "revision-timetable",
+   "category": "tutoring",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 1514,
+   "notes": [
+    "Fully specified day-by-day plan with 25-minute active blocks, light post-football sessions, visible spacing, spare blocks and a fallback rule, all fitted around every commitment.",
+    "Complete day-by-day plan for all three weeks with 25-minute active blocks, clear spacing, lighter football evenings and built-in spare blocks."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "25bef0d6",
+   "entrant": "sonnet-teaching-skills",
+   "task": "flashcards",
+   "category": "retrieval",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 953,
+   "notes": [
+    "Precise, correct cards with explain-why items, worked calculations, required-practical detail and a concrete spaced schedule across the eight weeks.",
+    "Accurate, interleaved one-idea cards using precise terms, with correct calculations and a concrete spaced-retrieval schedule over the eight weeks."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "f9ac9b82",
+   "entrant": "haiku-teaching-skills",
+   "task": "department-ai-cpd",
+   "category": "leadership-ai",
+   "phase": "Whole school",
+   "criteria": [
+    1,
+    2,
+    1,
+    0,
+    2,
+    2
+   ],
+   "pct": 66.7,
+   "auto": null,
+   "words": 572,
+   "notes": [
+    "Concise, correctly timed plan with hands-on practice on teachers' own worksheets, but the error check is only 'solve every question' and it never explicitly separates teacher planning use from student use of AI.",
+    "Tight and practical with hands-on work on teachers' own worksheets, but it calls all three colleagues sceptics, adds a worry nobody raised, reduces error checking to 'solve every question', and never separates teacher use from student use of AI."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "0fba7d10",
+   "entrant": "haiku-teaching-skills",
+   "task": "cover",
+   "category": "planning",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    1,
+    2,
+    2
+   ],
+   "pct": 91.7,
+   "auto": null,
+   "words": 935,
+   "notes": [
+    "Clear non-specialist instructions, answers and collection steps, but the short-answer worksheet would take most classes well under the 35 minutes allotted, leaving too little work for 50 minutes.",
+    "Clear script, timings, answer key and collection instructions, but about 20 short recall questions are stretched across 45 minutes, leaving too little real work and only a 3-minute slot for the challenge."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "66b62833",
+   "entrant": "haiku-teaching-skills",
+   "task": "ai-marking-ethics",
+   "category": "leadership-ai",
+   "phase": "Whole school",
+   "criteria": [
+    2,
+    2,
+    2,
+    0,
+    2,
+    2
+   ],
+   "pct": 83.3,
+   "auto": null,
+   "words": 417,
+   "notes": [
+    "Clear, concise and practical on data protection, accuracy and allowed uses, but says nothing about being transparent with students or parents.",
+    "Concise and practical on data protection, inaccuracy and testing a tool on essays already marked, but it never mentions being open with students or parents about AI use."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "ad4bd042",
+   "entrant": "haiku-teaching-skills",
+   "task": "progress-report-class",
+   "category": "tutoring",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 308,
+   "notes": [
+    "Concise, correct and appropriately cautious about different papers, with targeted diagnostic and retrieval actions, marred only by the muddled phrase that 41% is 'below half the class'.",
+    "Concise, accurate and cautious about the papers being different, with targeted diagnostic next steps and measurable targets, though the phrase 'below half the class' is clumsy."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "7e37ca4a",
+   "entrant": "haiku-teaching-skills",
+   "task": "parent-good-news",
+   "category": "pastoral",
+   "phase": "Primary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    1
+   ],
+   "pct": 92.9,
+   "auto": {
+    "name": "Message under 80 words",
+    "pass": true,
+    "detail": "71 words"
+   },
+   "words": 73,
+   "notes": [
+    "Short, specific and measured with a good conversation prompt for home, though it closes on a request rather than a no-pressure friendly sign-off.",
+    "Brief, specific and well pitched, explaining why it is a big step for a shy child; the close is a request to the parent rather than an optional, friendly ending."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "65cfb2c4",
+   "entrant": "haiku-teaching-skills",
+   "task": "hinge",
+   "category": "assessment",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    1,
+    2,
+    1.5,
+    2,
+    2
+   ],
+   "pct": 87.5,
+   "auto": null,
+   "words": 533,
+   "notes": [
+    "Correct maths and clear decision rules, but some distractors are weak or implausible (e.g. 8/20 'left out the first fraction') and option 2 gives no response for choice A.",
+    "Maths is correct and most distractors are real errors, but Option 3's 8/20 ('left out the first fraction') is not a genuine misconception and Option 2's decision rule omits what to do if many pick the add-across answer 3/7."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "ba66a98d",
+   "entrant": "haiku-teaching-skills",
+   "task": "difficult-conversation",
+   "category": "pastoral",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    1,
+    1,
+    2,
+    2
+   ],
+   "pct": 83.3,
+   "auto": null,
+   "words": 844,
+   "notes": [
+    "Clear and practical with a good facts/feelings split and follow-up email, but the opening has the teacher present first before hearing the parent, and the difficult-moments table omits anger.",
+    "Clear facts-versus-interpretations split, a shared-aim opening, owned next steps and a ready follow-up email, but the opening has the teacher present first rather than listen first, and parental anger is not specifically prepared for."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "753c70a7",
+   "entrant": "haiku-teaching-skills",
+   "task": "mark-scheme-levels",
+   "category": "assessment",
+   "phase": "Secondary",
+   "criteria": [
+    1.5,
+    2,
+    2,
+    2,
+    1,
+    0
+   ],
+   "pct": 70.8,
+   "auto": null,
+   "words": 883,
+   "notes": [
+    "Sound levels and indicative content, but the 'extract' is a single line with an apparently spliced-in phrase ('I am so fluttered and so glad!') and there is no guidance at all on placing answers within a level.",
+    "Sound question, levels and model extract, but the printed extract adds a line ('I am so fluttered and so glad') that is not in Dickens and there is no guidance on placing an answer within a level."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "ee6fda82",
+   "entrant": "haiku-teaching-skills",
+   "task": "a-level-retrieval",
+   "category": "retrieval",
+   "phase": "Sixth form",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    1.5
+   ],
+   "pct": 95.8,
+   "auto": null,
+   "words": 713,
+   "notes": [
+    "Clearly labelled micro/macro mix with application questions, an AD/AS diagram item, marking points for every question and a realistic 12+3 minute split.",
+    "Clearly labelled micro/macro mix with mark points and an AD/AS diagram question, but 24 marks including several 3-mark explanations in 12 minutes is unrealistic."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "49e36493",
+   "entrant": "haiku-teaching-skills",
+   "task": "six-week-review",
+   "category": "tutoring",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    1
+   ],
+   "pct": 91.7,
+   "auto": null,
+   "words": 718,
+   "notes": [
+    "Accurate table and focused three priorities with targets, but the parent letter only says 'we're making good progress' and never answers the 'is it working' question with the honest mixed picture given in the tutor section.",
+    "Strong analysis and three specific, measurable priorities, but the parent letter never directly answers whether the tutoring is working (that answer sits only in the tutor section) and omits the flat probability score."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "f812a246",
+   "entrant": "haiku-teaching-skills",
+   "task": "retrieval-grid",
+   "category": "retrieval",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    1,
+    0,
+    2,
+    2
+   ],
+   "pct": 75.0,
+   "auto": null,
+   "words": 504,
+   "notes": [
+    "Accurate key covering all three periods, but the open 'why did it matter' column makes it less short and specific, and there is no variation in difficulty at all.",
+    "Covers all three periods with an accurate key, but it is a thin seven-row prompt table with open 'why did it matter' columns rather than specific short questions, and no variation in difficulty."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "f192fc00",
+   "entrant": "haiku-teaching-skills",
+   "task": "study-skills",
+   "category": "tutoring",
+   "phase": "Secondary",
+   "criteria": [
+    1,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 91.7,
+   "auto": null,
+   "words": 601,
+   "notes": [
+    "Active, well-timed session with a brain dump, a spacing schedule and a phone rule, but it explains why retrieval works and never explains why spacing helps, and the phone section is muddled (phones are boxed at the door yet discussed mid-session).",
+    "Active, well-timed session with brain dump, phone rule and a two-week tracker, but it explains why spacing works barely at all and the sleep line wrongly says revision is when memory is consolidated."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "225120c1",
+   "entrant": "haiku-teaching-skills",
+   "task": "question-level-analysis",
+   "category": "assessment",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    2
+   ],
+   "pct": 66.7,
+   "auto": null,
+   "words": 688,
+   "notes": [
+    "Arithmetic and per-question likely causes are correct, but it ranks by size of loss only, spreads the 10 lessons across all eight topics instead of choosing a few, and has little retrieval to keep stronger topics ticking over.",
+    "Correct percentages, but it ranks purely by size and gives every one of the eight topics lesson time, with little diagnosis or spaced retrieval."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "53f0150e",
+   "entrant": "haiku-teaching-skills",
+   "task": "reception-phonics",
+   "category": "planning",
+   "phase": "Early years",
+   "criteria": [
+    2,
+    2,
+    2,
+    1,
+    2,
+    1.5
+   ],
+   "pct": 87.5,
+   "auto": null,
+   "words": 500,
+   "notes": [
+    "Clear structure with sentences to read, but it uses 'wish' even though w has not been taught (including in the exit check), and reading cards with each of 26 children runs past 20 minutes.",
+    "Clear 20-minute structure with sentences to read, but it uses 'wish' (w is untaught, as the answer itself notes) in both the reading list and the exit check."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "c6da6a34",
+   "entrant": "haiku-teaching-skills",
+   "task": "ai-literacy",
+   "category": "leadership-ai",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    1,
+    2,
+    2
+   ],
+   "pct": 91.7,
+   "auto": null,
+   "words": 598,
+   "notes": [
+    "Sound and well-timed lesson covering prediction, critique and quiz-style prompting, but bias appears only as a stretch question and the plan is thin on detail and safety.",
+    "Clear, well-timed lesson (58 minutes) with a good catch-it-out task and quiz prompt, but bias appears only as a stretch question."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "3092278d",
+   "entrant": "haiku-teaching-skills",
+   "task": "dyslexia-resource",
+   "category": "inclusion",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    1,
+    2,
+    2,
+    1.5,
+    0.5
+   ],
+   "pct": 75.0,
+   "auto": null,
+   "words": 648,
+   "notes": [
+    "Clear stepped task with grid, starters and voice options, but does little to reduce the reading load of the sources themselves and omits coloured backgrounds or any point about not singling the student out.",
+    "Clear step-by-step structure with grid and oral options, but the sources themselves are not chunked or key-word highlighted and singling out is not addressed."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "6e7d3dc9",
+   "entrant": "haiku-teaching-skills",
+   "task": "vocab-teaching",
+   "category": "explaining",
+   "phase": "Secondary",
+   "criteria": [
+    1,
+    1,
+    2,
+    2,
+    2,
+    1
+   ],
+   "pct": 75.0,
+   "auto": null,
+   "words": 727,
+   "notes": [
+    "Good word parts and a retrieval schedule, but it defines risalah as 'message' rather than AQA's 'prophethood', some example sentences (e.g. for tawhid) never use the term, and exam guidance is thin.",
+    "Useful table with word origins and a retrieval schedule, but risalah is defined as 'message' rather than prophethood, the example sentences are weak, and there is little on gaining exam marks."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "60b85f57",
+   "entrant": "haiku-teaching-skills",
+   "task": "worked-example",
+   "category": "explaining",
+   "phase": "Secondary",
+   "criteria": [
+    0,
+    0,
+    0,
+    2,
+    0,
+    2
+   ],
+   "pct": 33.3,
+   "auto": null,
+   "words": 1043,
+   "notes": [
+    "All answers are correct and the questions build well, but there is no worked example at all and no student-facing warning about the risky step.",
+    "Strong variation-based question set with correct answers, but it has no worked example at all, no faded support, and common errors appear only in the teacher key."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "0f771e0d",
+   "entrant": "haiku-teaching-skills",
+   "task": "eal-lesson",
+   "category": "inclusion",
+   "phase": "Secondary",
+   "criteria": [
+    1.5,
+    1.5,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 91.7,
+   "auto": null,
+   "words": 612,
+   "notes": [
+    "Concise and practical with Dari translations, frames and a sensible buddy, but the word list leaves out 'photosynthesis' and 'carbon dioxide', has a transliteration slip, and the lesson flow fills only 40 of the stated 60 minutes.",
+    "Practical with Dari vocabulary, frames and a buddy, but it only plans to ask about prior learning rather than using it, and its word equation wrongly lists sunlight as a reactant."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "b7cf9209",
+   "entrant": "haiku-teaching-skills",
+   "task": "unit-overview-primary",
+   "category": "planning",
+   "phase": "Primary",
+   "criteria": [
+    2,
+    2,
+    1,
+    2,
+    1,
+    1
+   ],
+   "pct": 75.0,
+   "auto": null,
+   "words": 820,
+   "notes": [
+    "Logical sequence with weekly retrieval starters, but safety covers only short circuits with no mention of mains danger, the baseline is a single oral question, and 'bulbs share the electricity' reinforces a used-up misconception.",
+    "A thin but sensible sequence with retrieval starters, but it gives no mains-electricity safety message, its starting check is only an unrecorded oral question, and it teaches that series bulbs 'share the electricity'."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "1a582dcb",
+   "entrant": "haiku-teaching-skills",
+   "task": "restorative",
+   "category": "pastoral",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    0,
+    2,
+    2,
+    2
+   ],
+   "pct": 83.3,
+   "auto": null,
+   "words": 476,
+   "notes": [
+    "Sound restorative questions and repair ideas, but the joint meeting is thin and has no ground rules, and it invents a teacher failing ('I should have checked in on Monday').",
+    "Sound but thin outline with separate meetings and the right questions, yet it sets no ground rules for the joint conversation and the joint meeting itself is barely planned."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "e90e86f2",
+   "entrant": "haiku-teaching-skills",
+   "task": "spelling-retrieval",
+   "category": "retrieval",
+   "phase": "Primary",
+   "criteria": [
+    2,
+    2,
+    1,
+    2,
+    2,
+    2
+   ],
+   "pct": 91.7,
+   "auto": null,
+   "words": 469,
+   "notes": [
+    "Sound recall-based structure with the rule stated and a Friday dictation to track errors, but sessions are thin (a 6-minute rule hunt on two example words) so not all genuinely fill 10 minutes.",
+    "Recall-based with a clear rule and a marked Friday dictation to see who needs reteaching, but the sessions are thin, with six-minute tasks that would not genuinely fill the time (e.g. a two-word rule hunt)."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "971b7df4",
+   "entrant": "haiku-teaching-skills",
+   "task": "revision-timetable",
+   "category": "tutoring",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    1,
+    1,
+    1.5
+   ],
+   "pct": 79.2,
+   "auto": null,
+   "words": 562,
+   "notes": [
+    "Respects the commitments and weights the weak subjects, but only Week 1 is set out; Weeks 2 and 3 collapse into 'same pattern', so the spacing, specific tasks and buffer are claimed rather than shown.",
+    "Only Week 1 is actually planned; Weeks 2 and 3 are one vague line each, so spacing and specific active tasks are mostly asserted rather than shown."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "9231c95e",
+   "entrant": "haiku-teaching-skills",
+   "task": "explain-primary",
+   "category": "explaining",
+   "phase": "Primary",
+   "criteria": [
+    1.5,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 95.8,
+   "auto": null,
+   "words": 418,
+   "notes": [
+    "Short, correct torch-and-ball explanation that gently corrects the 'Sun goes to bed' idea, though it relies on the teacher turning the ball rather than any child role play.",
+    "Short and correct with a torch-and-ball demo, but the clouds non-example is muddled and the analogy section slips into teacher-level language not suited to 5 year olds."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "7e3f9e3c",
+   "entrant": "haiku-teaching-skills",
+   "task": "analogy-explanation",
+   "category": "explaining",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    1,
+    2,
+    2,
+    1
+   ],
+   "pct": 83.3,
+   "auto": null,
+   "words": 749,
+   "notes": [
+    "Accurate and compact with good checks, but its account of where the analogy breaks down is muddled, and it brings in B and T lymphocytes without explaining T lymphocytes, which goes beyond Year 9.",
+    "Accurate and addresses the misconception well, but the analogy's breakdown point is muddled and terms like T lymphocytes and Y-shaped protein are introduced without explanation for Year 9."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "71836c26",
+   "entrant": "haiku-teaching-skills",
+   "task": "a-level-lesson",
+   "category": "planning",
+   "phase": "Sixth form",
+   "criteria": [
+    2,
+    1,
+    2,
+    2,
+    2,
+    1
+   ],
+   "pct": 83.3,
+   "auto": null,
+   "words": 1439,
+   "notes": [
+    "Clear PEEL scaffold and an 8-mark task with model paragraph, but the Yale setting is never stated, the teacher model comes after students have already written, and the ethics MCQ is ambiguous (deception and right to withdraw are both defensible).",
+    "Clear PEEL frame and an 8-mark question with a mark scheme, but omits the Yale setting, its ethics MCQ has two defensible answers (deception and right to withdraw), and protection from harm and right to withdraw are not properly taught."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "0f3c4d76",
+   "entrant": "haiku-teaching-skills",
+   "task": "misconceptions",
+   "category": "assessment",
+   "phase": "Secondary",
+   "criteria": [
+    1,
+    2,
+    1.5,
+    2,
+    2,
+    2
+   ],
+   "pct": 87.5,
+   "auto": null,
+   "words": 915,
+   "notes": [
+    "Clear reteach steps and a hinge question for each error, but it works question by question and treats Q6 as a misconception rather than a recall/vocabulary gap.",
+    "Clear priority on the confidently held 'current used up' idea with a concrete ammeter demo and hinge question per misconception, but it is still organised question by question rather than grouped under the shared current/energy confusion."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "766b6637",
+   "entrant": "haiku-teaching-skills",
+   "task": "observation-feedback",
+   "category": "leadership-ai",
+   "phase": "Secondary",
+   "criteria": [
+    1,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 91.7,
+   "auto": null,
+   "words": 595,
+   "notes": [
+    "Picks one priority with a concrete action step, rehearsal and measurable success criteria, but the strengths invent evidence not in the notes (for example greeting students by name).",
+    "One clear priority with a practicable action step, rehearsal and measurable success, though the strengths include invented evidence (greeting students by name) not in the observer's notes."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "ab3853f2",
+   "entrant": "haiku-teaching-skills",
+   "task": "scheme-of-work",
+   "category": "planning",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    1,
+    1,
+    1
+   ],
+   "pct": 75.0,
+   "auto": null,
+   "words": 855,
+   "notes": [
+    "Sensible sequence with retrieval starters, but the only formal checkpoint comes late (Lesson 10), while loops are never taught, a list lesson is squeezed in, and the assessment is described only vaguely.",
+    "The table is clear and each starter draws on earlier lessons, but while loops are never taught, so the Lesson 11 guessing game outruns the content; the only real checkpoint comes in Lesson 10, and the tasks lean heavily on guided typing."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "fc392575",
+   "entrant": "haiku-teaching-skills",
+   "task": "text-level",
+   "category": "inclusion",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    1.5,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 82.1,
+   "auto": {
+    "name": "Reading age 10.5 or below",
+    "pass": false,
+    "detail": "estimated reading age 11.0"
+   },
+   "words": 436,
+   "notes": [
+    "Accurate, age-appropriate rewrite keeping every fact and key term, backed by a full glossary, comprehension questions and a teacher note.",
+    "Accurate and complete with a useful glossary and questions, but several sentences are long and multi-clause for a reading age of 9 and it drops the link between climate and biodiversity."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "4b4737e9",
+   "entrant": "haiku-teaching-skills",
+   "task": "mentoring",
+   "category": "pastoral",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    1.5,
+    1,
+    1.5,
+    2,
+    2
+   ],
+   "pct": 83.3,
+   "auto": null,
+   "words": 586,
+   "notes": [
+    "Well-timed and student-led, but it deliberately avoids explaining why active methods beat rereading and the goal-setting questions come after the action, with a one-week rather than fortnightly target.",
+    "Well timed and student-led, but it explicitly tells the mentor not to explain why active methods beat rereading and only touches her goals briefly near the end."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "b8e04f71",
+   "entrant": "haiku-teaching-skills",
+   "task": "curriculum-map",
+   "category": "leadership-ai",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    1,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 91.7,
+   "auto": null,
+   "words": 695,
+   "notes": [
+    "Clear process with a good coverage table and action list, but the national curriculum reference is a loose paraphrase of topic areas (including some KS2 content) rather than the actual statements.",
+    "Clear five-step process with a coverage table, traffic-light summary and ordered actions, but its reference list puts things that are not in the KS3 programme of study (judging search ranking, copyright) under the national curriculum and skips text, sound and image representation."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "bd39b509",
+   "entrant": "haiku-teaching-skills",
+   "task": "knowledge-quiz-primary",
+   "category": "retrieval",
+   "phase": "Primary",
+   "criteria": [
+    1,
+    2,
+    2,
+    1,
+    2,
+    2
+   ],
+   "pct": 83.3,
+   "auto": null,
+   "words": 665,
+   "notes": [
+    "Clear questions with a misconception-mapped key, but erosion and deposition are missing, Q10 is off-unit, and Q7 bakes in the misconception that rivers flow faster near the source.",
+    "Clear questions with a misconception-rich key, but erosion and deposition are not assessed, Q10 is off-unit, and Q7 presents the contested 'faster near the source' idea as fact."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "85f41583",
+   "entrant": "haiku-teaching-skills",
+   "task": "stretch-challenge",
+   "category": "inclusion",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    1,
+    1,
+    2
+   ],
+   "pct": 83.3,
+   "auto": null,
+   "words": 826,
+   "notes": [
+    "Strong tiered tasks (find the flaw, reverse problems, no-solution equation) with all maths correct, but only a brief routine on avoiding disruption and nothing explicit on keeping extension from feeling like a punishment.",
+    "All maths is correct and well checked, but the set-up relies on frequent teacher desk checks and it does not address how to keep extension work from feeling like extra punishment."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "89b00904",
+   "entrant": "haiku-teaching-skills",
+   "task": "multi-topic-quiz",
+   "category": "retrieval",
+   "phase": "Secondary",
+   "criteria": [
+    0,
+    2,
+    1,
+    2,
+    0,
+    0
+   ],
+   "pct": 35.7,
+   "auto": {
+    "name": "No guessable answer pattern",
+    "pass": null,
+    "detail": "no ANSWER KEY line found"
+   },
+   "words": 458,
+   "notes": [
+    "Physics is accurate but questions are largely grouped by topic (waves 3-5, forces 6-9), several distractors are throwaway (mass and colour), and the key has no explanations or follow-up advice.",
+    "Accurate physics and a correct key, but questions are largely grouped by topic, mostly recall, and there are no misconception notes or guidance on using results."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "e46de621",
+   "entrant": "haiku-teaching-skills",
+   "task": "class-feedback",
+   "category": "assessment",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    1
+   ],
+   "pct": 91.7,
+   "auto": null,
+   "words": 651,
+   "notes": [
+    "Solid coded sheet, model paragraph and rewrite task, but the model wrongly claims 'himself' is repeated in the quotation, a small accuracy slip in the exemplar.",
+    "Tight whole-class sheet with error codes, fixes, an annotated model and an in-lesson rewrite task, though the model wrongly claims 'himself' is repeated in Birling's quotation."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "014b323f",
+   "entrant": "haiku-teaching-skills",
+   "task": "low-literacy-text",
+   "category": "inclusion",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 85.7,
+   "auto": {
+    "name": "Reading age 9 or below",
+    "pass": false,
+    "detail": "estimated reading age 11.4"
+   },
+   "words": 281,
+   "notes": [
+    "Concise, accurate rewrite that keeps and explains every key term, with a glossary and comprehension questions, pitched well for a teenager.",
+    "Concise, accurate rewrite that keeps pathogen, antigen, antibody, memory cells and herd immunity in short sentences, supported by a clear glossary and comprehension questions."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "c87a66fe",
+   "entrant": "haiku-teaching-skills",
+   "task": "parent-message",
+   "category": "pastoral",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    1,
+    1,
+    2
+   ],
+   "pct": 85.7,
+   "auto": {
+    "name": "Message under 100 words",
+    "pass": true,
+    "detail": "92 words"
+   },
+   "words": 94,
+   "notes": [
+    "Concise and plain with a clear Friday reply ask, but it opens on the problem rather than a positive or shared aim and doesn't say what he will do at the session.",
+    "Short, factual and with a single clear ask, but it opens with a generic pleasantry rather than the shared aim and does not say what the child will do in the session."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "eb1629df",
+   "entrant": "haiku-teaching-skills",
+   "task": "vocab-retrieval-mfl",
+   "category": "retrieval",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    1,
+    2,
+    2,
+    1,
+    2
+   ],
+   "pct": 83.3,
+   "auto": null,
+   "words": 981,
+   "notes": [
+    "Ten mixed six-question starters with a full key, but no rotation system beyond a fixed list and a Spanish error on Day 5 where 'No me gustan las matem\u00e1ticas porque' is keyed as 'es dif\u00edcil' instead of 'son dif\u00edciles'.",
+    "Quick mixed daily questions with a key, but the rotation is fixed rather than responsive, and the Day 5 key accepts 'No me gustan las matem\u00e1ticas porque es dif\u00edcil' where 'son dif\u00edciles' is needed."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "e546ecf4",
+   "entrant": "haiku-teaching-skills",
+   "task": "peer-assessment",
+   "category": "assessment",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    1
+   ],
+   "pct": 91.7,
+   "auto": null,
+   "words": 746,
+   "notes": [
+    "Clear criteria, model sheets with teacher judgements and a sampling check, but the timing is inconsistent (15 minutes stated against a 10-minute calibration plus review and redraft) and some instructions, such as changing a word in every starter, are awkward for Year 8.",
+    "Strong criteria, calibration models and sentence starters, but the stated 15-minute window does not fit the 10-minute calibration plus review plus 5-minute response, so lesson timing is unclear."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "41be2369",
+   "entrant": "haiku-teaching-skills",
+   "task": "tutoring-primary",
+   "category": "tutoring",
+   "phase": "Primary",
+   "criteria": [
+    1.5,
+    2,
+    1,
+    1,
+    2,
+    2
+   ],
+   "pct": 79.2,
+   "auto": null,
+   "words": 1053,
+   "notes": [
+    "Correct doubling and splitting strategies with homework and a parent note, but it tells the tutor not to teach all three tables and then does exactly that, with no plan for building fluency beyond today and few engaging online activities.",
+    "Correct doubling and splitting strategies with a good parent note, but the starter includes hard facts like 6x6 and 9x6, it teaches all three tables despite saying not to, and there is no plan for building fluency or any game-like activity."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "b6c52b56",
+   "entrant": "haiku-teaching-skills",
+   "task": "knowledge-organiser",
+   "category": "planning",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    1.5
+   ],
+   "pct": 95.8,
+   "auto": null,
+   "words": 773,
+   "notes": [
+    "Compact and well chunked with a blanks version and retrieval questions, but it lists only three claimants, omitting Edgar \u00c6theling, and gives no basis for Hardrada's claim.",
+    "Compact, accurate organiser with a correct 1066 timeline, short definitions, numbered sections, a blanks version and ten retrieval questions with answers."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "043aecb3",
+   "entrant": "haiku-teaching-skills",
+   "task": "ucas-statement",
+   "category": "tutoring",
+   "phase": "Sixth form",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    1.5
+   ],
+   "pct": 95.8,
+   "auto": null,
+   "words": 344,
+   "notes": [
+    "Encouraging feedback with good self-questions and accurate admissions criteria, though it oddly praises 'perfect career' and 'make a difference' as strengths before criticising them.",
+    "Encouraging, student-facing feedback with good prompting questions and a focused rewrite task, though praising 'make a difference' and 'I love science' as what tutors look for is misleading."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "61e97a51",
+   "entrant": "haiku-teaching-skills",
+   "task": "ai-proof",
+   "category": "leadership-ai",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    1.5,
+    2,
+    2
+   ],
+   "pct": 95.8,
+   "auto": null,
+   "words": 448,
+   "notes": [
+    "A tight, ready-to-use three-part task (from memory, critique a flawed AI paragraph, live explanation) with a marking guide, though the 'AI to check' label for Part 2 never says what AI students may actually use.",
+    "A tight, ready-to-set three-part task (from memory, fix a flawed AI paragraph with accurate planted errors, live explanation) with AI level stated per part, a clear hand-in and a marking guide that credits thinking."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "7038a18f",
+   "entrant": "haiku-teaching-skills",
+   "task": "code-exercise",
+   "category": "explaining",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    1.5,
+    1,
+    2
+   ],
+   "pct": 87.5,
+   "auto": null,
+   "words": 943,
+   "notes": [
+    "Well-structured predict-investigate-modify-make sequence with a strong three-bug debugging task and good hints, but there is no real stretch task beyond a one-line extension, and the task set is thin for an hour.",
+    "The progression is clear and the debugging task with planted infinite-loop and off-by-one bugs works well, but only Task 5 has test cases, the Task 2 trace table is printed already filled in, and the only stretch is a one-line extension with no solution."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "55c60f56",
+   "entrant": "haiku-teaching-skills",
+   "task": "modelling-writing",
+   "category": "explaining",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    1.5,
+    2,
+    1.5,
+    2,
+    2
+   ],
+   "pct": 91.7,
+   "auto": null,
+   "words": 744,
+   "notes": [
+    "Good short think-aloud and accurate model paragraph, but the 'we do' is mostly an individual writing frame rather than a paragraph the class builds together.",
+    "Clear and accurate, but the think-aloud is brief and the model paragraph opens with a technique description rather than a clear analytical point."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "5193709a",
+   "entrant": "haiku-teaching-skills",
+   "task": "questioning-plan",
+   "category": "explaining",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 918,
+   "notes": [
+    "Well-structured plan with a strong hinge question (4n, n+3, 3n+1, 3n+4) whose options map to specific misconceptions with clear decision rules, and all the maths checks out.",
+    "Well structured with whole-class routines, a misconception-mapped hinge (4n, n + 3, 3n + 4) and probing follow-ups; all nth-term answers are correct, though the Q2 'adding 6' wrong-answer rationale is weak."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "53790404",
+   "entrant": "haiku-teaching-skills",
+   "task": "tutoring",
+   "category": "tutoring",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 1028,
+   "notes": [
+    "Complete, well-sequenced hour: retrieval on melting points and ion charge first, homework probed and logged, a modelled then faded charge-balancing method, independent practice with the tutor watching method, exit check, homework and notes, with correct chemistry.",
+    "Opens with retrieval on exactly the two gaps, models charge balancing before faded and independent practice, and ends with exit check, homework and student and parent notes."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "1ba825ab",
+   "entrant": "haiku-teaching-skills",
+   "task": "intervention-plan",
+   "category": "tutoring",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    1,
+    2,
+    2
+   ],
+   "pct": 91.7,
+   "auto": null,
+   "words": 696,
+   "notes": [
+    "Concise, realistic plan with a pre- and post-check, a weekly focus and clear exit and regrouping rules, but timed full-answer practice appears only once before the post-check, and its 15-minute timing is shorter than the roughly 20 minutes the exam allows.",
+    "Concise plan with matched timed pre- and post-checks on different extracts and clear exit criteria, though timed writing only appears in the last three weeks and the modelling is described thinly."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "b825e628",
+   "entrant": "haiku-teaching-skills",
+   "task": "autism-transition",
+   "category": "inclusion",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    0,
+    2,
+    2
+   ],
+   "pct": 83.3,
+   "auto": null,
+   "words": 757,
+   "notes": [
+    "Strong visual week-ahead card, stays-the-same list and cover teacher profile, but it never suggests involving his parents or the SENCO, and it closes with irrelevant template sections such as 'Challenge'.",
+    "Strong practical cover-teacher profile and 'stays the same' list, but it never suggests involving parents or the SENCO, and the 'What changed and why' section reads oddly templated."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "e80eca41",
+   "entrant": "haiku-teaching-skills",
+   "task": "quiz",
+   "category": "retrieval",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    1,
+    1.5,
+    2,
+    2,
+    2
+   ],
+   "pct": 89.3,
+   "auto": {
+    "name": "No guessable answer pattern",
+    "pass": true,
+    "detail": "key CADBACDBDACB: clean"
+   },
+   "words": 923,
+   "notes": [
+    "Accurate quiz that interleaves two map-skills questions and explains distractors, though some options (e.g. 'North-east' or '5 km' as a grid reference) are not plausible distractors.",
+    "Interleaves two map-skills questions and gives a misconception table and results guidance, but questions are mostly recall and a few distractors (e.g. 'North-east' as a grid reference) are easy to rule out."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "c1471bd5",
+   "entrant": "haiku-teaching-skills",
+   "task": "form-time",
+   "category": "pastoral",
+   "phase": "Secondary",
+   "criteria": [
+    1,
+    1,
+    1.5,
+    1,
+    1,
+    0
+   ],
+   "pct": 45.8,
+   "auto": null,
+   "words": 915,
+   "notes": [
+    "A generic reading/current events/careers template that drifts off the three requested themes, gives phones only thin coverage and requires the tutor to source many reading extracts and news stories.",
+    "Generic template where many sessions (current events, careers) drift off the three requested themes, with few concrete habits and weekly reading extracts and news stories the tutor must source."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "7aae8cf7",
+   "entrant": "haiku-teaching-skills",
+   "task": "reports",
+   "category": "pastoral",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    1,
+    2,
+    1
+   ],
+   "pct": 85.7,
+   "auto": {
+    "name": "Reports pass length, repetition and jargon checks",
+    "pass": true,
+    "detail": "6 of 6 reports pass every check."
+   },
+   "words": 440,
+   "notes": [
+    "Specific strengths and concrete single next steps throughout, though 'The next step is' and 'has the ideas' are recycled and S2 slips into addressing the student as 'you'.",
+    "Each report opens with an earned strength and gives one concrete next step, though 'The next step is' recurs and S2 slips into addressing the student as 'you'."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "a524892d",
+   "entrant": "haiku-teaching-skills",
+   "task": "homework",
+   "category": "planning",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    1.5
+   ],
+   "pct": 95.8,
+   "auto": null,
+   "words": 396,
+   "notes": [
+    "Clear and quick to mark with answers given, but Part 1 relies on irregular participles (lu, vu, \u00e9crit, fait) with no warning or support for a class that has just met the perfect tense, and the three areas are practised separately rather than combined.",
+    "Tight 25-minute sheet that mixes perfect tense, family words and opinions, with a full answer key, though the opinion task is not linked to the perfect tense or family theme."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "00f0b280",
+   "entrant": "haiku-teaching-skills",
+   "task": "wellbeing-workload",
+   "category": "leadership-ai",
+   "phase": "Whole school",
+   "criteria": [
+    1,
+    2,
+    2,
+    1,
+    2,
+    2
+   ],
+   "pct": 83.3,
+   "auto": null,
+   "words": 451,
+   "notes": [
+    "Concise and workable triage with a review after four weeks, but it gives no evidence for whole-class feedback and only touches on what leaders will look for in book checks.",
+    "Practical triage and whole-class feedback with a four-week impact check, but no evidence base cited and little on what leaders will look for in book scrutiny."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "f59c4ea3",
+   "entrant": "haiku-teaching-skills",
+   "task": "mixed-attainment",
+   "category": "inclusion",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    1,
+    1,
+    1.5,
+    2
+   ],
+   "pct": 79.2,
+   "auto": null,
+   "words": 962,
+   "notes": [
+    "Realistic, with a shared question, quote bank and starters, but the stretch has no 1930s context and little on alternative readings, the routes act like ability tracks, and it quotes Chapter 5 while assuming students have only read to her introduction.",
+    "Well-scaffolded with a quote bank, starters and routes, but stretch for the most able is thin (no context or alternative readings) and grouping/questioning is limited to pairing weak readers with strong ones."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "25ee98ba",
+   "entrant": "haiku-teaching-skills",
+   "task": "dual-coding",
+   "category": "explaining",
+   "phase": "Secondary",
+   "criteria": [
+    1,
+    2,
+    2,
+    1,
+    1,
+    2
+   ],
+   "pct": 75.0,
+   "auto": null,
+   "words": 650,
+   "notes": [
+    "Clear draw-and-say steps, but it leaves out the recurved end, salt marsh and swash/backwash, grows the spit from a 'headland' with a lagoon behind (closer to a bar), and uses sentence-length labels.",
+    "Clear build order with matched script and a blank-diagram check task, but it omits the recurved end, salt marsh and swash/backwash, swapping in a lagoon, so the formation is incomplete."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "bd3befe4",
+   "entrant": "haiku-teaching-skills",
+   "task": "exam-question",
+   "category": "assessment",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    1
+   ],
+   "pct": 91.7,
+   "auto": null,
+   "words": 656,
+   "notes": [
+    "Solid mark scheme and model answers, but the data are flawed: a 20 s time cannot be recorded when sampling every 30 s, and amylase being fastest at 60 \u00b0C with no clear optimum is unrealistic for a foundation enzymes question.",
+    "Well-structured 2+3+3 question with linked-point mark scheme, accept/reject lists and model answers, but the made-up data puts amylase's fastest rate at 60 \u00b0C, which contradicts what foundation students are taught, and pH is not covered."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "ef93ffd4",
+   "entrant": "haiku-teaching-skills",
+   "task": "newsletter",
+   "category": "pastoral",
+   "phase": "Primary",
+   "criteria": [
+    2,
+    2,
+    2,
+    1,
+    2,
+    2
+   ],
+   "pct": 91.7,
+   "auto": null,
+   "words": 291,
+   "notes": [
+    "Concise, plain and accurate (it correctly flags that 12 December is a Saturday), but the home help oddly has the child quiz the parent, which muddles who practises what.",
+    "Phone-friendly, clear and accurate, rightly flagging that 12 December 2026 is a Saturday, though the home-help instruction has the child quizzing the parent, which muddles who practises."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "235a67c8",
+   "entrant": "haiku-teaching-skills",
+   "task": "feedback-on-essay",
+   "category": "assessment",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 277,
+   "notes": [
+    "Concise and student-facing, it praises the specific figures, names the single priority (explain why each term angered Germans), prompts rather than rewrites, and ends with a short focused rewrite task.",
+    "Warm, direct feedback that quotes the student's own sentences, names one priority and sets a short focused rewrite task, though it misses the 1921 reparations-date point."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "b34cde5d",
+   "entrant": "haiku-teaching-skills",
+   "task": "coursework-support",
+   "category": "assessment",
+   "phase": "Secondary",
+   "criteria": [
+    1.5,
+    2,
+    2,
+    1,
+    1,
+    1
+   ],
+   "pct": 70.8,
+   "auto": null,
+   "words": 706,
+   "notes": [
+    "Concise month-by-month stages and clear help rules, but the plan runs to July past OCR's usual spring deadline, support for students who fall behind is a single line, and there's no student-friendly explanation of what each section is assessed on.",
+    "Concise rules on help and a tracker, but the December-to-July timeline runs past OCR's usual mid-May mark deadline, and support for students falling behind and stage assessment explanations are thin."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "6d3a58a5",
+   "entrant": "haiku-teaching-skills",
+   "task": "flashcards",
+   "category": "retrieval",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    1,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 91.7,
+   "auto": null,
+   "words": 774,
+   "notes": [
+    "Clean one-idea cards with good misconception checks and usage guidance, but answers say 'collide more often' rather than using the precise 'frequency of (successful) collisions' terminology.",
+    "Clean, accurate one-idea cards with clear spaced-practice instructions, but the set is short and never uses 'frequency of collisions', with the surface area explanation left imprecise."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "a7b2695a",
+   "entrant": "haiku-teaching-skills",
+   "task": "lesson-pack",
+   "category": "planning",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": {
+    "name": "No guessable answer pattern",
+    "pass": true,
+    "detail": "key CADBAD: clean"
+   },
+   "words": 2320,
+   "notes": [
+    "Complete, Zoom-ready pack with a clean student HTML page, separate mark scheme and live solutions sheet, and a correct answer key (C A D B A D).",
+    "Complete pack with a clean student HTML page written to the student, a memory-based recall starter, homework with mark scheme and a live solutions sheet, though the plan pads 8 minutes as 'buffer'."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "816d45f4",
+   "entrant": "haiku-teaching-skills",
+   "task": "explanation",
+   "category": "explaining",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    2,
+    2,
+    1,
+    2,
+    2
+   ],
+   "pct": 91.7,
+   "auto": null,
+   "words": 758,
+   "notes": [
+    "Good sequence from a familiar fire hook to the torch demo to tilt, with checks at each step, but key terms like axis and hemisphere are never explained for 11-year-olds.",
+    "Good sequence from a familiar fire hook through the torch demo to tilt with regular checks and accurate science, though key terms like axis and hemisphere are used without being explained for Year 7."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "0bacde63",
+   "entrant": "haiku-teaching-skills",
+   "task": "recall-starter",
+   "category": "retrieval",
+   "phase": "Secondary",
+   "criteria": [
+    1.5,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 95.8,
+   "auto": null,
+   "words": 661,
+   "notes": [
+    "Well-targeted, interleaved eight-question starter that hits both quiz gaps and older cells/particle work, with a key that explains each choice.",
+    "Well-interleaved, memory-based starter with a reasoned key, but Q7 tests separation methods that were not among the listed lessons and Q5 has a silly 'Metal' distractor; the periodic table lesson is not covered."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "d3242ecf",
+   "entrant": "haiku-teaching-skills",
+   "task": "exam-technique",
+   "category": "tutoring",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    1.5,
+    1,
+    1,
+    1.5,
+    2
+   ],
+   "pct": 75.0,
+   "auto": null,
+   "words": 697,
+   "notes": [
+    "Clear explanation of 'assess' and useful weak/middle/strong model answers, but the timed practice gets only self-upgrading rather than real feedback, it offers a loose planning prompt rather than a usable structure, and it allows 9 minutes rather than about 12.",
+    "Has a useful weak/middle/strong set of models, but they are very short, the timed question is unspecified and there is little structured feedback on students' practice."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "e322f461",
+   "entrant": "haiku-teaching-skills",
+   "task": "cpd",
+   "category": "leadership-ai",
+   "phase": "Whole school",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "pct": 100.0,
+   "auto": null,
+   "words": 758,
+   "notes": [
+    "Concise, well-timed plan with a single goal, 25 minutes of paired practice on real lessons, a live model that shows and fixes an error, a clear data rule, a commitment card and a concrete follow-up.",
+    "Concise plan with a single goal, 25 minutes of practice on real upcoming lessons, a live demo that fixes an error on screen, a clear data rule, commitment card and a two-week follow-up, timed to 60 minutes."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "82a54c10",
+   "entrant": "haiku-teaching-skills",
+   "task": "attendance-concern",
+   "category": "pastoral",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    0,
+    2,
+    2,
+    1,
+    2
+   ],
+   "pct": 75.0,
+   "auto": null,
+   "words": 188,
+   "notes": [
+    "Listening-first tone with flexible meeting formats and a clear subject line, but gives no reason why the absences matter for his learning and support is only implied.",
+    "Warm, non-accusatory and concise with an easy reply route, but never explains why the missed days matter for his learning."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "a2e04eba",
+   "entrant": "haiku-teaching-skills",
+   "task": "primary-maths-lesson",
+   "category": "planning",
+   "phase": "Primary",
+   "criteria": [
+    2,
+    2,
+    2,
+    1.5,
+    2,
+    2
+   ],
+   "pct": 95.8,
+   "auto": null,
+   "words": 1343,
+   "notes": [
+    "Accurate, well-timed lesson with block modelling, a diagnostic hinge question and a clear reteach threshold, though the practice is mostly plain sums with only one word problem for variety.",
+    "Solid concrete-to-written modelling with an explicit swap of ten ones and a hinge check with a reteach threshold, but practice is mostly a list of exchange sums with no no-exchange-to-exchange progression or real reasoning task."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "a2f1fc93",
+   "entrant": "haiku-teaching-skills",
+   "task": "send",
+   "category": "inclusion",
+   "phase": "Secondary",
+   "criteria": [
+    2,
+    1,
+    2,
+    2,
+    1,
+    1.5
+   ],
+   "pct": 79.2,
+   "auto": null,
+   "words": 805,
+   "notes": [
+    "Useful single scaffolded sheet for everyone, but per-need adaptations are compressed into one brief table and the autistic student gets no model answer or explicit picture of what finished looks like.",
+    "Gives a ready-to-use scaffolded sheet that keeps the judgement, but per-need adaptations are only a brief table, the autistic student gets no model or example of a finished answer, and singling out is not addressed."
+   ],
+   "grader_gap": 1
+  },
+  {
+   "id": "5968a63b",
+   "entrant": "haiku-teaching-skills",
+   "task": "adhd-routines",
+   "category": "inclusion",
+   "phase": "Primary",
+   "criteria": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    1
+   ],
+   "pct": 91.7,
+   "auto": null,
+   "words": 442,
+   "notes": [
+    "Concise, practical and manageable strategies for starting, calling out and planned movement, but it only mentions the SENCO and family in passing and gives no advice on keeping notes of what works.",
+    "Concise, practical and manageable strategies with planned movement and praise, but parents and SENCO appear only in passing and there is no suggestion to keep notes on what works."
+   ],
+   "grader_gap": 0
+  },
+  {
+   "id": "a43e4dc3",
+   "entrant": "haiku-teaching-skills",
+   "task": "ai-policy-school",
+   "category": "leadership-ai",
+   "phase": "Whole school",
+   "criteria": [
+    2,
+    1,
+    1,
+    2,
+    2,
+    2
+   ],
+   "pct": 83.3,
+   "auto": null,
+   "words": 462,
+   "notes": [
+    "Concise, readable and proportionate on consequences, but it lacks the three distinct levels of use and never mentions coursework or exam board (JCQ) rules.",
+    "Concise and student-friendly with proportionate consequences, but it has no tiered levels of use and never mentions exam board or coursework rules."
+   ],
+   "grader_gap": 0
+  }
+ ],
+ "run": {
+  "name": "2026-11-run1",
+  "seed": 2026,
+  "entrants": [
+   {
+    "id": "sonnet-plain",
+    "name": "Claude Sonnet",
+    "model": "sonnet",
+    "skills": null,
+    "notes": "Plain Claude Sonnet with no skills or extra instructions. The baseline."
+   },
+   {
+    "id": "sonnet-teaching-skills",
+    "name": "Claude Sonnet + ai-teaching-skills",
+    "model": "sonnet",
+    "skills": "entrants/libraries/ai-teaching-skills/skills",
+    "source": "https://github.com/kal-eficia/ai-teaching-skills",
+    "notes": "Claude Sonnet with the 56-skill ai-teaching-skills library. It chooses the skill itself from an index."
+   },
+   {
+    "id": "haiku-teaching-skills",
+    "name": "Claude Haiku + ai-teaching-skills",
+    "model": "haiku",
+    "skills": "entrants/libraries/ai-teaching-skills/skills",
+    "source": "https://github.com/kal-eficia/ai-teaching-skills",
+    "notes": "The smallest Claude model with the same library. Tests whether skills close the gap to a bigger model."
+   }
+  ],
+  "label": "Run 1 \u00b7 November 2026"
+ }
+}

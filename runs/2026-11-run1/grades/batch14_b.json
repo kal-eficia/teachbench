@@ -1,0 +1,11 @@
+{"grader": "14b", "answers": [
+{"id": "25ee98ba", "task": "dual-coding", "scores": [1,2,2,1,1,2], "note": "Clear build order with matched script and a blank-diagram check task, but it omits the recurved end, salt marsh and swash/backwash, swapping in a lagoon, so the formation is incomplete."},
+{"id": "faf6f188", "task": "dual-coding", "scores": [2,2,2,1,2,2], "note": "Thorough six-stage build covering every required stage with accurate geography, paired draw/say instructions and good checks, though the label list is long and includes sentence-length labels."},
+{"id": "b7ce98c1", "task": "dual-coding", "scores": [2,2,2,1,2,2], "note": "Covers all stages accurately with draw/say pairs and plenary questions, though labels are numerous and the ASCII shows four separate pictures despite advising one growing diagram."},
+{"id": "b5186d36", "task": "modelling-writing", "scores": [2,2,2,2,2,2], "note": "Excellent think-aloud model with live self-correction, prompted we-do, accurate quotations and different you-do lines with model answers."},
+{"id": "8246a48a", "task": "modelling-writing", "scores": [2,2,2,2,2,2], "note": "Detailed script that models thinking aloud and shortening the quotation, builds the shared paragraph with step-by-step prompts and gives a different you-do line."},
+{"id": "55c60f56", "task": "modelling-writing", "scores": [2,2,2,1,2,2], "note": "Clear and accurate, but the think-aloud is brief and the model paragraph opens with a technique description rather than a clear analytical point."},
+{"id": "046f57a2", "task": "vocab-teaching", "scores": [2,1,2,2,1,2], "note": "Strong phased plan with spaced retrieval and exam embedding, but some example sentences are left as unfinished stems and word origins are not covered."},
+{"id": "6e7d3dc9", "task": "vocab-teaching", "scores": [1,1,2,2,2,1], "note": "Useful table with word origins and a retrieval schedule, but risalah is defined as 'message' rather than prophethood, the example sentences are weak, and there is little on gaining exam marks."},
+{"id": "05eab81d", "task": "vocab-teaching", "scores": [2,2,2,2,2,2], "note": "Well-designed paired-contrast approach with accurate definitions, origins, misconception fixes, spaced retrieval and an exam answer frame."}
+]}

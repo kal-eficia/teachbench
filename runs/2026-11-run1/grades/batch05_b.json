@@ -1,0 +1,11 @@
+{"grader": "05b", "answers": [
+{"id": "9ddba88f", "task": "send", "scores": [2,2,2,2,2,2], "note": "Strong, need-specific adaptations built on whole-class changes, with a timed four-step structure, a clear finish line and a realistic prep list for tomorrow."},
+{"id": "a2f1fc93", "task": "send", "scores": [2,1,2,2,1,1], "note": "Gives a ready-to-use scaffolded sheet that keeps the judgement, but per-need adaptations are only a brief table, the autistic student gets no model or example of a finished answer, and singling out is not addressed."},
+{"id": "daff24f3", "task": "send", "scores": [2,2,2,2,2,2], "note": "Thorough and practical: whole-class changes avoid singling anyone out, each need gets targeted adjustments, and a complete ready-to-print task with a 30-minute timed breakdown is provided."},
+{"id": "a6a6245c", "task": "text-level", "scores": [2,2,2,2,2,2], "note": "Keeps every fact and all key terms with in-text definitions, short sentences, accurate conversions, plus headings, a glossary, questions and a note of what was kept."},
+{"id": "fc392575", "task": "text-level", "scores": [2,1,2,2,2,2], "note": "Accurate and complete with a useful glossary and questions, but several sentences are long and multi-clause for a reading age of 9 and it drops the link between climate and biodiversity."},
+{"id": "e182f23b", "task": "text-level", "scores": [2,2,1,2,2,0], "note": "Clear, short-sentence rewrite keeping the facts, but the word 'biodiversity' is removed and there is no glossary, headings or teacher note."},
+{"id": "e46de621", "task": "class-feedback", "scores": [2,2,2,2,2,1], "note": "Tight whole-class sheet with error codes, fixes, an annotated model and an in-lesson rewrite task, though the model wrongly claims 'himself' is repeated in Birling's quotation."},
+{"id": "52ec9473", "task": "class-feedback", "scores": [2,2,2,2,2,2], "note": "Excellent code-linked sheet with accurate quotations and context, an annotated model paragraph, code-specific 15-minute rewrite tasks and a stretch code for the capitalism students."},
+{"id": "6b7cce7d", "task": "class-feedback", "scores": [2,2,2,2,2,1], "note": "Well-structured sheet, codes and fully timed lesson with a rewrite task, but the analysis example claims a 'repeated focus on his own' that is not in the quoted line."}
+]}

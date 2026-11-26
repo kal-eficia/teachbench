@@ -1,0 +1,11 @@
+{"grader": "24b", "answers": [
+{"id": "00f0b280", "task": "wellbeing-workload", "scores": [1, 2, 2, 1, 2, 2], "note": "Practical triage and whole-class feedback with a four-week impact check, but no evidence base cited and little on what leaders will look for in book scrutiny."},
+{"id": "61dd9c0c", "task": "wellbeing-workload", "scores": [2, 2, 2, 2, 2, 2], "note": "Grounded in the DfE 2016 marking review, with a clear stop list, explicit statement of what leaders will check, and a timed staff-involved pilot with impact measures."},
+{"id": "ed60f542", "task": "wellbeing-workload", "scores": [1, 2, 2, 2, 2, 2], "note": "Thorough, implementable plan with staff consultation, scrutiny changes and a ready staff message, though the claim that whole-class feedback works rests on assertion rather than cited evidence."},
+{"id": "f0f17e3e", "task": "reception-phonics", "scores": [2, 2, 2, 2, 2, 2], "note": "Well-timed revisit-teach-practise-apply session with a pure /sh/ model, fully decodable word list, dictation and a decodable caption to read."},
+{"id": "ce59632d", "task": "reception-phonics", "scores": [2, 2, 2, 2, 1, 2], "note": "Solid, engaging plan with decodable words and writing, but the sentence to read is only offered as a challenge for quicker children and it wrongly lists 'a' and 'in' as tricky words."},
+{"id": "53f0150e", "task": "reception-phonics", "scores": [2, 2, 2, 1, 2, 2], "note": "Clear 20-minute structure with sentences to read, but it uses 'wish' (w is untaught, as the answer itself notes) in both the reading list and the exit check."},
+{"id": "2d79ece1", "task": "a-level-retrieval", "scores": [2, 2, 2, 2, 2, 1], "note": "Accurate, well-interleaved task with a drawn AD/AS item and a full key, but twelve questions including a diagram, extended choice question and self-marking is a stretch for 15 minutes."},
+{"id": "ee6fda82", "task": "a-level-retrieval", "scores": [2, 2, 2, 2, 2, 1], "note": "Clearly labelled micro/macro mix with mark points and an AD/AS diagram question, but 24 marks including several 3-mark explanations in 12 minutes is unrealistic."},
+{"id": "7413f1ac", "task": "a-level-retrieval", "scores": [2, 2, 0, 2, 2, 1], "note": "Accurate mix with a levelled mark scheme, but no diagram item is required and fourteen questions plus an evaluative paragraph and self-check will not fit in 15 minutes."}
+]}

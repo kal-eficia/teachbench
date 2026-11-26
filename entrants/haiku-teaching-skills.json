@@ -1,0 +1,4 @@
+{"id": "haiku-teaching-skills", "name": "Claude Haiku + ai-teaching-skills", "model": "haiku",
+ "skills": "entrants/libraries/ai-teaching-skills/skills",
+ "source": "https://github.com/kal-eficia/ai-teaching-skills",
+ "notes": "The smallest Claude model with the same library. Tests whether skills close the gap to a bigger model."}

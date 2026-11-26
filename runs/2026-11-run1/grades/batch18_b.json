@@ -1,0 +1,11 @@
+{"grader": "18b", "answers": [
+{"id": "81839eeb", "task": "parent-good-news", "scores": [1,2,2,2,1,2], "note": "Warm and specific with a gentle home suggestion, but longer than needed and slightly gushing ('did it beautifully', 'so was I')."},
+{"id": "f751238a", "task": "parent-good-news", "scores": [2,1,2,2,2,1], "note": "Very short with a nice home prompt, but never says she is normally shy so why it matters is only implied, and it ends on instructions to the parent rather than a friendly sign-off."},
+{"id": "7e37ca4a", "task": "parent-good-news", "scores": [2,2,2,2,2,1], "note": "Brief, specific and well pitched, explaining why it is a big step for a shy child; the close is a request to the parent rather than an optional, friendly ending."},
+{"id": "82a54c10", "task": "attendance-concern", "scores": [2,0,2,2,1,2], "note": "Warm, non-accusatory and concise with an easy reply route, but never explains why the missed days matter for his learning."},
+{"id": "c0627c98", "task": "attendance-concern", "scores": [2,0,2,2,1,2], "note": "Short, friendly email with a clear ask and flexible meeting, but says nothing about the learning he is missing and support is only a vague 'see how school can help'."},
+{"id": "f2d970f2", "task": "attendance-concern", "scores": [2,1,2,2,1,1], "note": "Caring and curious with concrete meeting slots and several reply options, but at roughly 280 words it is well over the 200-word target and the learning impact is only vague."},
+{"id": "ef93ffd4", "task": "newsletter", "scores": [2,2,2,1,2,2], "note": "Phone-friendly, clear and accurate, rightly flagging that 12 December 2026 is a Saturday, though the home-help instruction has the child quizzing the parent, which muddles who practises."},
+{"id": "85752ca7", "task": "newsletter", "scores": [1,2,1,1,2,1], "note": "Rich, warm explanations of the learning, but too long for a phone, wrongly calls 12 December a Friday, and has no actual contact details."},
+{"id": "59cb537d", "task": "newsletter", "scores": [2,1,2,2,2,2], "note": "Tight, scannable and excellent on who does what for times tables, but the learning section is a bare list of topics with no plain-language detail of what children learned."}
+]}

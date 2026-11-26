@@ -1,0 +1,11 @@
+{"grader": "03a", "answers": [
+{"id": "235e2176", "task": "worked-example", "scores": [2,1,0,2,1,2], "note": "Strong, fully correct variation-based set with negatives and right-side unknowns, but the worked example only says what is done, and there are no partially completed examples to fade support."},
+{"id": "60b85f57", "task": "worked-example", "scores": [0,0,0,2,0,2], "note": "All answers are correct and the questions build well, but there is no worked example at all and no student-facing warning about the risky step."},
+{"id": "50f77216", "task": "worked-example", "scores": [2,1,0,2,1,2], "note": "Clear worked table and a well-graded progression to brackets, fractions and negatives with all answers correct, but the 'Guided' section is just bare questions, not partially completed examples."},
+{"id": "f3b0a6ce", "task": "reports", "scores": [2,2,2,1,2,2], "note": "Each report opens on an earned strength and gives one concrete step framed as a habit, but 'The next step is' recurs in five of the six, so they feel templated."},
+{"id": "e7c4f84d", "task": "reports", "scores": [1,1,1,1,0,2], "note": "Uses character labels ('chatty', 'bored'), opens S3 and S2 on negatives, and gives list-style next steps rather than one doable action."},
+{"id": "7aae8cf7", "task": "reports", "scores": [2,2,2,1,2,1], "note": "Specific strengths and concrete single next steps throughout, though 'The next step is' and 'has the ideas' are recycled and S2 slips into addressing the student as 'you'."},
+{"id": "b268feec", "task": "parent-message", "scores": [2,2,2,2,2,1], "note": "Short, warm and leads with the shared aim with a single 'reply YES' ask, but 'three homeworks are outstanding' is school phrasing a parent could misread as praise."},
+{"id": "c87a66fe", "task": "parent-message", "scores": [2,2,2,1,1,2], "note": "Concise and plain with a clear Friday reply ask, but it opens on the problem rather than a positive or shared aim and doesn't say what he will do at the session."},
+{"id": "8fd95953", "task": "parent-message", "scores": [0,2,1,2,2,2], "note": "Warm, jargon-free and clear about roles, but at roughly 165 words it is far too long for a quick phone read and adds a second ask about home."}
+]}

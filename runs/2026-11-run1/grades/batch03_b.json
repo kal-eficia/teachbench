@@ -1,0 +1,11 @@
+{"grader": "03b", "answers": [
+{"id": "50f77216", "task": "worked-example", "scores": [2,1,0,2,1,2], "note": "Clear fully worked example and 21 well-graded questions with all answers correct, but the worked steps mostly say what rather than why and there are no partially completed examples to fade support."},
+{"id": "60b85f57", "task": "worked-example", "scores": [0,0,0,2,0,2], "note": "Strong variation-based question set with correct answers, but it has no worked example at all, no faded support, and common errors appear only in the teacher key."},
+{"id": "235e2176", "task": "worked-example", "scores": [2,1,0,2,1,2], "note": "Rich, accurate sheet with a fully worked example and good reasoning tasks, but the example gives little reasoning for each step and there are no partially completed examples between it and independent work."},
+{"id": "e7c4f84d", "task": "reports", "scores": [1,1,2,1,0,2], "note": "Reports end positively, but several open with weaknesses rather than strengths and S3 and S6 use character labels like 'chatty' and 'bored'."},
+{"id": "7aae8cf7", "task": "reports", "scores": [2,2,2,1,2,1], "note": "Each report opens with an earned strength and gives one concrete next step, though 'The next step is' recurs and S2 slips into addressing the student as 'you'."},
+{"id": "f3b0a6ce", "task": "reports", "scores": [2,2,2,1,2,2], "note": "Strength-first, specific and habit-focused reports with concrete next steps, slightly weakened by the repeated 'The next step is' and 'a real highlight' phrasing."},
+{"id": "c87a66fe", "task": "parent-message", "scores": [2,2,2,1,1,2], "note": "Short, factual and with a single clear ask, but it opens with a generic pleasantry rather than the shared aim and does not say what the child will do in the session."},
+{"id": "b268feec", "task": "parent-message", "scores": [2,2,2,2,2,2], "note": "A 66-word message that opens with the shared aim, states the facts plainly and gives one easy action (reply YES) with day and time."},
+{"id": "8fd95953", "task": "parent-message", "scores": [0,2,1,2,2,2], "note": "Warm and clear, but at about 168 words it is far too long for a quick phone read and it adds a second ask about home circumstances."}
+]}
